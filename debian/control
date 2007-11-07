@@ -1,0 +1,28 @@
+Source: kde-l10n
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
+Build-Depends: debhelper (>= 5), cmake, bzip2, kdelibs5-dev (>= 4:3.95.0),
+Standards-Version: 3.7.2
+
+
+Package: kde-l10n
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: lalala lalala lala lala
+ lala lala leelele lele alla ella lsssl
+ lala lala leelele lele alla ella lsssl
+
+
+Package: kde-l10n-ar
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.95.0)
+Replaces: kde-i18n-ar
+Suggests: kde
+Conflicts: kde-i18n-ar
+Provides: kde-i18n
+Description: Arabic (ar) localization files for KDE
+ This package contains the Arabic localization files for all KDE core 
+ applications.
