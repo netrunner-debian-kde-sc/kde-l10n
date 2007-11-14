@@ -246,3 +246,183 @@ Provides: kde-i18n
 Description: XX (km) localization files for KDE
  This package contains the XX localization files for all KDE core 
  applications.
+
+Package: kde-l10n-nb
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-nb
+Suggests: kde
+Conflicts: kde-i18n-nb
+Provides: kde-i18n
+Description: XX (nb) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-ne
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-ne
+Suggests: kde
+Conflicts: kde-i18n-ne
+Provides: kde-i18n
+Description: XX (ne) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-nl
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-nl
+Suggests: kde
+Conflicts: kde-i18n-nl
+Provides: kde-i18n
+Description: XX (nl) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-pa
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-pa
+Suggests: kde
+Conflicts: kde-i18n-pa
+Provides: kde-i18n
+Description: XX (pa) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-pl
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-pl
+Suggests: kde
+Conflicts: kde-i18n-pl
+Provides: kde-i18n
+Description: XX (pl) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-pt
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-pt
+Suggests: kde
+Conflicts: kde-i18n-pt
+Provides: kde-i18n
+Description: XX (pt) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-ptbr
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-ptbr
+Suggests: kde
+Conflicts: kde-i18n-ptbr
+Provides: kde-i18n
+Description: XX (pt_BR) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-ru
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-ru
+Suggests: kde
+Conflicts: kde-i18n-ru
+Provides: kde-i18n
+Description: XX (ru) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-sl
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-sl
+Suggests: kde
+Conflicts: kde-i18n-sl
+Provides: kde-i18n
+Description: XX (sl) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-sv
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-sv
+Suggests: kde
+Conflicts: kde-i18n-sv
+Provides: kde-i18n
+Description: XX (sv) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-th
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-th
+Suggests: kde
+Conflicts: kde-i18n-th
+Provides: kde-i18n
+Description: XX (th) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-tr
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-tr
+Suggests: kde
+Conflicts: kde-i18n-tr
+Provides: kde-i18n
+Description: XX (tr) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-uk
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-uk
+Suggests: kde
+Conflicts: kde-i18n-uk
+Provides: kde-i18n
+Description: XX (uk) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-zhcn
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-zhcn
+Suggests: kde
+Conflicts: kde-i18n-zhcn
+Provides: kde-i18n
+Description: XX (zh_CN) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-zhtw
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-zhtw
+Suggests: kde
+Conflicts: kde-i18n-zhtw
+Provides: kde-i18n
+Description: XX (zh_TW) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
