@@ -3,14 +3,14 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
-Build-Depends: debhelper (>= 5), cmake, bzip2, kdelibs5-dev (>= 4:3.95.0),
+Build-Depends: debhelper (>= 5), cmake, bzip2, kdelibs5-dev (>= 4:3.96.0),
 Standards-Version: 3.7.2
 
 
 Package: kde-l10n-ar
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-ar
 Suggests: kde
 Conflicts: kde-i18n-ar
@@ -22,7 +22,7 @@ Description: Arabic (ar) localization files for KDE
 Package: kde-l10n-bg
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-bg
 Suggests: kde
 Conflicts: kde-i18n-bg
@@ -34,7 +34,7 @@ Description: XX (bg) localization files for KDE
 Package: kde-l10n-ca
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-ca
 Suggests: kde
 Conflicts: kde-i18n-ca
@@ -46,7 +46,7 @@ Description: XX (ca) localization files for KDE
 Package: kde-l10n-cs
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-cs
 Suggests: kde
 Conflicts: kde-i18n-cs
@@ -58,7 +58,7 @@ Description: XX (cs) localization files for KDE
 Package: kde-l10n-csb
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-csb
 Suggests: kde
 Conflicts: kde-i18n-csb
@@ -70,7 +70,7 @@ Description: XX (csb) localization files for KDE
 Package: kde-l10n-da
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-da
 Suggests: kde
 Conflicts: kde-i18n-da
@@ -82,7 +82,7 @@ Description: XX (da) localization files for KDE
 Package: kde-l10n-de
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-de
 Suggests: kde
 Conflicts: kde-i18n-de
@@ -94,7 +94,7 @@ Description: XX (de) localization files for KDE
 Package: kde-l10n-el
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-el
 Suggests: kde
 Conflicts: kde-i18n-el
@@ -106,7 +106,7 @@ Description: XX () localization files for KDE
 Package: kde-l10n-engb
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-engb
 Suggests: kde
 Conflicts: kde-i18n-engb
@@ -118,7 +118,7 @@ Description: XX (en_GB) localization files for KDE
 Package: kde-l10n-es
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-es
 Suggests: kde
 Conflicts: kde-i18n-es
@@ -130,7 +130,7 @@ Description: XX (es) localization files for KDE
 Package: kde-l10n-et
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-et
 Suggests: kde
 Conflicts: kde-i18n-et
@@ -142,7 +142,7 @@ Description: XX (et) localization files for KDE
 Package: kde-l10n-eu
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-eu
 Suggests: kde
 Conflicts: kde-i18n-eu
@@ -154,7 +154,7 @@ Description: XX (eu) localization files for KDE
 Package: kde-l10n-fa
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-fa
 Suggests: kde
 Conflicts: kde-i18n-fa
@@ -166,7 +166,7 @@ Description: XX (fa) localization files for KDE
 Package: kde-l10n-fi
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-fi
 Suggests: kde
 Conflicts: kde-i18n-fi
@@ -178,7 +178,7 @@ Description: XX (fi) localization files for KDE
 Package: kde-l10n-fr
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-fr
 Suggests: kde
 Conflicts: kde-i18n-fr
@@ -190,7 +190,7 @@ Description: XX (fr) localization files for KDE
 Package: kde-l10n-ga
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-ga
 Suggests: kde
 Conflicts: kde-i18n-ga
@@ -202,7 +202,7 @@ Description: XX (ga) localization files for KDE
 Package: kde-l10n-hu
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-hu
 Suggests: kde
 Conflicts: kde-i18n-hu
@@ -214,7 +214,7 @@ Description: XX (hu) localization files for KDE
 Package: kde-l10n-it
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-it
 Suggests: kde
 Conflicts: kde-i18n-it
@@ -226,7 +226,7 @@ Description: XX (it) localization files for KDE
 Package: kde-l10n-ja
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-ja
 Suggests: kde
 Conflicts: kde-i18n-ja
@@ -238,7 +238,7 @@ Description: XX (ja) localization files for KDE
 Package: kde-l10n-km
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:3.95.0)
+Depends: kdelibs5 (>= 4:3.96.0)
 Replaces: kde-i18n-km
 Suggests: kde
 Conflicts: kde-i18n-km

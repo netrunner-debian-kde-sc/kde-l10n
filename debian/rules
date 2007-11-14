@@ -3,7 +3,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-export DEB_UPSTREAM_VERSION=3.95.0
+export DEB_UPSTREAM_VERSION=3.96.0
 
 
 configure: configure-stamp
@@ -36,7 +36,7 @@ clean:
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp configure-stamp
-	rm -rf kde-l10n-*-3.95.0 debian/kde-l10n/*
+	rm -rf kde-l10n-*-$(DEB_UPSTREAM_VERSION) debian/kde-l10n/*
 	dh_clean 
 
 install: build

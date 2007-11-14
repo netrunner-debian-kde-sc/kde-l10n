@@ -1,3 +1,9 @@
+kde-l10n (4:3.96.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 14 Nov 2007 22:08:08 +0100
+
 kde-l10n (4:3.95.0-1) unstable; urgency=low
 
   * Initial release.
