@@ -22,6 +22,18 @@ build-stamp: configure-stamp
 		tar xfj $$i;\
 	done
 
+	
+	#delete koffice includes - temporal workaround i hope
+	-for j in `ls -1d kde-l10n-*-$(DEB_UPSTREAM_VERSION)/`; do \
+		cd $$j;\
+		if test -f data/CMakeLists.txt; then \
+			cp data/CMakeLists.txt data/CMakeLists.txt.tmp; \
+			sed '/koffice/d'  data/CMakeLists.txt.tmp > data/CMakeLists.txt; \
+		fi; \
+		cd ..; \
+	done
+
+
 	# configure every language
 	-for j in `ls -1d kde-l10n-*-$(DEB_UPSTREAM_VERSION)/`; do \
 		pwd;cd $$j;\
@@ -53,7 +65,11 @@ install: build
 	done
 
 
-	#$(MAKE) DESTDIR=$(CURDIR)/debian/kde-l10n install
+    # copying the non 2 letter languages into the correct directory
+	cp -aR debian/kde-l10n-en_GB/* debian/kde-l10n-engb/
+	cp -aR debian/kde-l10n-pt_BR/* debian/kde-l10n-ptbr/
+	cp -aR debian/kde-l10n-zh_CN/* debian/kde-l10n-zhcn/
+	cp -aR debian/kde-l10n-zh_TW/* debian/kde-l10n-zhtw/
 
 
 binary-indep: build install
