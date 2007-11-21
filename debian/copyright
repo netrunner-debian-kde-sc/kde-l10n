@@ -3,20 +3,62 @@ Wed, 07 Nov 2007 19:19:14 +0100.
 
 It was downloaded from ftp://ftp.kde.org
 
-Upstream Author(s): 
-
-    <put author's name and email here>
-    <likewise for another author>
+Upstream Author:  The KDE Translation teams <kde-i18n-doc@kde.org>
+Every language is made by the respective translation team. You can find a list 
+of the translation teams and its contact mail at:
+http://i18n.kde.org/teams-list.php
+or directly http://i18n.kde.org/team-infos.php?teamcode=LANGUAGE_CODE
 
 Copyright: 
-
-    <Copyright (C) YYYY Name OfAuthor>
-    <likewise for another author>
+The copyright of every file belongs to its translators, you can check it 
+in the top of every file. In case of this information is not in the file,
+you can assume it belongs to the language translator team.
 
 License:
+The licence for translations is the same as that of the application or
+library from which they come.  The lowest common denominator is GNU
+GPL 2 only.  Many apps are under GNU GPL 2 or later and libraries
+under GNU LGPL 2 or later.  See the relevent application or library
+for details.
 
-    <Put the license of the package here indented by 4 spaces>
+
+    | This program is free software; you can redistribute it and/or modify
+    | it under the terms of the GNU General Public License as published by
+    | the Free Software Foundation; version 2 dated June, 1991.
+    |
+    | This package is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    | GNU General Public License for more details.
+    |
+    | You should have received a copy of the GNU General Public License
+    | along with this program; if not, write to the Free Software Foundation,
+    | Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+  The full text of the GNU General Public License version 2 is available on
+  Debian systems in /usr/share/common-licenses/GPL-2 and version 3 in:
+  /usr/share/common-licenses/GPL
+
+
+    | This library is free software; you can redistribute it and/or
+    | modify it under the terms of the GNU Library General Public
+    | License as published by the Free Software Foundation; either
+    | version 2 of the License, or (at your option) any later version.
+
+    | This library is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    | Library General Public License for more details.
+
+    | You should have received a copy of the GNU Library General Public License
+    | along with this library; see the file COPYING.LIB.  If not, write to
+    | the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+    | MA 02110-1301, USA.
+
+  On Debian GNU/Linux systems, the complete text of the GNU Library General
+  Public License can be found in /usr/share/common-licenses/LGPL-2 and version 3
+  in /usr/share/common-licenses/LGPL-3
+
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
-is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
-
+is licensed under the GPLv2 or later, see `/usr/share/common-licenses/GPL-2'.
