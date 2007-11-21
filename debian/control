@@ -27,8 +27,8 @@ Replaces: kde-i18n-bg
 Suggests: kde
 Conflicts: kde-i18n-bg
 Provides: kde-i18n
-Description: XX (bg) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: Bulgarian (bg) localization files for KDE
+ This package contains the Bulgarian localization files for all KDE core 
  applications.
 
 Package: kde-l10n-ca
@@ -39,8 +39,8 @@ Replaces: kde-i18n-ca
 Suggests: kde
 Conflicts: kde-i18n-ca
 Provides: kde-i18n
-Description: XX (ca) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: Catalan (ca) localization files for KDE
+ This package contains the Catalan localization files for all KDE core 
  applications.
 
 Package: kde-l10n-cs
@@ -51,8 +51,8 @@ Replaces: kde-i18n-cs
 Suggests: kde
 Conflicts: kde-i18n-cs
 Provides: kde-i18n
-Description: XX (cs) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: Czech (cs) localization files for KDE
+ This package contains the Czech localization files for all KDE core 
  applications.
 
 Package: kde-l10n-csb
@@ -63,8 +63,8 @@ Replaces: kde-i18n-csb
 Suggests: kde
 Conflicts: kde-i18n-csb
 Provides: kde-i18n
-Description: XX (csb) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: Kashubian (csb) localization files for KDE
+ This package contains the Kashubian localization files for all KDE core 
  applications.
 
 Package: kde-l10n-da
@@ -75,8 +75,8 @@ Replaces: kde-i18n-da
 Suggests: kde
 Conflicts: kde-i18n-da
 Provides: kde-i18n
-Description: XX (da) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: Danish (da) localization files for KDE
+ This package contains the Danish localization files for all KDE core 
  applications.
 
 Package: kde-l10n-de
@@ -87,8 +87,8 @@ Replaces: kde-i18n-de
 Suggests: kde
 Conflicts: kde-i18n-de
 Provides: kde-i18n
-Description: XX (de) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: German (de) localization files for KDE
+ This package contains the German localization files for all KDE core 
  applications.
 
 Package: kde-l10n-el
@@ -99,8 +99,8 @@ Replaces: kde-i18n-el
 Suggests: kde
 Conflicts: kde-i18n-el
 Provides: kde-i18n
-Description: XX () localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: Greek (el) localization files for KDE
+ This package contains the Greek localization files for all KDE core 
  applications.
 
 Package: kde-l10n-engb
@@ -111,8 +111,8 @@ Replaces: kde-i18n-engb
 Suggests: kde
 Conflicts: kde-i18n-engb
 Provides: kde-i18n
-Description: XX (en_GB) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: British English (en_GB) localization files for KDE
+ This package contains the British English localization files for all KDE core 
  applications.
 
 Package: kde-l10n-es
@@ -123,8 +123,8 @@ Replaces: kde-i18n-es
 Suggests: kde
 Conflicts: kde-i18n-es
 Provides: kde-i18n
-Description: XX (es) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: Spanish (es) localization files for KDE
+ This package contains the Spanish localization files for all KDE core 
  applications.
 
 Package: kde-l10n-et
@@ -135,8 +135,8 @@ Replaces: kde-i18n-et
 Suggests: kde
 Conflicts: kde-i18n-et
 Provides: kde-i18n
-Description: XX (et) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: Estonian (et) localization files for KDE
+ This package contains the Estonian localization files for all KDE core 
  applications.
 
 Package: kde-l10n-eu
@@ -147,8 +147,8 @@ Replaces: kde-i18n-eu
 Suggests: kde
 Conflicts: kde-i18n-eu
 Provides: kde-i18n
-Description: XX (eu) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: Basque (eu) localization files for KDE
+ This package contains the Basque localization files for all KDE core 
  applications.
 
 Package: kde-l10n-fa
@@ -159,8 +159,8 @@ Replaces: kde-i18n-fa
 Suggests: kde
 Conflicts: kde-i18n-fa
 Provides: kde-i18n
-Description: XX (fa) localization files for KDE
- This package contains the XX localization files for all KDE core 
+Description: Farsi (fa) localization files for KDE
+ This package contains the Farsi localization files for all KDE core 
  applications.
 
 Package: kde-l10n-fi
@@ -187,6 +187,18 @@ Description: XX (fr) localization files for KDE
  This package contains the XX localization files for all KDE core 
  applications.
 
+Package: kde-l10n-fy
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-fy
+Suggests: kde
+Conflicts: kde-i18n-fy
+Provides: kde-i18n
+Description: XX (fr) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
 Package: kde-l10n-ga
 Architecture: all
 Section: kde
@@ -196,6 +208,18 @@ Suggests: kde
 Conflicts: kde-i18n-ga
 Provides: kde-i18n
 Description: XX (ga) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-gl
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-gl
+Suggests: kde
+Conflicts: kde-i18n-gl
+Provides: kde-i18n
+Description: XX (gl) localization files for KDE
  This package contains the XX localization files for all KDE core 
  applications.
 
@@ -259,6 +283,18 @@ Description: XX (nb) localization files for KDE
  This package contains the XX localization files for all KDE core 
  applications.
 
+Package: kde-l10n-nds
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-nds
+Suggests: kde
+Conflicts: kde-i18n-nds
+Provides: kde-i18n
+Description: XX (nds) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
 Package: kde-l10n-ne
 Architecture: all
 Section: kde
@@ -280,6 +316,18 @@ Suggests: kde
 Conflicts: kde-i18n-nl
 Provides: kde-i18n
 Description: XX (nl) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-nn
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-nn
+Suggests: kde
+Conflicts: kde-i18n-nn
+Provides: kde-i18n
+Description: XX (nn) localization files for KDE
  This package contains the XX localization files for all KDE core 
  applications.
 
@@ -343,6 +391,18 @@ Description: XX (ru) localization files for KDE
  This package contains the XX localization files for all KDE core 
  applications.
 
+Package: kde-l10n-sk
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-sk
+Suggests: kde
+Conflicts: kde-i18n-sk
+Provides: kde-i18n
+Description: XX (sk) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
 Package: kde-l10n-sl
 Architecture: all
 Section: kde
@@ -366,6 +426,31 @@ Provides: kde-i18n
 Description: XX (sv) localization files for KDE
  This package contains the XX localization files for all KDE core 
  applications.
+
+Package: kde-l10n-ta
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-ta
+Suggests: kde
+Conflicts: kde-i18n-ta
+Provides: kde-i18n
+Description: XX (ta) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
+Package: kde-l10n-tg
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:3.96.0)
+Replaces: kde-i18n-tg
+Suggests: kde
+Conflicts: kde-i18n-tg
+Provides: kde-i18n
+Description: XX (tg) localization files for KDE
+ This package contains the XX localization files for all KDE core 
+ applications.
+
 
 Package: kde-l10n-th
 Architecture: all
