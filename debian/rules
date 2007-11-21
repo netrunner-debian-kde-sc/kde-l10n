@@ -23,7 +23,7 @@ build-stamp: configure-stamp
 	done
 
 	
-	#delete koffice includes - temporal workaround i hope
+	#delete koffice includes - temporal workaround I hope
 	-for j in `ls -1d kde-l10n-*-$(DEB_UPSTREAM_VERSION)/`; do \
 		cd $$j;\
 		if test -f data/CMakeLists.txt; then \
