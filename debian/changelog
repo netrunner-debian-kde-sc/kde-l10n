@@ -1,3 +1,10 @@
+kde-l10n (4:3.97.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update Standards-Version to 3.7.3. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 07 Dec 2007 17:58:44 +0100
+
 kde-l10n (4:3.96.0-1) experimental; urgency=low
 
   * KDE 4.0 rc1, first upload to the Debian archive.
