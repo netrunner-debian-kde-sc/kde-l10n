@@ -3,7 +3,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-export DEB_UPSTREAM_VERSION=3.97.0
+export DEB_UPSTREAM_VERSION=4.0.0
 
 
 configure: configure-stamp
@@ -21,18 +21,6 @@ build-stamp: configure-stamp
 	-for i in `ls -1 kde-l10n*.bz2`;do \
 		tar xfj $$i;\
 	done
-
-	
-	#delete koffice includes - temporal workaround I hope
-	-for j in `ls -1d kde-l10n-*-$(DEB_UPSTREAM_VERSION)/`; do \
-		cd $$j;\
-		if test -f data/CMakeLists.txt; then \
-			cp data/CMakeLists.txt data/CMakeLists.txt.tmp; \
-			sed '/koffice/d'  data/CMakeLists.txt.tmp > data/CMakeLists.txt; \
-		fi; \
-		cd ..; \
-	done
-
 
 	# configure every language
 	-for j in `ls -1d kde-l10n-*-$(DEB_UPSTREAM_VERSION)/`; do \

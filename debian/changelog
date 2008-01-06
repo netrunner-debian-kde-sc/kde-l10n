@@ -1,3 +1,12 @@
+kde-l10n (4:4.0.0-1) experimental; urgency=low
+
+  * New upstream release.
+    - Removed from the latest beta: cs, da, fa, fy, sk, ta, tg.
+    - Added from the latest beta: be, eo, hi, ko, lv, mk, se, wa.
+  * Update years in copyright file.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 06 Jan 2008 08:12:06 +0100
+
 kde-l10n (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release.
