@@ -198,17 +198,6 @@ Provides: kde-i18n
 Description: Finnish (fi) localization files for KDE
  This package contains the Finnish translations for applications from the
  official KDE 4 release.
-Package: kde-l10n-fi
-Architecture: all
-Section: kde
-Depends: kdelibs5 (>= 4:4.0.2)
-Replaces: kde-i18n-fi
-Suggests: kde
-Conflicts: kde-i18n-fi, gwenview-i18n
-Provides: kde-i18n
-Description: Finnish (fi) localization files for KDE
- This package contains the Finnish translations for applications from the
- official KDE 4 release.
 
 Package: kde-l10n-fr
 Architecture: all
