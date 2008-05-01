@@ -3,75 +3,94 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-export DEB_UPSTREAM_VERSION=4.0.2
+L10N_DIR_PREFIX := kde-l10n
+L10N_VERSION := $(shell cat debian/changelog | head -n1 | sed 's/.*(\([[:digit:]]\+:\)\?\(.\+\)-.\+).*/\2/')
+L10N_DIRS := $(subst .tar.bz2,,$(wildcard $(L10N_DIR_PREFIX)-*-$(L10N_VERSION).tar.bz2))
+L10N_LANGS := $(patsubst $(L10N_DIR_PREFIX)-%-$(L10N_VERSION),%,$(L10N_DIRS))
+L10N_PACKAGES :=$(patsubst %,$(L10N_DIR_PREFIX)-%,$(shell echo $(subst _,,$(subst @,,$(L10N_LANGS))) | tr A-Z a-z))
+L10N_PATCHES := $(wildcard debian/patches/*.diff)
+
+# Support variables to be used in targets
+cur_lang = $(word 2,$(subst __, ,$@))
+cur_lang_dir = $(patsubst %,$(L10N_DIR_PREFIX)-%-$(L10N_VERSION),$(cur_lang))
+cur_lang_patch = $(patsubst %,debian/patches/%.diff,$(cur_lang))
+cur_pkg = $(L10N_DIR_PREFIX)-$(shell echo $(subst _,,$(subst @,,$(cur_lang))) | tr A-Z a-z)
+
+# Stamps
+STAMP_EXTRACT := $(patsubst %,debian/stamp__%__extract,$(L10N_LANGS))
+STAMP_PATCH := $(patsubst debian/patches/%.diff,debian/stamp__%__patch,$(L10N_PATCHES))
+STAMP_BUILD := $(patsubst %,debian/stamp__%__build,$(L10N_LANGS))
+L10N_INSTALL := $(patsubst %,install__%,$(L10N_LANGS))
+
+# debian/control checks
+L10N_PACKAGES_IN_CONTROL := $(shell grep '^Package: ' debian/control | sed 's/^Package: //')
+L10N_NOTEXIST_IN_CONTROL := $(filter-out $(L10N_PACKAGES_IN_CONTROL),$(L10N_PACKAGES))
+L10N_EXCESS_IN_CONTROL := $(filter-out $(L10N_PACKAGES), $(L10N_PACKAGES_IN_CONTROL))
+
+check_control:
+	@test -z "$(L10N_NOTEXIST_IN_CONTROL)" || \
+		(echo "-- ERROR: debian/control is missing language packages: $(L10N_NOTEXIST_IN_CONTROL)" && false)
+	@test -z "$(L10N_EXCESS_IN_CONTROL)" || \
+		(echo "-- ERROR: debian/control is has excess language packages: $(L10N_EXCESS_IN_CONTROL)" && false)
 
 
-configure: configure-stamp
-configure-stamp:
+patch: $(STAMP_PATCH)
+
+$(STAMP_PATCH):
+	# Applying patch for the '$(cur_lang)' language ...
+	cd $(cur_lang_dir) && patch --set-utc -p1 < "$(CURDIR)/$(cur_lang_patch)" > $(CURDIR)/$@_log
+	mv $@_log $@
+
+build::
 	dh_testdir
-	touch configure-stamp
 
+build:: check_control $(STAMP_EXTRACT) patch $(STAMP_BUILD)
 
-build: build-stamp
+$(STAMP_EXTRACT):
+	tar xfj $(cur_lang_dir).tar.bz2
+	@touch $@
 
-build-stamp: configure-stamp 
-	dh_testdir
-	
-	# extract the bzip2 languages
-	-for i in `ls -1 kde-l10n*.bz2`;do \
-		tar xfj $$i;\
-	done
-
-	# configure every language
-	-for j in `ls -1d kde-l10n-*-$(DEB_UPSTREAM_VERSION)/`; do \
-		pwd;cd $$j;\
-		cmake . -DCMAKE_INSTALL_PREFIX="/usr" -DCMAKE_VERBOSE_MAKEFILE=ON; \
-		$(MAKE); \
-		cd ..; \
-	done
-
+$(STAMP_BUILD):
+	# Building the '$(cur_lang)' language ...
+	cd $(cur_lang_dir) && cmake . -DCMAKE_INSTALL_PREFIX="/usr" -DCMAKE_VERBOSE_MAKEFILE=ON && $(MAKE)
 	touch $@
 
-clean:
+
+install::
 	dh_testdir
 	dh_testroot
-	rm -f build-stamp configure-stamp
-	rm -rf kde-l10n-*-$(DEB_UPSTREAM_VERSION) debian/kde-l10n/*
-	dh_clean 
+	dh_clean -k
 
-install: build
+install:: $(L10N_INSTALL)
+	# Installed successfully
+
+$(L10N_INSTALL):
+	# Installing '$(cur_lang)' to the '$(cur_pkg)' package
+	cd $(cur_lang_dir) && $(MAKE) install DESTDIR=$(CURDIR)/debian/$(cur_pkg)
+
+
+clean: debian-clean
+debian-clean:
 	dh_testdir
-	dh_testroot
-	dh_clean -k 
-	dh_installdirs
+	# delete unpacked bzip2 languages
+	rm -rf $(L10N_DIR_PREFIX)-*-$(L10N_VERSION)/ debian/$(L10N_DIR_PREFIX)-*
+	rm -f debian/stamp__*
+	rm -f debian/*.debhelper.log
+	dh_clean
 
 
-	-for i in `ls -1d kde-l10n-*-$(DEB_UPSTREAM_VERSION)/`; do \
-		cd $$i; \
-		$(MAKE) install DESTDIR=`pwd`/../debian/`echo $$i|sed -e "s/-$(DEB_UPSTREAM_VERSION)//"`; \
-		cd ..; \
-	done
+binary-arch:
+	# Do architecture dependent files available
 
-
-    # copying the non 2 letter languages into the correct directory
-	cp -aR debian/kde-l10n-en_GB/* debian/kde-l10n-engb/
-	cp -aR debian/kde-l10n-pt_BR/* debian/kde-l10n-ptbr/
-	cp -aR debian/kde-l10n-zh_CN/* debian/kde-l10n-zhcn/
-	cp -aR debian/kde-l10n-zh_TW/* debian/kde-l10n-zhtw/
-
-
-binary-arch: build install
 
 binary-indep: build install
-	dh_testdir
 	dh_testroot
-	dh_installchangelogs 
+	dh_testdir
 	dh_installdocs
-	dh_installexamples
-#	dh_install
-	dh_link
+	dh_installmenu
+	dh_installchangelogs
 	dh_strip
-	dh_compress
+	dh_compress -X.docbook -X.css -X-license -X.dcl -X.bz2
 	dh_fixperms
 	dh_installdeb
 	dh_shlibdeps
@@ -79,5 +98,8 @@ binary-indep: build install
 	dh_md5sums
 	dh_builddeb
 
-binary: binary-indep
-.PHONY: build clean binary-indep binary install configure
+
+# Below here is fairly generic really
+binary: binary-indep binary-arch
+
+.PHONY: binary binary-arch binary-indep clean patch build install check_control $(L10N_INSTALL) $(L10N_CHECK_CONTROL)

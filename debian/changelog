@@ -1,3 +1,30 @@
+kde-l10n (4:4.0.71-1) experimental; urgency=low
+
+  * New upstream development release.
+
+  +++ Changes by Modestas Vainius:
+
+  * Port debian/rules from the latest kde-i18n (KDE3) source packages to
+    kde-l10n (KDE4). The respective entries from kde-i18n changelog:
+    - Completely rewrite debian/rules. The main rationale for the rewrite was
+      that previous implementation had not been able to detect language build
+      errors at all which could have led to broken uploads (like #469683).
+    - New implementation uses stamps and make targets instead of shell 'for'
+      loops. Therefore, resuming interrupted build is possible.
+    - A very basic patching mechanism is provided. There can be a single patch
+      per language which must be named as debian/patches/${language_code}.diff
+      The patch must apply with -p1 parameter from the respective language
+      directory.
+  * In addition to the features listed above, add the following new features:
+    - There is no more need to rename and care about packages for en_GB,
+      pt_BR etc. languages. Correct package name is constructed automatically
+      (s/[@_]//g, tr A-Z a-z).
+    - Automatically checks for missing and excess languages in debian/control
+      before building.
+    - Remove debhelper log files on clean.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 May 2008 18:17:29 +0300
+
 kde-l10n (4:4.0.2-1) experimental; urgency=low
 
   * New upstream release:
