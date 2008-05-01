@@ -31,7 +31,7 @@ check_control:
 	@test -z "$(L10N_NOTEXIST_IN_CONTROL)" || \
 		(echo "-- ERROR: debian/control is missing language packages: $(L10N_NOTEXIST_IN_CONTROL)" && false)
 	@test -z "$(L10N_EXCESS_IN_CONTROL)" || \
-		(echo "-- ERROR: debian/control is has excess language packages: $(L10N_EXCESS_IN_CONTROL)" && false)
+		(echo "-- ERROR: debian/control has excess language packages: $(L10N_EXCESS_IN_CONTROL)" && false)
 
 
 patch: $(STAMP_PATCH)
