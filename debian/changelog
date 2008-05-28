@@ -1,3 +1,13 @@
+kde-l10n (4:4.0.80-1) experimental; urgency=low
+
+  * New upstream release:
+    - Added ro, ta.
+    - Added da, fetched from KDE SVN, let's hope it does not break anything.
+  * Bump kdelibs5-dev build dependency to >= 4:4.0.80.
+  * Bump Depends on kdelibs5 to >= 4:4.0.80.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 28 May 2008 00:30:58 +0200
+
 kde-l10n (4:4.0.71-1) experimental; urgency=low
 
   * New upstream development release.
