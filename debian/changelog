@@ -1,3 +1,9 @@
+kde-l10n (4:4.0.83-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 28 Jun 2008 20:39:08 +0200
+
 kde-l10n (4:4.0.80-1) experimental; urgency=low
 
   * New upstream release:
