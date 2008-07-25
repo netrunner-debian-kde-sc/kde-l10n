@@ -3,42 +3,42 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
-Build-Depends: debhelper (>= 6), cmake, bzip2, kdelibs5-dev (>= 4:4.0.80)
-Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 6), cmake, bzip2, kdelibs5-dev (>= 4:4.1.0)
+Standards-Version: 3.8.0
 Homepage: http://i18n.kde.org/
 
-Package: kde-l10n-ar
-Architecture: all
-Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
-Replaces: kde-i18n-ar
-Suggests: kde
-Conflicts: kde-i18n-ar, gwenview-i18n
-Provides: kde-i18n
-Description: Arabic (ar) localization files for KDE
- This package contains the Arabic translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-ar
+#Architecture: all
+#Section: kde
+#Depends: kdelibs5 (>= 4:4.1.0)
+#Replaces: kde-i18n-ar
+#Suggests: kde4-minimal
+#Conflicts: kde-i18n-ar, gwenview-i18n
+#Provides: kde-l10n
+#Description: Arabic (ar) localization files for KDE
+# This package contains the Arabic translations for applications from the
+# official KDE 4 release.
 
-Package: kde-l10n-be
-Architecture: all
-Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
-Replaces: kde-i18n-be
-Suggests: kde
-Conflicts: kde-i18n-be, gwenview-i18n
-Provides: kde-i18n
-Description: Belarusian (be) localization files for KDE
- This package contains the Belarusian translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-be
+#Architecture: all
+#Section: kde
+#Depends: kdelibs5 (>= 4:4.1.0)
+#Replaces: kde-i18n-be
+#Suggests: kde4-minimal
+#Conflicts: kde-i18n-be, gwenview-i18n
+#Provides: kde-l10n
+#Description: Belarusian (be) localization files for KDE
+# This package contains the Belarusian translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-bg
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-bg
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-bg, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Bulgarian (bg) localization files for KDE
  This package contains the Bulgarian translations for applications from the
  official KDE 4 release.
@@ -46,11 +46,11 @@ Description: Bulgarian (bg) localization files for KDE
 Package: kde-l10n-ca
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-ca
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-ca, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Catalan (ca) localization files for KDE
  This package contains the Catalan translations for applications from the
  official KDE 4 release.
@@ -58,11 +58,11 @@ Description: Catalan (ca) localization files for KDE
 Package: kde-l10n-cs
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-cs
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-cs, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Czech (cs) localization files for KDE
  This package contains the Czech translations for applications from the
  official KDE 4 release.
@@ -70,11 +70,11 @@ Description: Czech (cs) localization files for KDE
 Package: kde-l10n-csb
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-csb
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-csb, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Kashubian (csb) localization files for KDE
  This package contains the Kashubian translations for applications from the
  official KDE 4 release.
@@ -82,11 +82,11 @@ Description: Kashubian (csb) localization files for KDE
 Package: kde-l10n-da
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-da
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-da, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Danish (da) localization files for KDE
  This package contains the Danish translations for applications from the
  official KDE 4 release.
@@ -94,11 +94,11 @@ Description: Danish (da) localization files for KDE
 Package: kde-l10n-de
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-de
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-de, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: German (de) localization files for KDE
  This package contains the German translations for applications from the
  official KDE 4 release.
@@ -106,11 +106,11 @@ Description: German (de) localization files for KDE
 Package: kde-l10n-el
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-el
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-el, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Greek (el) localization files for KDE
  This package contains the Greek translations for applications from the
  official KDE 4 release.
@@ -118,11 +118,11 @@ Description: Greek (el) localization files for KDE
 Package: kde-l10n-engb
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-engb
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-engb, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: British English (en_GB) localization files for KDE
  This package contains the British English translations for applications from the
  official KDE 4 release.
@@ -130,11 +130,11 @@ Description: British English (en_GB) localization files for KDE
 Package: kde-l10n-eo
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-eo
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-eo, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Esperanto (eo) localization files for KDE
  This package contains the Esperanto translations for applications from the
  official KDE 4 release.
@@ -142,11 +142,11 @@ Description: Esperanto (eo) localization files for KDE
 Package: kde-l10n-es
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-es
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-es, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Spanish (es) localization files for KDE
  This package contains the Spanish translations for applications from the
  official KDE 4 release.
@@ -154,47 +154,47 @@ Description: Spanish (es) localization files for KDE
 Package: kde-l10n-et
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-et
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-et, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Estonian (et) localization files for KDE
  This package contains the Estonian translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-eu
-Architecture: all
-Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
-Replaces: kde-i18n-eu
-Suggests: kde
-Conflicts: kde-i18n-eu, gwenview-i18n
-Provides: kde-i18n
-Description: Basque (eu) localization files for KDE
- This package contains the Basque translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-eu
+#Architecture: all
+#Section: kde
+#Depends: kdelibs5 (>= 4:4.1.0)
+#Replaces: kde-i18n-eu
+#Suggests: kde4-minimal
+#Conflicts: kde-i18n-eu, gwenview-i18n
+#Provides: kde-l10n
+#Description: Basque (eu) localization files for KDE
+# This package contains the Basque translations for applications from the
+# official KDE 4 release.
 
-Package: kde-l10n-fa
-Architecture: all
-Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
-Replaces: kde-i18n-fa
-Suggests: kde
-Conflicts: kde-i18n-fa, gwenview-i18n
-Provides: kde-i18n
-Description: Farsi (fa) localization files for KDE
- This package contains the Farsi translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-fa
+#Architecture: all
+#Section: kde
+#Depends: kdelibs5 (>= 4:4.1.0)
+#Replaces: kde-i18n-fa
+#Suggests: kde4-minimal
+#Conflicts: kde-i18n-fa, gwenview-i18n
+#Provides: kde-l10n
+#Description: Farsi (fa) localization files for KDE
+# This package contains the Farsi translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-fi
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-fi
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-fi, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Finnish (fi) localization files for KDE
  This package contains the Finnish translations for applications from the
  official KDE 4 release.
@@ -202,11 +202,11 @@ Description: Finnish (fi) localization files for KDE
 Package: kde-l10n-fr
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-fr
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-fr, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: French (fr) localization files for KDE
  This package contains the French translations for applications from the
  official KDE 4 release.
@@ -214,11 +214,11 @@ Description: French (fr) localization files for KDE
 Package: kde-l10n-fy
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-fy
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-fy, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Frisian (fy) localization files for KDE
  This package contains the Frisian translations for applications from the
  official KDE 4 release.
@@ -226,11 +226,11 @@ Description: Frisian (fy) localization files for KDE
 Package: kde-l10n-ga
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-ga
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-ga, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Irish Gaelic (ga) localization files for KDE
  This package contains the Irish Gaelic translations for applications from the
  official KDE 4 release.
@@ -238,11 +238,11 @@ Description: Irish Gaelic (ga) localization files for KDE
 Package: kde-l10n-gl
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-gl
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-gl, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Galician (gl) localization files for KDE
  This package contains the Galician translations for applications from the
  official KDE 4 release.
@@ -250,11 +250,11 @@ Description: Galician (gl) localization files for KDE
 Package: kde-l10n-hi
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-hi
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-hi, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Hindi (hi) localization files for KDE
  This package contains the Hindi translations for applications from the
  official KDE 4 release.
@@ -262,35 +262,35 @@ Description: Hindi (hi) localization files for KDE
 Package: kde-l10n-hu
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-hu
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-hu, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Hungarian (hu) localization files for KDE
  This package contains the Hungarian translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-is
-Architecture: all
-Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
-Replaces: kde-i18n-is
-Suggests: kde
-Conflicts: kde-i18n-is, gwenview-i18n
-Provides: kde-i18n
-Description: Icelandic (is) localization files for KDE
- This package contains the Icelandic translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-is
+#Architecture: all
+#Section: kde
+#Depends: kdelibs5 (>= 4:4.1.0)
+#Replaces: kde-i18n-is
+#Suggests: kde4-minimal
+#Conflicts: kde-i18n-is, gwenview-i18n
+#Provides: kde-l10n
+#Description: Icelandic (is) localization files for KDE
+# This package contains the Icelandic translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-it
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-it
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-it, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Italian (it) localization files for KDE
  This package contains the Italian translations for applications from the
  official KDE 4 release.
@@ -298,11 +298,11 @@ Description: Italian (it) localization files for KDE
 Package: kde-l10n-ja
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-ja
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-ja, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Japanese (ja) localization files for KDE
  This package contains the Japanese translations for applications from the
  official KDE 4 release.
@@ -310,11 +310,11 @@ Description: Japanese (ja) localization files for KDE
 Package: kde-l10n-kk
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-kk
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-kk, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Kazakh (kk) localization files for KDE
  This package contains the Kazakh translations for applications from the
  official KDE 4 release.
@@ -322,11 +322,11 @@ Description: Kazakh (kk) localization files for KDE
 Package: kde-l10n-km
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-km
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-km, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Khmer (km) localization files for KDE
  This package contains the Khmer translations for applications from the
  official KDE 4 release.
@@ -334,47 +334,83 @@ Description: Khmer (km) localization files for KDE
 Package: kde-l10n-ko
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-ko
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-ko, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Korean (ko) localization files for KDE
  This package contains the Korean translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-ku
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.1.0)
+Replaces: kde-i18n-ku
+Suggests: kde4-minimal
+Conflicts: kde-i18n-ku, gwenview-i18n
+Provides: kde-l10n
+Description: Kurdish (ku) localization files for KDE
+ This package contains the Kurdish translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-lv
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-lv
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-lv, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Latvian (lv) localization files for KDE
  This package contains the Latvian translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-lt
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.1.0)
+Replaces: kde-i18n-lt
+Suggests: kde4-minimal
+Conflicts: kde-i18n-lt, gwenview-i18n
+Provides: kde-l10n
+Description: Lithuanian (lt) localization files for KDE
+ This package contains the Lithuanian translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-mk
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-mk
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-mk, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Macedonian (mk) localization files for KDE
  This package contains the Macedonian translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-ml
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.1.0)
+Replaces: kde-i18n-ml
+Suggests: kde4-minimal
+Conflicts: kde-i18n-ml, gwenview-i18n
+Provides: kde-l10n
+Description: Malayalam (ml) localization files for KDE
+ This package contains the Malayalam translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-nb
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-nb
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-nb, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Norwegian Bookmal (nb) localization files for KDE
  This package contains the Norwegian Bookma translations for applications from the
  official KDE 4 release.
@@ -382,35 +418,35 @@ Description: Norwegian Bookmal (nb) localization files for KDE
 Package: kde-l10n-nds
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-nds
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-nds, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Low Saxon (nds) localization files for KDE
  This package contains the Low Saxon translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-ne
-Architecture: all
-Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
-Replaces: kde-i18n-ne
-Suggests: kde
-Conflicts: kde-i18n-ne, gwenview-i18n
-Provides: kde-i18n
-Description: Nepali (ne) localization files for KDE
- This package contains the Nepali translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-ne
+#Architecture: all
+#Section: kde
+#Depends: kdelibs5 (>= 4:4.1.0)
+#Replaces: kde-i18n-ne
+#Suggests: kde4-minimal
+#Conflicts: kde-i18n-ne, gwenview-i18n
+#Provides: kde-l10n
+#Description: Nepali (ne) localization files for KDE
+# This package contains the Nepali translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-nl
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-nl
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-nl, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Dutch (nl) localization files for KDE
  This package contains the Dutch translations for applications from the
  official KDE 4 release.
@@ -418,11 +454,11 @@ Description: Dutch (nl) localization files for KDE
 Package: kde-l10n-nn
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-nn
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-nn, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Norwegian Nynorsk (nn) localization files for KDE
  This package contains the Norwegian Nynorsk translations for applications from the
  official KDE 4 release.
@@ -430,11 +466,11 @@ Description: Norwegian Nynorsk (nn) localization files for KDE
 Package: kde-l10n-pa
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-pa
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-pa, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Punjabi (pa) localization files for KDE
  This package contains the Punjabi translations for applications from the
  official KDE 4 release.
@@ -442,11 +478,11 @@ Description: Punjabi (pa) localization files for KDE
 Package: kde-l10n-pl
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-pl
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-pl, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Polish (pl) localization files for KDE
  This package contains the Polish translations for applications from the
  official KDE 4 release.
@@ -454,11 +490,11 @@ Description: Polish (pl) localization files for KDE
 Package: kde-l10n-pt
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-pt
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-pt, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Portuguese (pt) localization files for KDE
  This package contains the Portuguese translations for applications from the
  official KDE 4 release.
@@ -466,71 +502,83 @@ Description: Portuguese (pt) localization files for KDE
 Package: kde-l10n-ptbr
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-ptbr
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-ptbr, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Brazilian Portuguese (pt_BR) localization files for KDE
  This package contains the Brazilian Portuguese translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-ro
-Architecture: all
-Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
-Replaces: kde-i18n-ro
-Suggests: kde
-Conflicts: kde-i18n-ro, gwenview-i18n
-Provides: kde-i18n
-Description: Romanian (ro) localization files for KDE
- This package contains the Romanian translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-ro
+#Architecture: all
+#Section: kde
+#Depends: kdelibs5 (>= 4:4.1.0)
+#Replaces: kde-i18n-ro
+#Suggests: kde4-minimal
+#Conflicts: kde-i18n-ro, gwenview-i18n
+#Provides: kde-l10n
+#Description: Romanian (ro) localization files for KDE
+# This package contains the Romanian translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-ru
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-ru
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-ru, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Russian (ru) localization files for KDE
  This package contains the Russian translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-se
-Architecture: all
-Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
-Replaces: kde-i18n-se
-Suggests: kde
-Conflicts: kde-i18n-se, gwenview-i18n
-Provides: kde-i18n
-Description: Northern Sami (se) localization files for KDE
- This package contains the Northern Sami translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-se
+#Architecture: all
+#Section: kde
+#Depends: kdelibs5 (>= 4:4.1.0)
+#Replaces: kde-i18n-se
+#Suggests: kde4-minimal
+#Conflicts: kde-i18n-se, gwenview-i18n
+#Provides: kde-l10n
+#Description: Northern Sami (se) localization files for KDE
+# This package contains the Northern Sami translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-sl
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-sl
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-sl, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Slovenian (sl) localization files for KDE
  This package contains the Slovenian translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-sr
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.1.0)
+Replaces: kde-i18n-sr
+Suggests: kde4-minimal
+Conflicts: kde-i18n-sr, gwenview-i18n
+Provides: kde-l10n
+Description: Serbian (sr) localization files for KDE
+ This package contains the Latvian translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-sv
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-sv
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-sv, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Swedish (sv) localization files for KDE
  This package contains the Swedish translations for applications from the
  official KDE 4 release.
@@ -538,11 +586,11 @@ Description: Swedish (sv) localization files for KDE
 Package: kde-l10n-ta
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-ta
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-ta, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Tamil (ta) localization files for KDE
  This package contains the Tamil translations for applications from the
  official KDE 4 release.
@@ -550,11 +598,11 @@ Description: Tamil (ta) localization files for KDE
 Package: kde-l10n-th
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-th
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-th, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Thai (th) localization files for KDE
  This package contains the Thai translations for applications from the
  official KDE 4 release.
@@ -562,11 +610,11 @@ Description: Thai (th) localization files for KDE
 Package: kde-l10n-tr
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-tr
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-tr, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Turkish (tr) localization files for KDE
  This package contains the Turkish translations for applications from the
  official KDE 4 release.
@@ -574,11 +622,11 @@ Description: Turkish (tr) localization files for KDE
 Package: kde-l10n-uk
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-uk
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-uk, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Ukrainian (uk) localization files for KDE
  This package contains the Ukrainian translations for applications from the
  official KDE 4 release.
@@ -586,11 +634,11 @@ Description: Ukrainian (uk) localization files for KDE
 Package: kde-l10n-wa
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-wa
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-wa, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Walloon (wa) localization files for KDE
  This package contains the Walloon translations for applications from the
  official KDE 4 release.
@@ -598,11 +646,11 @@ Description: Walloon (wa) localization files for KDE
 Package: kde-l10n-zhcn
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-zhcn
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-zhcn, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Chinese Simplified (zh_CN) localization files for KDE
  This package contains the Chinese Simplified translations for applications from the
  official KDE 4 release.
@@ -610,11 +658,11 @@ Description: Chinese Simplified (zh_CN) localization files for KDE
 Package: kde-l10n-zhtw
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.1.0)
 Replaces: kde-i18n-zhtw
-Suggests: kde
+Suggests: kde4-minimal
 Conflicts: kde-i18n-zhtw, gwenview-i18n
-Provides: kde-i18n
+Provides: kde-l10n
 Description: Chinese Traditional (zh_TW) localization files for KDE
  This package contains the Chinese Traditional translations for applications from the
  official KDE 4 release.

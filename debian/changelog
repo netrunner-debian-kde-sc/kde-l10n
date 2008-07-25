@@ -1,3 +1,17 @@
+kde-l10n (4:4.1.0-1) experimental; urgency=low
+
+  * New upstream release:
+    - Add ku, lt, ml, sr.
+    - Remove ar, be, eu, fa, is, ne, ro, se.
+  * Suggests: kde changed to kde4-minimal.
+  * Provides: kde-i18n changed to kde-l10n.
+  * Bump kdelibs5-dev build dependency to >= 4:4.1.0.
+  * Bump Depends on kdelibs5 to >= 4:4.1.0.
+  * Update copyright to avoid long lines and update coyright notice.
+  * Update Standards-Version to 3.8.0, no changes required.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 25 Jul 2008 09:27:26 +0200
+
 kde-l10n (4:4.0.98-1) experimental; urgency=low
 
   * New upstream release.
