@@ -7,10 +7,10 @@ kde-l10n (4:4.1.0-1) experimental; urgency=low
   * Provides: kde-i18n changed to kde-l10n.
   * Bump kdelibs5-dev build dependency to >= 4:4.1.0.
   * Bump Depends on kdelibs5 to >= 4:4.1.0.
-  * Update copyright to avoid long lines and update coyright notice.
+  * Update copyright file to avoid long lines and update copyright notice.
   * Update Standards-Version to 3.8.0, no changes required.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 25 Jul 2008 09:27:26 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 29 Jul 2008 05:59:25 +0200
 
 kde-l10n (4:4.0.98-1) experimental; urgency=low
 
