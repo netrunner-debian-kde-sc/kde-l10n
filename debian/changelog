@@ -1,6 +1,14 @@
+kde-l10n (4:4.1.80-1) UNRELEASED; urgency=low
+
+  * New upstream release (to update when about to upload to archive).
+  * Add README.source (because S-V 3.8.0).
+  * Remove build depend on cmake, kdelibs5-dev depends on it now.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 04 Dec 2008 20:50:01 +0100
+
 kde-l10n (4:4.1.3-1) experimental; urgency=low
 
-  * New upstream
+  * New upstream release.
 
  -- Sune Vuorela <debian@pusling.com>  Thu, 06 Nov 2008 23:18:41 +0100
 
