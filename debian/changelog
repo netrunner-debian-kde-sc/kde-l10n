@@ -1,6 +1,7 @@
 kde-l10n (4:4.1.80-1) UNRELEASED; urgency=low
 
   * New upstream release (to update when about to upload to archive).
+  * Update depends and build depends to >= 4:4.1.80.
   * Add README.source (because S-V 3.8.0).
   * Remove build depend on cmake, kdelibs5-dev depends on it now.
 
