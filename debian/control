@@ -3,21 +3,21 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
-Build-Depends: debhelper (>= 6), bzip2, kdelibs5-dev (>= 4:4.1.80)
+Build-Depends: debhelper (>= 6), bzip2, kdelibs5-dev (>= 4:4.1.85)
 Standards-Version: 3.8.0
 Homepage: http://i18n.kde.org/
 
-#Package: kde-l10n-ar
-#Architecture: all
-#Section: kde
-#Depends: kdelibs5 (>= 4:4.1.80)
-#Replaces: kde-i18n-ar
-#Suggests: kde4-minimal
-#Conflicts: kde-i18n-ar, gwenview-i18n
-#Provides: kde-l10n
-#Description: Arabic (ar) localization files for KDE
-# This package contains the Arabic translations for applications from the
-# official KDE 4 release.
+Package: kde-l10n-ar
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.1.80)
+Replaces: kde-i18n-ar
+Suggests: kde4-minimal
+Conflicts: kde-i18n-ar, gwenview-i18n
+Provides: kde-l10n
+Description: Arabic (ar) localization files for KDE
+ This package contains the Arabic translations for applications from the
+ official KDE 4 release.
 
 #Package: kde-l10n-be
 #Architecture: all
@@ -245,6 +245,30 @@ Conflicts: kde-i18n-gl, gwenview-i18n
 Provides: kde-l10n
 Description: Galician (gl) localization files for KDE
  This package contains the Galician translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-gu
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.1.80)
+Replaces: kde-i18n-gu
+Suggests: kde4-minimal
+Conflicts: kde-i18n-gu, gwenview-i18n
+Provides: kde-l10n
+Description: Gujarati (gu) localization files for KDE
+ This package contains the Gujarati translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-he
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.1.80)
+Replaces: kde-i18n-hi
+Suggests: kde4-minimal
+Conflicts: kde-i18n-he, gwenview-i18n
+Provides: kde-l10n
+Description: Hebrew (he) localization files for KDE
+ This package contains the Hebrew translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-hi
@@ -511,17 +535,17 @@ Description: Brazilian Portuguese (pt_BR) localization files for KDE
  This package contains the Brazilian Portuguese translations for applications from the
  official KDE 4 release.
 
-#Package: kde-l10n-ro
-#Architecture: all
-#Section: kde
-#Depends: kdelibs5 (>= 4:4.1.80)
-#Replaces: kde-i18n-ro
-#Suggests: kde4-minimal
-#Conflicts: kde-i18n-ro, gwenview-i18n
-#Provides: kde-l10n
-#Description: Romanian (ro) localization files for KDE
-# This package contains the Romanian translations for applications from the
-# official KDE 4 release.
+Package: kde-l10n-ro
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.1.80)
+Replaces: kde-i18n-ro
+Suggests: kde4-minimal
+Conflicts: kde-i18n-ro, gwenview-i18n
+Provides: kde-l10n
+Description: Romanian (ro) localization files for KDE
+ This package contains the Romanian translations for applications from the
+ official KDE 4 release.
 
 Package: kde-l10n-ru
 Architecture: all
