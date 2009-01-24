@@ -43,6 +43,18 @@ Description: Bulgarian (bg) localization files for KDE
  This package contains the Bulgarian translations for applications from the
  official KDE 4 release.
 
+Package: kde-l10n-bnin
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.2.0)
+Replaces: kde-i18n-bnin
+Suggests: kde4-minimal
+Conflicts: kde-i18n-bnin, gwenview-i18n
+Provides: kde-l10n
+Description: Indian Bengali (bn_IN) localization files for KDE
+ This package contains the Indian Bengali translations for applications from the
+ official KDE 4 release.
+
 Package: kde-l10n-ca
 Architecture: all
 Section: kde
@@ -163,17 +175,17 @@ Description: Estonian (et) localization files for KDE
  This package contains the Estonian translations for applications from the
  official KDE 4 release.
 
-#Package: kde-l10n-eu
-#Architecture: all
-#Section: kde
-#Depends: kdelibs5 (>= 4:4.2.0)
-#Replaces: kde-i18n-eu
-#Suggests: kde4-minimal
-#Conflicts: kde-i18n-eu, gwenview-i18n
-#Provides: kde-l10n
-#Description: Basque (eu) localization files for KDE
-# This package contains the Basque translations for applications from the
-# official KDE 4 release.
+Package: kde-l10n-eu
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.2.0)
+Replaces: kde-i18n-eu
+Suggests: kde4-minimal
+Conflicts: kde-i18n-eu, gwenview-i18n
+Provides: kde-l10n
+Description: Basque (eu) localization files for KDE
+ This package contains the Basque translations for applications from the
+ official KDE 4 release.
 
 #Package: kde-l10n-fa
 #Architecture: all
@@ -295,17 +307,17 @@ Description: Hungarian (hu) localization files for KDE
  This package contains the Hungarian translations for applications from the
  official KDE 4 release.
 
-#Package: kde-l10n-is
-#Architecture: all
-#Section: kde
-#Depends: kdelibs5 (>= 4:4.2.0)
-#Replaces: kde-i18n-is
-#Suggests: kde4-minimal
-#Conflicts: kde-i18n-is, gwenview-i18n
-#Provides: kde-l10n
-#Description: Icelandic (is) localization files for KDE
-# This package contains the Icelandic translations for applications from the
-# official KDE 4 release.
+Package: kde-l10n-is
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.2.0)
+Replaces: kde-i18n-is
+Suggests: kde4-minimal
+Conflicts: kde-i18n-is, gwenview-i18n
+Provides: kde-l10n
+Description: Icelandic (is) localization files for KDE
+ This package contains the Icelandic translations for applications from the
+ official KDE 4 release.
 
 Package: kde-l10n-it
 Architecture: all
@@ -353,6 +365,18 @@ Conflicts: kde-i18n-km, gwenview-i18n
 Provides: kde-l10n
 Description: Khmer (km) localization files for KDE
  This package contains the Khmer translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-kn
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.2.0)
+Replaces: kde-i18n-kn
+Suggests: kde4-minimal
+Conflicts: kde-i18n-kn, gwenview-i18n
+Provides: kde-l10n
+Description: Kannada (kn) localization files for KDE
+ This package contains the Kannada translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-ko
@@ -403,6 +427,18 @@ Description: Lithuanian (lt) localization files for KDE
  This package contains the Lithuanian translations for applications from the
  official KDE 4 release.
 
+Package: kde-l10n-mai
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.2.0)
+Replaces: kde-i18n-mai
+Suggests: kde4-minimal
+Conflicts: kde-i18n-mai, gwenview-i18n
+Provides: kde-l10n
+Description: Maithili (mai) localization files for KDE
+ This package contains the Maithili translations for applications from the
+ official KDE 4 release.
+
 Package: kde-l10n-mk
 Architecture: all
 Section: kde
@@ -425,6 +461,18 @@ Conflicts: kde-i18n-ml, gwenview-i18n
 Provides: kde-l10n
 Description: Malayalam (ml) localization files for KDE
  This package contains the Malayalam translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-mr
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.2.0)
+Replaces: kde-i18n-mr
+Suggests: kde4-minimal
+Conflicts: kde-i18n-mr, gwenview-i18n
+Provides: kde-l10n
+Description: Marathi (mr) localization files for KDE
+ This package contains the Marathi translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-nb
@@ -617,6 +665,18 @@ Conflicts: kde-i18n-ta, gwenview-i18n
 Provides: kde-l10n
 Description: Tamil (ta) localization files for KDE
  This package contains the Tamil translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-tg
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.2.0)
+Replaces: kde-i18n-tg
+Suggests: kde4-minimal
+Conflicts: kde-i18n-tg, gwenview-i18n
+Provides: kde-l10n
+Description: Tajik (tg) localization files for KDE
+ This package contains the Tajik translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-th
