@@ -2,6 +2,7 @@ kde-l10n (4:4.2.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release. New languages:
     - Add ar, bn_IN, eu, gu, he, is, kn, mai, mr, ro, tg.
+    - Remove eo, fy, ta.
   * Update depends and build depends to >= 4:4.2.0.
   * Add README.source (because S-V 3.8.0).
   * Remove build depend on cmake, kdelibs5-dev depends on it now.
