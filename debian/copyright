@@ -4,7 +4,7 @@ Wed, 07 Nov 2007 19:19:14 +0100.
 It was downloaded from ftp://ftp.kde.org
 
 Upstream Author: 
-Copyright (c) 1996-2008 The KDE Translation teams <kde-i18n-doc@kde.org>
+Copyright (c) 1996-2009 The KDE Translation teams <kde-i18n-doc@kde.org>
 Every language file is made by the respective translation team. You can find 
 a list of the translation teams and their contact email addresses at:
 http://i18n.kde.org/teams-list.php
@@ -17,8 +17,8 @@ or directly:
  http://l10n.kde.org/team-infos.php?teamcode=ar     Arabic (ar)
  http://l10n.kde.org/team-infos.php?teamcode=hy     Armenian (hy)
  http://l10n.kde.org/team-infos.php?teamcode=az     Azerbaijani (az)
- http://l10n.kde.org/team-infos.php?teamcode=ml     മലയാളം | Malayalam (ml)
  http://l10n.kde.org/team-infos.php?teamcode=eu     Basque (eu)
+ http://l10n.kde.org/team-infos.php?teamcode=be     Belarusian (be)
  http://l10n.kde.org/team-infos.php?teamcode=be     Belarusian (be)
  http://l10n.kde.org/team-infos.php?teamcode=bn     Bengali (bn)
  http://l10n.kde.org/team-infos.php?teamcode=bs     Bosnian (bs)
@@ -30,6 +30,7 @@ or directly:
  http://l10n.kde.org/team-infos.php?teamcode=zh_HK  Chinese Hong Kong (zh_HK)
  http://l10n.kde.org/team-infos.php?teamcode=zh_CN  Chinese Simplified (zh_CN)
  http://l10n.kde.org/team-infos.php?teamcode=zh_TW  Chinese Traditional (zh_TW)
+ http://l10n.kde.org/team-infos.php?teamcode=crh    Crimean Tatar (Crimean Turkish) (crh)
  http://l10n.kde.org/team-infos.php?teamcode=hr     Croatian (hr)
  http://l10n.kde.org/team-infos.php?teamcode=cs     Czech (cs)
  http://l10n.kde.org/team-infos.php?teamcode=da     Danish (da)
@@ -51,7 +52,6 @@ or directly:
  http://l10n.kde.org/team-infos.php?teamcode=hi     Hindi (hi)
  http://l10n.kde.org/team-infos.php?teamcode=hu     Hungarian (hu)
  http://l10n.kde.org/team-infos.php?teamcode=is     Icelandic (is)
- http://l10n.kde.org/team-infos.php?teamcode=ig     Igbo (ig)
  http://l10n.kde.org/team-infos.php?teamcode=id     Indonesian (id)
  http://l10n.kde.org/team-infos.php?teamcode=ga     Irish (ga)
  http://l10n.kde.org/team-infos.php?teamcode=it     Italian (it)
@@ -74,10 +74,11 @@ or directly:
  http://l10n.kde.org/team-infos.php?teamcode=nds    Low Saxon (nds)
  http://l10n.kde.org/team-infos.php?teamcode=lb     Luxembourgish (lb)
  http://l10n.kde.org/team-infos.php?teamcode=mk     Macedonian (mk)
+ http://l10n.kde.org/team-infos.php?teamcode=mai    Maithili (mai)
  http://l10n.kde.org/team-infos.php?teamcode=mg     Malagasy (mg)
  http://l10n.kde.org/team-infos.php?teamcode=ms     Malay (ms)
+ http://l10n.kde.org/team-infos.php?teamcode=ml     മലയാളം | Malayalam (ml)
  http://l10n.kde.org/team-infos.php?teamcode=mt     Maltese (mt)
- http://l10n.kde.org/team-infos.php?teamcode=mi     Maori (mi)
  http://l10n.kde.org/team-infos.php?teamcode=mr     Marathi (mr)
  http://l10n.kde.org/team-infos.php?teamcode=mn     Mongolian (mn)
  http://l10n.kde.org/team-infos.php?teamcode=ne     Nepali (ne)
@@ -86,6 +87,8 @@ or directly:
  http://l10n.kde.org/team-infos.php?teamcode=nn     Norwegian Nynorsk (nn)
  http://l10n.kde.org/team-infos.php?teamcode=oc     Occitan (oc)
  http://l10n.kde.org/team-infos.php?teamcode=or     Oriya (or)
+ http://l10n.kde.org/team-infos.php?teamcode=ps     Pashto (ps)
+ http://l10n.kde.org/team-infos.php?teamcode=fa     Persian (fa)
  http://l10n.kde.org/team-infos.php?teamcode=pl     Polish (pl)
  http://l10n.kde.org/team-infos.php?teamcode=pt     Portuguese (pt)
  http://l10n.kde.org/team-infos.php?teamcode=pa     Punjabi (pa)
@@ -98,7 +101,6 @@ or directly:
  http://l10n.kde.org/team-infos.php?teamcode=es     Spanish (es)
  http://l10n.kde.org/team-infos.php?teamcode=ss     Swati (ss)
  http://l10n.kde.org/team-infos.php?teamcode=sv     Swedish (sv)
- http://l10n.kde.org/team-infos.php?teamcode=tl     Tagalog (tl)
  http://l10n.kde.org/team-infos.php?teamcode=tg     Tajik (tg)
  http://l10n.kde.org/team-infos.php?teamcode=tmh    Tamashek (tmh)
  http://l10n.kde.org/team-infos.php?teamcode=ta     Tamil (ta)
@@ -171,5 +173,5 @@ for details.
   in /usr/share/common-licenses/LGPL-3
 
 
-The Debian packaging is (C) 2007-2008, Debian Qt/KDE Maintainers and
+The Debian packaging is (C) 2007-2009, Debian Qt/KDE Maintainers and
 is licensed under the GPLv2 or later, see `/usr/share/common-licenses/GPL-2'.
