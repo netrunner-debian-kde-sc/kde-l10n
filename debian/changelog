@@ -1,4 +1,4 @@
-kde-l10n (4:4.2.0-0r1) UNRELEASED; urgency=low
+kde-l10n (4:4.2.0-1) experimental; urgency=low
 
   * New upstream release. New languages:
     - Add ar, bn_IN, eu, gu, he, is, kn, mai, mr, ro, tg.
@@ -8,7 +8,7 @@ kde-l10n (4:4.2.0-0r1) UNRELEASED; urgency=low
   * Remove build depend on cmake, kdelibs5-dev depends on it now.
   * Update copyright file.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 24 Jan 2009 20:21:45 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 26 Jan 2009 15:23:10 +0100
 
 kde-l10n (4:4.1.3-1) experimental; urgency=low
 
