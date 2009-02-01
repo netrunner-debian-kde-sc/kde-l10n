@@ -11,7 +11,7 @@ Package: kde-l10n-ar
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-ar
+Replaces: kde-i18n-ar, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-ar, gwenview-i18n
 Provides: kde-l10n
@@ -23,7 +23,7 @@ Description: Arabic (ar) localization files for KDE
 #Architecture: all
 #Section: kde
 #Depends: kdelibs5 (>= 4:4.2.0)
-#Replaces: kde-i18n-be
+#Replaces: kde-i18n-be, okular-l10n
 #Suggests: kde4-minimal
 #Conflicts: kde-i18n-be, gwenview-i18n
 #Provides: kde-l10n
@@ -35,7 +35,7 @@ Package: kde-l10n-bg
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-bg
+Replaces: kde-i18n-bg, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-bg, gwenview-i18n
 Provides: kde-l10n
@@ -47,7 +47,7 @@ Package: kde-l10n-bnin
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-bnin
+Replaces: kde-i18n-bnin, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-bnin, gwenview-i18n
 Provides: kde-l10n
@@ -59,7 +59,7 @@ Package: kde-l10n-ca
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-ca
+Replaces: kde-i18n-ca, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-ca, gwenview-i18n
 Provides: kde-l10n
@@ -71,7 +71,7 @@ Package: kde-l10n-cs
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-cs
+Replaces: kde-i18n-cs, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-cs, gwenview-i18n
 Provides: kde-l10n
@@ -83,7 +83,7 @@ Package: kde-l10n-csb
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-csb
+Replaces: kde-i18n-csb, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-csb, gwenview-i18n
 Provides: kde-l10n
@@ -95,7 +95,7 @@ Package: kde-l10n-da
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-da
+Replaces: kde-i18n-da, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-da, gwenview-i18n
 Provides: kde-l10n
@@ -107,7 +107,7 @@ Package: kde-l10n-de
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-de
+Replaces: kde-i18n-de, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-de, gwenview-i18n
 Provides: kde-l10n
@@ -119,7 +119,7 @@ Package: kde-l10n-el
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-el
+Replaces: kde-i18n-el, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-el, gwenview-i18n
 Provides: kde-l10n
@@ -131,7 +131,7 @@ Package: kde-l10n-engb
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-engb
+Replaces: kde-i18n-engb, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-engb, gwenview-i18n
 Provides: kde-l10n
@@ -143,7 +143,7 @@ Description: British English (en_GB) localization files for KDE
 #Architecture: all
 #Section: kde
 #Depends: kdelibs5 (>= 4:4.2.0)
-#Replaces: kde-i18n-eo
+#Replaces: kde-i18n-eo, okular-l10n
 #Suggests: kde4-minimal
 #Conflicts: kde-i18n-eo, gwenview-i18n
 #Provides: kde-l10n
@@ -155,7 +155,7 @@ Package: kde-l10n-es
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-es
+Replaces: kde-i18n-es, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-es, gwenview-i18n
 Provides: kde-l10n
@@ -167,7 +167,7 @@ Package: kde-l10n-et
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-et
+Replaces: kde-i18n-et, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-et, gwenview-i18n
 Provides: kde-l10n
@@ -179,7 +179,7 @@ Package: kde-l10n-eu
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-eu
+Replaces: kde-i18n-eu, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-eu, gwenview-i18n
 Provides: kde-l10n
@@ -191,7 +191,7 @@ Description: Basque (eu) localization files for KDE
 #Architecture: all
 #Section: kde
 #Depends: kdelibs5 (>= 4:4.2.0)
-#Replaces: kde-i18n-fa
+#Replaces: kde-i18n-fa, okular-l10n
 #Suggests: kde4-minimal
 #Conflicts: kde-i18n-fa, gwenview-i18n
 #Provides: kde-l10n
@@ -203,7 +203,7 @@ Package: kde-l10n-fi
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-fi
+Replaces: kde-i18n-fi, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-fi, gwenview-i18n
 Provides: kde-l10n
@@ -215,7 +215,7 @@ Package: kde-l10n-fr
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-fr
+Replaces: kde-i18n-fr, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-fr, gwenview-i18n
 Provides: kde-l10n
@@ -227,7 +227,7 @@ Description: French (fr) localization files for KDE
 #Architecture: all
 #Section: kde
 #Depends: kdelibs5 (>= 4:4.2.0)
-#Replaces: kde-i18n-fy
+#Replaces: kde-i18n-fy, okular-l10n
 #Suggests: kde4-minimal
 #Conflicts: kde-i18n-fy, gwenview-i18n
 #Provides: kde-l10n
@@ -239,7 +239,7 @@ Package: kde-l10n-ga
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-ga
+Replaces: kde-i18n-ga, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-ga, gwenview-i18n
 Provides: kde-l10n
@@ -251,7 +251,7 @@ Package: kde-l10n-gl
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-gl
+Replaces: kde-i18n-gl, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-gl, gwenview-i18n
 Provides: kde-l10n
@@ -263,7 +263,7 @@ Package: kde-l10n-gu
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-gu
+Replaces: kde-i18n-gu, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-gu, gwenview-i18n
 Provides: kde-l10n
@@ -275,7 +275,7 @@ Package: kde-l10n-he
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-hi
+Replaces: kde-i18n-hi, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-he, gwenview-i18n
 Provides: kde-l10n
@@ -287,7 +287,7 @@ Package: kde-l10n-hi
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-hi
+Replaces: kde-i18n-hi, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-hi, gwenview-i18n
 Provides: kde-l10n
@@ -299,7 +299,7 @@ Package: kde-l10n-hu
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-hu
+Replaces: kde-i18n-hu, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-hu, gwenview-i18n
 Provides: kde-l10n
@@ -311,7 +311,7 @@ Package: kde-l10n-is
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-is
+Replaces: kde-i18n-is, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-is, gwenview-i18n
 Provides: kde-l10n
@@ -323,7 +323,7 @@ Package: kde-l10n-it
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-it
+Replaces: kde-i18n-it, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-it, gwenview-i18n
 Provides: kde-l10n
@@ -335,7 +335,7 @@ Package: kde-l10n-ja
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-ja
+Replaces: kde-i18n-ja, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-ja, gwenview-i18n
 Provides: kde-l10n
@@ -347,7 +347,7 @@ Package: kde-l10n-kk
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-kk
+Replaces: kde-i18n-kk, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-kk, gwenview-i18n
 Provides: kde-l10n
@@ -359,7 +359,7 @@ Package: kde-l10n-km
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-km
+Replaces: kde-i18n-km, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-km, gwenview-i18n
 Provides: kde-l10n
@@ -371,7 +371,7 @@ Package: kde-l10n-kn
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-kn
+Replaces: kde-i18n-kn, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-kn, gwenview-i18n
 Provides: kde-l10n
@@ -383,7 +383,7 @@ Package: kde-l10n-ko
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-ko
+Replaces: kde-i18n-ko, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-ko, gwenview-i18n
 Provides: kde-l10n
@@ -395,7 +395,7 @@ Package: kde-l10n-ku
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-ku
+Replaces: kde-i18n-ku, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-ku, gwenview-i18n
 Provides: kde-l10n
@@ -407,7 +407,7 @@ Package: kde-l10n-lv
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-lv
+Replaces: kde-i18n-lv, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-lv, gwenview-i18n
 Provides: kde-l10n
@@ -419,7 +419,7 @@ Package: kde-l10n-lt
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-lt
+Replaces: kde-i18n-lt, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-lt, gwenview-i18n
 Provides: kde-l10n
@@ -431,7 +431,7 @@ Package: kde-l10n-mai
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-mai
+Replaces: kde-i18n-mai, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-mai, gwenview-i18n
 Provides: kde-l10n
@@ -443,7 +443,7 @@ Package: kde-l10n-mk
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-mk
+Replaces: kde-i18n-mk, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-mk, gwenview-i18n
 Provides: kde-l10n
@@ -455,7 +455,7 @@ Package: kde-l10n-ml
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-ml
+Replaces: kde-i18n-ml, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-ml, gwenview-i18n
 Provides: kde-l10n
@@ -467,7 +467,7 @@ Package: kde-l10n-mr
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-mr
+Replaces: kde-i18n-mr, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-mr, gwenview-i18n
 Provides: kde-l10n
@@ -479,7 +479,7 @@ Package: kde-l10n-nb
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-nb
+Replaces: kde-i18n-nb, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-nb, gwenview-i18n
 Provides: kde-l10n
@@ -491,7 +491,7 @@ Package: kde-l10n-nds
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-nds
+Replaces: kde-i18n-nds, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-nds, gwenview-i18n
 Provides: kde-l10n
@@ -503,7 +503,7 @@ Description: Low Saxon (nds) localization files for KDE
 #Architecture: all
 #Section: kde
 #Depends: kdelibs5 (>= 4:4.2.0)
-#Replaces: kde-i18n-ne
+#Replaces: kde-i18n-ne, okular-l10n
 #Suggests: kde4-minimal
 #Conflicts: kde-i18n-ne, gwenview-i18n
 #Provides: kde-l10n
@@ -515,7 +515,7 @@ Package: kde-l10n-nl
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-nl
+Replaces: kde-i18n-nl, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-nl, gwenview-i18n
 Provides: kde-l10n
@@ -527,7 +527,7 @@ Package: kde-l10n-nn
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-nn
+Replaces: kde-i18n-nn, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-nn, gwenview-i18n
 Provides: kde-l10n
@@ -539,7 +539,7 @@ Package: kde-l10n-pa
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-pa
+Replaces: kde-i18n-pa, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-pa, gwenview-i18n
 Provides: kde-l10n
@@ -551,7 +551,7 @@ Package: kde-l10n-pl
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-pl
+Replaces: kde-i18n-pl, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-pl, gwenview-i18n
 Provides: kde-l10n
@@ -563,7 +563,7 @@ Package: kde-l10n-pt
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-pt
+Replaces: kde-i18n-pt, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-pt, gwenview-i18n
 Provides: kde-l10n
@@ -575,7 +575,7 @@ Package: kde-l10n-ptbr
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-ptbr
+Replaces: kde-i18n-ptbr, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-ptbr, gwenview-i18n
 Provides: kde-l10n
@@ -587,7 +587,7 @@ Package: kde-l10n-ro
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-ro
+Replaces: kde-i18n-ro, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-ro, gwenview-i18n
 Provides: kde-l10n
@@ -599,7 +599,7 @@ Package: kde-l10n-ru
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-ru
+Replaces: kde-i18n-ru, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-ru, gwenview-i18n
 Provides: kde-l10n
@@ -611,7 +611,7 @@ Description: Russian (ru) localization files for KDE
 #Architecture: all
 #Section: kde
 #Depends: kdelibs5 (>= 4:4.2.0)
-#Replaces: kde-i18n-se
+#Replaces: kde-i18n-se, okular-l10n
 #Suggests: kde4-minimal
 #Conflicts: kde-i18n-se, gwenview-i18n
 #Provides: kde-l10n
@@ -623,7 +623,7 @@ Package: kde-l10n-sl
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-sl
+Replaces: kde-i18n-sl, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-sl, gwenview-i18n
 Provides: kde-l10n
@@ -635,7 +635,7 @@ Package: kde-l10n-sr
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-sr
+Replaces: kde-i18n-sr, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-sr, gwenview-i18n
 Provides: kde-l10n
@@ -647,7 +647,7 @@ Package: kde-l10n-sv
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-sv
+Replaces: kde-i18n-sv, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-sv, gwenview-i18n
 Provides: kde-l10n
@@ -659,7 +659,7 @@ Description: Swedish (sv) localization files for KDE
 #Architecture: all
 #Section: kde
 #Depends: kdelibs5 (>= 4:4.2.0)
-#Replaces: kde-i18n-ta
+#Replaces: kde-i18n-ta, okular-l10n
 #Suggests: kde4-minimal
 #Conflicts: kde-i18n-ta, gwenview-i18n
 #Provides: kde-l10n
@@ -671,7 +671,7 @@ Package: kde-l10n-tg
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-tg
+Replaces: kde-i18n-tg, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-tg, gwenview-i18n
 Provides: kde-l10n
@@ -683,7 +683,7 @@ Package: kde-l10n-th
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-th
+Replaces: kde-i18n-th, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-th, gwenview-i18n
 Provides: kde-l10n
@@ -695,7 +695,7 @@ Package: kde-l10n-tr
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-tr
+Replaces: kde-i18n-tr, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-tr, gwenview-i18n
 Provides: kde-l10n
@@ -707,7 +707,7 @@ Package: kde-l10n-uk
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-uk
+Replaces: kde-i18n-uk, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-uk, gwenview-i18n
 Provides: kde-l10n
@@ -719,7 +719,7 @@ Package: kde-l10n-wa
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-wa
+Replaces: kde-i18n-wa, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-wa, gwenview-i18n
 Provides: kde-l10n
@@ -731,7 +731,7 @@ Package: kde-l10n-zhcn
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-zhcn
+Replaces: kde-i18n-zhcn, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-zhcn, gwenview-i18n
 Provides: kde-l10n
@@ -743,7 +743,7 @@ Package: kde-l10n-zhtw
 Architecture: all
 Section: kde
 Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-zhtw
+Replaces: kde-i18n-zhtw, okular-l10n
 Suggests: kde4-minimal
 Conflicts: kde-i18n-zhtw, gwenview-i18n
 Provides: kde-l10n
