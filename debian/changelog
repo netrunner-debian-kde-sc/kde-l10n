@@ -1,8 +1,9 @@
-kde-l10n (4:4.2.0-2) UNRELEASED; urgency=low
+kde-l10n (4:4.2.1-1) experimental; urgency=low
 
+  * New upstream release. New languages:
   * Add Replaces with okular-l10n translations.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 01 Feb 2009 17:33:24 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 03 Mar 2009 17:51:12 +0100
 
 kde-l10n (4:4.2.0-1) experimental; urgency=low
 
