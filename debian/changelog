@@ -1,6 +1,12 @@
+kde-l10n (4:4.2.2-1) unstable; urgency=low
+
+  * New upstream release. New language: sk.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 04 Apr 2009 17:28:57 +0200
+
 kde-l10n (4:4.2.1-1) experimental; urgency=low
 
-  * New upstream release. New languages:
+  * New upstream release. New languages.
   * Add Replaces with okular-l10n translations.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 03 Mar 2009 17:51:12 +0100

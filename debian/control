@@ -619,6 +619,18 @@ Description: Russian (ru) localization files for KDE
 # This package contains the Northern Sami translations for applications from the
 # official KDE 4 release.
 
+Package: kde-l10n-sk
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.2.0)
+Replaces: kde-i18n-sk, okular-l10n
+Suggests: kde4-minimal
+Conflicts: kde-i18n-sk, gwenview-i18n
+Provides: kde-l10n
+Description: Slovakian (sk) localization files for KDE
+ This package contains the Slovakian translations for applications from the
+ official KDE 4 release.
+
 Package: kde-l10n-sl
 Architecture: all
 Section: kde
