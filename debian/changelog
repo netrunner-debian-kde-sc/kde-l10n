@@ -1,6 +1,7 @@
-kde-l10n (4:4.2.4-1~pre1) UNRELEASED; urgency=low
+kde-l10n (4:4.2.4-1~pre2) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Change Suggests: kde4-minimal to kde-minimal.
   * TODO: look at #523308
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 30 May 2009 13:57:18 +0200
