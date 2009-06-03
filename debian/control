@@ -763,3 +763,494 @@ Description: Chinese Traditional (zh_TW) localization files for KDE
  This package contains the Chinese Traditional translations for applications from the
  official KDE 4 release.
 
+# And now, the transitional packages from kde-i18n-* fun
+Package: kde-i18n-af
+Architecture: all
+Depends: kde-l10n-
+Description: Afrikaans (af) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-ar
+Architecture: all
+Depends: kde-l10n-
+Description: Arabic (ar) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-az
+Architecture: all
+Depends: kde-l10n-
+Description: Azerbaijani (az) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-be
+Architecture: all
+Depends: kde-l10n-
+Description: Belarusian (be) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-bg
+Architecture: all
+Depends: kde-l10n-
+Description: Bulgarian (bg) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-bn
+Architecture: all
+Depends: kde-l10n-
+Description: Bengali (bn) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-br
+Architecture: all
+Depends: kde-l10n-
+Description: Breton (br) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-bs
+Architecture: all
+Depends: kde-l10n-
+Description: Bosnian (bs) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-ca
+Architecture: all
+Depends: kde-l10n-
+Description: Catalan (ca) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-cs
+Architecture: all
+Depends: kde-l10n-
+Description: Czech (cs) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-csb
+Architecture: all
+Depends: kde-l10n-
+Description: Kashubian (csb) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-cy
+Architecture: all
+Depends: kde-l10n-
+Description: Welsh (cy) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-da
+Architecture: all
+Depends: kde-l10n-
+Description: Danish (da) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-de
+Architecture: all
+Depends: kde-l10n-
+Description: German (de) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-el
+Architecture: all
+Depends: kde-l10n-
+Description: Greek (el) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-engb
+Architecture: all
+Depends: kde-l10n-
+Description: British English (en_GB) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-eo
+Architecture: all
+Depends: kde-l10n-
+Description: Esperanto (eo) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-es
+Architecture: all
+Depends: kde-l10n-
+Description: Spanish (es) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-et
+Architecture: all
+Depends: kde-l10n-
+Description: Estonian (et) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-eu
+Architecture: all
+Depends: kde-l10n-
+Description: Basque (eu) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-fa
+Architecture: all
+Depends: kde-l10n-
+Description: Farsi (Persian) (fa) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-fi
+Architecture: all
+Depends: kde-l10n-
+Description: Finnish (fi) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-fr
+Architecture: all
+Depends: kde-l10n-
+Description: French (fr) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-fy
+Architecture: all
+Depends: kde-l10n-
+Description: Frisian (fy) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-ga
+Architecture: all
+Depends: kde-l10n-
+Description: Irish Gaelic (ga) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-gl
+Architecture: all
+Depends: kde-l10n-
+Description: Galician (gl) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-he
+Architecture: all
+Depends: kde-l10n-
+Description: Hebrew (he) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-hi
+Architecture: all
+Depends: kde-l10n-
+Description: Hindi (hi) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-hr
+Architecture: all
+Depends: kde-l10n-
+Description: Croatian (hr) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-hu
+Architecture: all
+Depends: kde-l10n-
+Description: Hungarian (hu) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-is
+Architecture: all
+Depends: kde-l10n-
+Description: Icelandic (is) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-it
+Architecture: all
+Depends: kde-l10n-
+Description: Italian (it) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-ja
+Architecture: all
+Depends: kde-l10n-
+Description: Japanese (ja) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-kk
+Architecture: all
+Depends: kde-l10n-
+Description: Kazakh (kk) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-km
+Architecture: all
+Depends: kde-l10n-
+Description: Khmer (km) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-ko
+Architecture: all
+Depends: kde-l10n-
+Description: Korean (ko) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-lt
+Architecture: all
+Depends: kde-l10n-
+Description: Lithuanian (lt) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed..
+
+Package: kde-i18n-lv
+Architecture: all
+Depends: kde-l10n-
+Description: Latvian (lv) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-mk
+Architecture: all
+Depends: kde-l10n-
+Description: Macedonian (mk) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-mn
+Architecture: all
+Depends: kde-l10n-
+Description: Mongolian (mn) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-ms
+Architecture: all
+Depends: kde-l10n-
+Description: Malay (ms) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-nb
+Architecture: all
+Depends: kde-l10n-
+Description: Norwegian Bookmal (nb) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-nds
+Architecture: all
+Depends: kde-l10n-
+Description: Low Saxon (nds) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-nl
+Architecture: all
+Depends: kde-l10n-
+Description: Dutch (nl) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-nn
+Architecture: all
+Depends: kde-l10n-
+Description: Norwegian Nynorsk (nn) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-pa
+Architecture: all
+Depends: kde-l10n-
+Description: Punjabi (pa) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.s.
+
+Package: kde-i18n-pl
+Architecture: all
+Depends: kde-l10n-
+Description: Polish (pl) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-pt
+Architecture: all
+Depends: kde-l10n-
+Description: Portuguese (pt) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-ptbr
+Architecture: all
+Depends: kde-l10n-
+Description: Brazilian Portuguese (pt_BR) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-ro
+Architecture: all
+Depends: kde-l10n-
+Description: Romanian (ro) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-ru
+Architecture: all
+Depends: kde-l10n-
+Description: Russian (ru) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-rw
+Architecture: all
+Depends: kde-l10n-
+Description: Kinyarwanda (rw) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-se
+Architecture: all
+Depends: kde-l10n-
+Description: Northern Sami (se) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-sk
+Architecture: all
+Depends: kde-l10n-
+Description: Slovak (sk) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-sl
+Architecture: all
+Depends: kde-l10n-
+Description: Slovenian (sl) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-sr
+Architecture: all
+Depends: kde-l10n-
+Description: Serbian (sr) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-ss
+Architecture: all
+Depends: kde-l10n-
+Description: Swati (ss) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-srlatin
+Architecture: all
+Depends: kde-l10n-
+Description: Latin Serbian (sr@Latn) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-sv
+Architecture: all
+Depends: kde-l10n-
+Description: Swedish (sv) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-ta
+Architecture: all
+Depends: kde-l10n-
+Description: Tamil (ta) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-te
+Architecture: all
+Depends: kde-l10n-
+Description: Telugu (te) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-tg
+Architecture: all
+Depends: kde-l10n-
+Description: Tajik (tg) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-th
+Architecture: all
+Depends: kde-l10n-
+Description: Thai (th) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-tr
+Architecture: all
+Depends: kde-l10n-
+Description: Turkish (tr) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
+Package: kde-i18n-uk
+Architecture: all
+Depends: kde-l10n-
+Description: Ukrainian (uk) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-uz
+Architecture: all
+Depends: kde-l10n-
+Description: Uzbek (uz) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+
+Package: kde-i18n-uzcyrillic
+Architecture: all
+Depends: kde-l10n-
+Description: Cyrillic Uzbek (uz@cyrillic) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-vi
+Architecture: all
+Depends: kde-l10n-
+Description: Vietnamese (vi) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-wa
+Architecture: all
+Depends: kde-l10n-
+Description: Walloon (wa) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-zhcn
+Architecture: all
+Depends: kde-l10n-
+Description: Chinese Simplified (zh_CN) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-zhtw
+Architecture: all
+Depends: kde-l10n-
+Description: Chinese Traditional (zh_TW) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ XXXXX translations to ease upgrades. It may be safely removed.
+ 
