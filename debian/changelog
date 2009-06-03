@@ -1,10 +1,11 @@
-kde-l10n (4:4.2.4-1~pre2) UNRELEASED; urgency=low
+kde-l10n (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release.
   * Change Suggests: kde4-minimal to kde-minimal.
-  * TODO: look at #523308
+  * Add transitional packages from kde-i18n-* to kde-l10n-* (Closes: #523308)
+  * Update Standards-Version to 3.8.1, no changes required.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 30 May 2009 13:57:18 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 03 Jun 2009 22:42:00 +0200
 
 kde-l10n (4:4.2.2-1) unstable; urgency=low
 
