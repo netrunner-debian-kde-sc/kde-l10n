@@ -1,3 +1,10 @@
+kde-l10n (4:4.2.4-2) UNRELEASED; urgency=low
+
+  * debian/rules: Add dh_link to fix the symlinks according to Debian Policy
+    10.5, thanks Cyril Brulebois (Closes: #534143).
+
+ -- Didier Raboud <didier@raboud.com>  Mon, 22 Jun 2009 08:58:35 +0200
+
 kde-l10n (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release.

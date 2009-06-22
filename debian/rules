@@ -91,6 +91,7 @@ binary-indep: build install
 	dh_installchangelogs
 	dh_strip
 	dh_compress -X.docbook -X.css -X-license -X.dcl -X.bz2
+	dh_link
 	dh_fixperms
 	dh_installdeb
 	dh_shlibdeps
