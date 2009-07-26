@@ -3,8 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
-Build-Depends: debhelper (>= 6), bzip2, kdelibs5-dev (>= 4:4.2.0)
-Standards-Version: 3.8.1
+Build-Depends: debhelper (>= 6), bzip2, kdelibs5-dev (>= 4:4.2.98)
+Standards-Version: 3.8.2
 Homepage: http://i18n.kde.org/
 
 Package: kde-l10n-ar
@@ -293,6 +293,18 @@ Conflicts: kde-i18n-hi (<< 4:3.95.0-1), gwenview-i18n
 Provides: kde-l10n
 Description: Hindi (hi) localization files for KDE
  This package contains the Hindi translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-hne
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.2.0)
+Replaces: kde-i18n-hne (<< 4:3.95.0-1), okular-l10n
+Suggests: kde-minimal
+Conflicts: kde-i18n-hne (<< 4:3.95.0-1), gwenview-i18n
+Provides: kde-l10n
+Description: Chhattisgarhi (hne) localization files for KDE
+ This package contains the Chhattisgarhi translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-hu
