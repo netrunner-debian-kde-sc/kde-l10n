@@ -1,6 +1,6 @@
-kde-l10n (4:4.2.98-0~pre1) UNRELEASED; urgency=low
+kde-l10n (4:4.3.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream release, RC3.
+  * New upstream release.
     - New languages: hne (chhattisgarhi).
   * Update depends and build depends to >= 4:4.2.98.
   * Update Standards-Version to 3.8.2, no changes required.
