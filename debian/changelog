@@ -1,7 +1,6 @@
-kde-l10n (4:4.3.0-0r1) UNRELEASED; urgency=low
+kde-l10n (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
-    - New languages: hne (chhattisgarhi).
   * Update depends and build depends to >= 4:4.3.0.
   * Update Standards-Version to 3.8.2, no changes required.
   * Add dh_link to fix the symlinks according to Debian Policy

@@ -295,17 +295,17 @@ Description: Hindi (hi) localization files for KDE
  This package contains the Hindi translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-hne
-Architecture: all
-Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
-Replaces: kde-i18n-hne (<< 4:3.95.0-1), okular-l10n
-Suggests: kde-minimal
-Conflicts: kde-i18n-hne (<< 4:3.95.0-1), gwenview-i18n
-Provides: kde-l10n
-Description: Chhattisgarhi (hne) localization files for KDE
- This package contains the Chhattisgarhi translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-hne
+#Architecture: all
+#Section: kde
+#Depends: kdelibs5 (>= 4:4.2.0)
+#Replaces: kde-i18n-hne (<< 4:3.95.0-1), okular-l10n
+#Suggests: kde-minimal
+#Conflicts: kde-i18n-hne (<< 4:3.95.0-1), gwenview-i18n
+#Provides: kde-l10n
+#Description: Chhattisgarhi (hne) localization files for KDE
+# This package contains the Chhattisgarhi translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-hu
 Architecture: all
