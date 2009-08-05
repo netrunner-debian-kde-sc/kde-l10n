@@ -1,3 +1,9 @@
+kde-l10n (4:4.3.0-2) unstable; urgency=low
+
+  * New language: Chhattisgarhi (hne). 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Aug 2009 00:14:40 +0200
+
 kde-l10n (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
