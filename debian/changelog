@@ -5,8 +5,9 @@ kde-l10n (4:4.3.0-1) unstable; urgency=low
   * Update Standards-Version to 3.8.2, no changes required.
   * Add dh_link to fix the symlinks according to Debian Policy
     10.5, thanks Cyril Brulebois. (Closes: #534143)
+  * Remove kde-i18n-hr dummy package. (Closes: #539741)
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 26 Jul 2009 22:41:09 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 05 Aug 2009 22:55:48 +0200
 
 kde-l10n (4:4.2.4-1) unstable; urgency=low
 

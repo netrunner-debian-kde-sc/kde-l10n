@@ -973,12 +973,12 @@ Description: Hindi (hi) internationalized files for KDE (transitional dummy pack
  This is a "dummy" package that depends on KDE 3 version of
  Hindi translations to ease upgrades. It may be safely removed.
 
-Package: kde-i18n-hr
-Architecture: all
-Depends: kde-l10n-hr
-Description: Croatian (hr) internationalized files for KDE (transitional dummy package)
- This is a "dummy" package that depends on KDE 3 version of
- Croatian translations to ease upgrades. It may be safely removed.
+#Package: kde-i18n-hr
+#Architecture: all
+#Depends: kde-l10n-hr
+#Description: Croatian (hr) internationalized files for KDE (transitional dummy package)
+# This is a "dummy" package that depends on KDE 3 version of
+# Croatian translations to ease upgrades. It may be safely removed.
 
 Package: kde-i18n-hu
 Architecture: all
