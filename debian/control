@@ -664,7 +664,7 @@ Suggests: kde-minimal
 Conflicts: kde-i18n-sr (<< 4:3.95.0-1), gwenview-i18n
 Provides: kde-l10n
 Description: Serbian (sr) localization files for KDE
- This package contains the Latvian translations for applications from the
+ This package contains the Serbian translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-sv
