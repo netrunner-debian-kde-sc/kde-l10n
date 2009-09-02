@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
 Build-Depends: debhelper (>= 6), bzip2, kdelibs5-dev (>= 4:4.3.0)
-Standards-Version: 3.8.2
+Standards-Version: 3.8.3
 Homepage: http://i18n.kde.org/
 
 Package: kde-l10n-ar
