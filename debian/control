@@ -223,17 +223,17 @@ Description: French (fr) localization files for KDE
  This package contains the French translations for applications from the
  official KDE 4 release.
 
-#Package: kde-l10n-fy
-#Architecture: all
-#Section: kde
-#Depends: kdelibs5 (>= 4:4.2.0)
-#Replaces: kde-i18n-fy (<< 4:3.95.0-1), okular-l10n
-#Suggests: kde-minimal
-#Conflicts: kde-i18n-fy (<< 4:3.95.0-1), gwenview-i18n
-#Provides: kde-l10n
-#Description: Frisian (fy) localization files for KDE
-# This package contains the Frisian translations for applications from the
-# official KDE 4 release.
+Package: kde-l10n-fy
+Architecture: all
+Section: kde
+Depends: kdelibs5 (>= 4:4.2.0)
+Replaces: kde-i18n-fy (<< 4:3.95.0-1), okular-l10n
+Suggests: kde-minimal
+Conflicts: kde-i18n-fy (<< 4:3.95.0-1), gwenview-i18n
+Provides: kde-l10n
+Description: Frisian (fy) localization files for KDE
+ This package contains the Frisian translations for applications from the
+ official KDE 4 release.
 
 Package: kde-l10n-ga
 Architecture: all
@@ -950,12 +950,12 @@ Description: French (fr) internationalized files for KDE (transitional dummy pac
  This is a "dummy" package that depends on KDE 3 version of
  French translations to ease upgrades. It may be safely removed.
 
-#Package: kde-i18n-fy
-#Architecture: all
-#Depends: kde-l10n-fy
-#Description: Frisian (fy) internationalized files for KDE (transitional dummy package)
-# This is a "dummy" package that depends on KDE 3 version of
-# Frisian translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-fy
+Architecture: all
+Depends: kde-l10n-fy
+Description: Frisian (fy) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ Frisian translations to ease upgrades. It may be safely removed.
 
 Package: kde-i18n-ga
 Architecture: all
