@@ -10,7 +10,7 @@ Homepage: http://i18n.kde.org/
 Package: kde-l10n-ar
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-ar (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-ar (<< 4:3.95.0-1), gwenview-i18n
@@ -22,7 +22,7 @@ Description: Arabic (ar) localization files for KDE
 #Package: kde-l10n-be
 #Architecture: all
 #Section: kde
-#Depends: kdelibs5 (>= 4:4.2.0)
+#Depends: kdelibs5 (>= 4:4.3.0)
 #Replaces: kde-i18n-be (<< 4:3.95.0-1), okular-l10n
 #Suggests: kde-minimal
 #Conflicts: kde-i18n-be (<< 4:3.95.0-1), gwenview-i18n
@@ -34,7 +34,7 @@ Description: Arabic (ar) localization files for KDE
 Package: kde-l10n-bg
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-bg (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-bg (<< 4:3.95.0-1), gwenview-i18n
@@ -46,7 +46,7 @@ Description: Bulgarian (bg) localization files for KDE
 Package: kde-l10n-bnin
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-bnin (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-bnin (<< 4:3.95.0-1), gwenview-i18n
@@ -58,7 +58,7 @@ Description: Indian Bengali (bn_IN) localization files for KDE
 Package: kde-l10n-ca
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-ca (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-ca (<< 4:3.95.0-1), gwenview-i18n
@@ -70,7 +70,7 @@ Description: Catalan (ca) localization files for KDE
 Package: kde-l10n-cs
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-cs (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-cs (<< 4:3.95.0-1), gwenview-i18n
@@ -82,7 +82,7 @@ Description: Czech (cs) localization files for KDE
 Package: kde-l10n-csb
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-csb (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-csb (<< 4:3.95.0-1), gwenview-i18n
@@ -94,7 +94,7 @@ Description: Kashubian (csb) localization files for KDE
 Package: kde-l10n-da
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-da (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-da (<< 4:3.95.0-1), gwenview-i18n
@@ -106,7 +106,7 @@ Description: Danish (da) localization files for KDE
 Package: kde-l10n-de
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-de (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-de (<< 4:3.95.0-1), gwenview-i18n
@@ -118,7 +118,7 @@ Description: German (de) localization files for KDE
 Package: kde-l10n-el
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-el (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-el (<< 4:3.95.0-1), gwenview-i18n
@@ -130,7 +130,7 @@ Description: Greek (el) localization files for KDE
 Package: kde-l10n-engb
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-engb (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-engb (<< 4:3.95.0-1), gwenview-i18n
@@ -142,7 +142,7 @@ Description: British English (en_GB) localization files for KDE
 #Package: kde-l10n-eo
 #Architecture: all
 #Section: kde
-#Depends: kdelibs5 (>= 4:4.2.0)
+#Depends: kdelibs5 (>= 4:4.3.0)
 #Replaces: kde-i18n-eo (<< 4:3.95.0-1), okular-l10n
 #Suggests: kde-minimal
 #Conflicts: kde-i18n-eo (<< 4:3.95.0-1), gwenview-i18n
@@ -154,7 +154,7 @@ Description: British English (en_GB) localization files for KDE
 Package: kde-l10n-es
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-es (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-es (<< 4:3.95.0-1), gwenview-i18n
@@ -166,7 +166,7 @@ Description: Spanish (es) localization files for KDE
 Package: kde-l10n-et
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-et (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-et (<< 4:3.95.0-1), gwenview-i18n
@@ -178,7 +178,7 @@ Description: Estonian (et) localization files for KDE
 Package: kde-l10n-eu
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-eu (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-eu (<< 4:3.95.0-1), gwenview-i18n
@@ -190,7 +190,7 @@ Description: Basque (eu) localization files for KDE
 #Package: kde-l10n-fa
 #Architecture: all
 #Section: kde
-#Depends: kdelibs5 (>= 4:4.2.0)
+#Depends: kdelibs5 (>= 4:4.3.0)
 #Replaces: kde-i18n-fa (<< 4:3.95.0-1), okular-l10n
 #Suggests: kde-minimal
 #Conflicts: kde-i18n-fa (<< 4:3.95.0-1), gwenview-i18n
@@ -202,7 +202,7 @@ Description: Basque (eu) localization files for KDE
 Package: kde-l10n-fi
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-fi (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-fi (<< 4:3.95.0-1), gwenview-i18n
@@ -214,7 +214,7 @@ Description: Finnish (fi) localization files for KDE
 Package: kde-l10n-fr
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-fr (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-fr (<< 4:3.95.0-1), gwenview-i18n
@@ -226,7 +226,7 @@ Description: French (fr) localization files for KDE
 Package: kde-l10n-fy
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-fy (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-fy (<< 4:3.95.0-1), gwenview-i18n
@@ -238,7 +238,7 @@ Description: Frisian (fy) localization files for KDE
 Package: kde-l10n-ga
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-ga (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-ga (<< 4:3.95.0-1), gwenview-i18n
@@ -250,7 +250,7 @@ Description: Irish Gaelic (ga) localization files for KDE
 Package: kde-l10n-gl
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-gl (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-gl (<< 4:3.95.0-1), gwenview-i18n
@@ -262,7 +262,7 @@ Description: Galician (gl) localization files for KDE
 Package: kde-l10n-gu
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-gu (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-gu (<< 4:3.95.0-1), gwenview-i18n
@@ -274,7 +274,7 @@ Description: Gujarati (gu) localization files for KDE
 Package: kde-l10n-he
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-hi (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-he (<< 4:3.95.0-1), gwenview-i18n
@@ -286,7 +286,7 @@ Description: Hebrew (he) localization files for KDE
 Package: kde-l10n-hi
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-hi (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-hi (<< 4:3.95.0-1), gwenview-i18n
@@ -298,7 +298,7 @@ Description: Hindi (hi) localization files for KDE
 Package: kde-l10n-hne
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-hne (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-hne (<< 4:3.95.0-1), gwenview-i18n
@@ -310,7 +310,7 @@ Description: Chhattisgarhi (hne) localization files for KDE
 Package: kde-l10n-hr
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-hr (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-hr (<< 4:3.95.0-1), gwenview-i18n
@@ -322,7 +322,7 @@ Description: Croatian (hr) localization files for KDE
 Package: kde-l10n-hu
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-hu (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-hu (<< 4:3.95.0-1), gwenview-i18n
@@ -334,7 +334,7 @@ Description: Hungarian (hu) localization files for KDE
 Package: kde-l10n-is
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-is (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-is (<< 4:3.95.0-1), gwenview-i18n
@@ -346,7 +346,7 @@ Description: Icelandic (is) localization files for KDE
 Package: kde-l10n-it
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-it (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-it (<< 4:3.95.0-1), gwenview-i18n
@@ -358,7 +358,7 @@ Description: Italian (it) localization files for KDE
 Package: kde-l10n-ja
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-ja (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-ja (<< 4:3.95.0-1), gwenview-i18n
@@ -370,7 +370,7 @@ Description: Japanese (ja) localization files for KDE
 Package: kde-l10n-kk
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-kk (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-kk (<< 4:3.95.0-1), gwenview-i18n
@@ -382,7 +382,7 @@ Description: Kazakh (kk) localization files for KDE
 Package: kde-l10n-km
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-km (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-km (<< 4:3.95.0-1), gwenview-i18n
@@ -394,7 +394,7 @@ Description: Khmer (km) localization files for KDE
 Package: kde-l10n-kn
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-kn (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-kn (<< 4:3.95.0-1), gwenview-i18n
@@ -406,7 +406,7 @@ Description: Kannada (kn) localization files for KDE
 Package: kde-l10n-ko
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-ko (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-ko (<< 4:3.95.0-1), gwenview-i18n
@@ -418,7 +418,7 @@ Description: Korean (ko) localization files for KDE
 Package: kde-l10n-ku
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-ku (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-ku (<< 4:3.95.0-1), gwenview-i18n
@@ -430,7 +430,7 @@ Description: Kurdish (ku) localization files for KDE
 Package: kde-l10n-lv
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-lv (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-lv (<< 4:3.95.0-1), gwenview-i18n
@@ -442,7 +442,7 @@ Description: Latvian (lv) localization files for KDE
 Package: kde-l10n-lt
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-lt (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-lt (<< 4:3.95.0-1), gwenview-i18n
@@ -454,7 +454,7 @@ Description: Lithuanian (lt) localization files for KDE
 Package: kde-l10n-mai
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-mai (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-mai (<< 4:3.95.0-1), gwenview-i18n
@@ -466,7 +466,7 @@ Description: Maithili (mai) localization files for KDE
 Package: kde-l10n-mk
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-mk (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-mk (<< 4:3.95.0-1), gwenview-i18n
@@ -478,7 +478,7 @@ Description: Macedonian (mk) localization files for KDE
 Package: kde-l10n-ml
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-ml (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-ml (<< 4:3.95.0-1), gwenview-i18n
@@ -490,7 +490,7 @@ Description: Malayalam (ml) localization files for KDE
 Package: kde-l10n-mr
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-mr (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-mr (<< 4:3.95.0-1), gwenview-i18n
@@ -502,7 +502,7 @@ Description: Marathi (mr) localization files for KDE
 Package: kde-l10n-nb
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-nb (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-nb (<< 4:3.95.0-1), gwenview-i18n
@@ -514,7 +514,7 @@ Description: Norwegian Bookmal (nb) localization files for KDE
 Package: kde-l10n-nds
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-nds (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-nds (<< 4:3.95.0-1), gwenview-i18n
@@ -526,7 +526,7 @@ Description: Low Saxon (nds) localization files for KDE
 #Package: kde-l10n-ne
 #Architecture: all
 #Section: kde
-#Depends: kdelibs5 (>= 4:4.2.0)
+#Depends: kdelibs5 (>= 4:4.3.0)
 #Replaces: kde-i18n-ne (<< 4:3.95.0-1), okular-l10n
 #Suggests: kde-minimal
 #Conflicts: kde-i18n-ne (<< 4:3.95.0-1), gwenview-i18n
@@ -538,7 +538,7 @@ Description: Low Saxon (nds) localization files for KDE
 Package: kde-l10n-nl
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-nl (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-nl (<< 4:3.95.0-1), gwenview-i18n
@@ -550,7 +550,7 @@ Description: Dutch (nl) localization files for KDE
 Package: kde-l10n-nn
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-nn (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-nn (<< 4:3.95.0-1), gwenview-i18n
@@ -562,7 +562,7 @@ Description: Norwegian Nynorsk (nn) localization files for KDE
 Package: kde-l10n-pa
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-pa (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-pa (<< 4:3.95.0-1), gwenview-i18n
@@ -574,7 +574,7 @@ Description: Punjabi (pa) localization files for KDE
 Package: kde-l10n-pl
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-pl (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-pl (<< 4:3.95.0-1), gwenview-i18n
@@ -586,7 +586,7 @@ Description: Polish (pl) localization files for KDE
 Package: kde-l10n-pt
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-pt (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-pt (<< 4:3.95.0-1), gwenview-i18n
@@ -598,7 +598,7 @@ Description: Portuguese (pt) localization files for KDE
 Package: kde-l10n-ptbr
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-ptbr (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-ptbr (<< 4:3.95.0-1), gwenview-i18n
@@ -610,7 +610,7 @@ Description: Brazilian Portuguese (pt_BR) localization files for KDE
 Package: kde-l10n-ro
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-ro (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-ro (<< 4:3.95.0-1), gwenview-i18n
@@ -622,7 +622,7 @@ Description: Romanian (ro) localization files for KDE
 Package: kde-l10n-ru
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-ru (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-ru (<< 4:3.95.0-1), gwenview-i18n
@@ -634,7 +634,7 @@ Description: Russian (ru) localization files for KDE
 #Package: kde-l10n-se
 #Architecture: all
 #Section: kde
-#Depends: kdelibs5 (>= 4:4.2.0)
+#Depends: kdelibs5 (>= 4:4.3.0)
 #Replaces: kde-i18n-se (<< 4:3.95.0-1), okular-l10n
 #Suggests: kde-minimal
 #Conflicts: kde-i18n-se (<< 4:3.95.0-1), gwenview-i18n
@@ -646,7 +646,7 @@ Description: Russian (ru) localization files for KDE
 Package: kde-l10n-sk
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-sk (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-sk (<< 4:3.95.0-1), gwenview-i18n
@@ -658,7 +658,7 @@ Description: Slovakian (sk) localization files for KDE
 Package: kde-l10n-sl
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-sl (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-sl (<< 4:3.95.0-1), gwenview-i18n
@@ -670,7 +670,7 @@ Description: Slovenian (sl) localization files for KDE
 Package: kde-l10n-sr
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-sr (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-sr (<< 4:3.95.0-1), gwenview-i18n
@@ -682,7 +682,7 @@ Description: Serbian (sr) localization files for KDE
 Package: kde-l10n-sv
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-sv (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-sv (<< 4:3.95.0-1), gwenview-i18n
@@ -694,7 +694,7 @@ Description: Swedish (sv) localization files for KDE
 #Package: kde-l10n-ta
 #Architecture: all
 #Section: kde
-#Depends: kdelibs5 (>= 4:4.2.0)
+#Depends: kdelibs5 (>= 4:4.3.0)
 #Replaces: kde-i18n-ta (<< 4:3.95.0-1), okular-l10n
 #Suggests: kde-minimal
 #Conflicts: kde-i18n-ta (<< 4:3.95.0-1), gwenview-i18n
@@ -706,7 +706,7 @@ Description: Swedish (sv) localization files for KDE
 Package: kde-l10n-tg
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-tg (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-tg (<< 4:3.95.0-1), gwenview-i18n
@@ -718,7 +718,7 @@ Description: Tajik (tg) localization files for KDE
 Package: kde-l10n-th
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-th (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-th (<< 4:3.95.0-1), gwenview-i18n
@@ -730,7 +730,7 @@ Description: Thai (th) localization files for KDE
 Package: kde-l10n-tr
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-tr (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-tr (<< 4:3.95.0-1), gwenview-i18n
@@ -742,7 +742,7 @@ Description: Turkish (tr) localization files for KDE
 Package: kde-l10n-uk
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-uk (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-uk (<< 4:3.95.0-1), gwenview-i18n
@@ -754,7 +754,7 @@ Description: Ukrainian (uk) localization files for KDE
 Package: kde-l10n-wa
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-wa (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-wa (<< 4:3.95.0-1), gwenview-i18n
@@ -766,7 +766,7 @@ Description: Walloon (wa) localization files for KDE
 Package: kde-l10n-zhcn
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-zhcn (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-zhcn (<< 4:3.95.0-1), gwenview-i18n
@@ -778,7 +778,7 @@ Description: Chinese Simplified (zh_CN) localization files for KDE
 Package: kde-l10n-zhtw
 Architecture: all
 Section: kde
-Depends: kdelibs5 (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.3.0)
 Replaces: kde-i18n-zhtw (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-zhtw (<< 4:3.95.0-1), gwenview-i18n
