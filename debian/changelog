@@ -1,4 +1,4 @@
-kde-l10n (4:4.3.4-0r1) UNRELEASED; urgency=low
+kde-l10n (4:4.3.4-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -6,7 +6,7 @@ kde-l10n (4:4.3.4-0r1) UNRELEASED; urgency=low
 
   * Bump depends to kdelibs5 4:4.3.0.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:48 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Dec 2009 19:34:11 +0100
 
 kde-l10n (4:4.3.2-1) unstable; urgency=low
 
