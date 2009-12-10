@@ -99,7 +99,7 @@ binary-indep: build install
 	dh_fixperms
 	dh_installdeb
 	dh_shlibdeps
-	dh_gencontrol -- V'kde-l10n:Depends=$(L10N_DEPENDS)'
+	dh_gencontrol -- -V'kde-l10n:Depends=$(L10N_DEPENDS)'
 	dh_md5sums
 	dh_builddeb
 
