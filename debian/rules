@@ -3,6 +3,10 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+# Value of the kde-l10n:Depends substvar. Common dependencies for each l10n
+# package. 
+L10N_DEPENDS := kdelibs5 (>= 4:4.3.0)
+
 L10N_DIR_PREFIX := kde-l10n
 L10N_VERSION := $(shell cat debian/changelog | head -n1 | sed 's/.*(\([[:digit:]]\+:\)\?\(.\+\)-.\+).*/\2/')
 L10N_DIRS := $(subst .tar.bz2,,$(wildcard $(L10N_DIR_PREFIX)-*-$(L10N_VERSION).tar.bz2))
@@ -95,7 +99,7 @@ binary-indep: build install
 	dh_fixperms
 	dh_installdeb
 	dh_shlibdeps
-	dh_gencontrol
+	dh_gencontrol -- V'kde-l10n:Depends=$(L10N_DEPENDS)'
 	dh_md5sums
 	dh_builddeb
 
