@@ -1,7 +1,6 @@
 kde-l10n (4:4.3.4-2) UNRELEASED; urgency=low
 
-  +++ Changes by Modestas Vainius:
-
+  [ Modestas Vainius ]
   * Replace common dependencies of each l10n package with a substvar
     ${kde-l10n:Depends}. It is set in debian/rules.
 
