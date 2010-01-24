@@ -4,7 +4,10 @@ kde-l10n (4:4.3.4-2) UNRELEASED; urgency=low
   * Replace common dependencies of each l10n package with a substvar
     ${kde-l10n:Depends}. It is set in debian/rules.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Dec 2009 15:27:16 +0200
+  [ Pino Toscano ]
+  * Replace (c) with (C) in copyright, and add "Copyright".
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 24 Jan 2010 13:54:35 +0100
 
 kde-l10n (4:4.3.4-1) unstable; urgency=low
 
