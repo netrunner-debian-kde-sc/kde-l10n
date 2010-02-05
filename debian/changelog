@@ -1,4 +1,6 @@
-kde-l10n (4:4.3.4-2) UNRELEASED; urgency=low
+kde-l10n (4:4.3.5-1) unstable; urgency=low
+
+  * New upstream release.
 
   [ Modestas Vainius ]
   * Replace common dependencies of each l10n package with a substvar
@@ -9,7 +11,11 @@ kde-l10n (4:4.3.4-2) UNRELEASED; urgency=low
   * Remove duplicate "Section: kde" in binary packages.
   * As debhelper is used, add ${misc:Depends} to the various binaries depends.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 24 Jan 2010 14:17:45 +0100
+  [ Ana Beatriz Guerrero Lopez ]
+  * Update copyright years. 
+  * Update Standards-Version to 3.8.4, no changes required.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 05 Feb 2010 06:11:00 +0100
 
 kde-l10n (4:4.3.4-1) unstable; urgency=low
 
