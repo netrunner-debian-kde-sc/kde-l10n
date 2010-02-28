@@ -1,3 +1,11 @@
+kde-l10n (4:4.4.1-0r1) UNRELEASED; urgency=low
+
+  * Add myself to Uploaders.
+  * Bump kdelibs5-dev build depend to 4:4.4.
+  * Change L10N_DEPENDS to libkdecore5 (>= 4:4.4).
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 28 Feb 2010 23:00:19 +0200
+
 kde-l10n (4:4.3.5-1) unstable; urgency=low
 
   * New upstream release.

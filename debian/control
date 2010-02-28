@@ -2,8 +2,8 @@ Source: kde-l10n
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
-Build-Depends: debhelper (>= 6), bzip2, kdelibs5-dev (>= 4:4.3.0)
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Modestas Vainius <modax@debian.org>
+Build-Depends: debhelper (>= 6), bzip2, kdelibs5-dev (>= 4:4.4)
 Standards-Version: 3.8.4
 Homepage: http://i18n.kde.org/
 

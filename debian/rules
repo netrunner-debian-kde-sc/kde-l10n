@@ -5,7 +5,7 @@
 
 # Value of the kde-l10n:Depends substvar. Common dependencies for each l10n
 # package. 
-L10N_DEPENDS := kdelibs5 (>= 4:4.3.0)
+L10N_DEPENDS := libkdecore5 (>= 4:4.4)
 
 L10N_DIR_PREFIX := kde-l10n
 L10N_VERSION := $(shell cat debian/changelog | head -n1 | sed 's/.*(\([[:digit:]]\+:\)\?\(.\+\)-.\+).*/\2/')
