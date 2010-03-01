@@ -70,9 +70,9 @@ Replaces: kde-i18n-cavalencia (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-minimal
 Conflicts: kde-i18n-cavalencia (<< 4:3.95.0-1), gwenview-i18n
 Provides: kde-l10n
-Description: Catalan (Valencian) (ca@valencia) files for KDE
- This package contains the Catalan (Valencian)translations for applications
- from the official KDE 4 release.
+Description: Southern Catalan (Valencian) (ca@valencia) files for KDE
+ This package contains the Southern Catalan (Valencian) translations for 
+ applications from the official KDE 4 release.
 
 Package: kde-l10n-cs
 Architecture: all
