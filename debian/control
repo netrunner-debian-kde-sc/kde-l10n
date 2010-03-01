@@ -799,12 +799,12 @@ Description: Bulgarian (bg) internationalized files for KDE (transitional dummy 
  This is a "dummy" package that depends on KDE 3 version of
  Bulgarian translations to ease upgrades. It may be safely removed.
 
-Package: kde-i18n-bn
-Architecture: all
-Depends: ${misc:Depends}, kde-l10n-bnin
-Description: Bengali (bn) internationalized files for KDE (transitional dummy package)
- This is a "dummy" package that depends on KDE 3 version of
- Bengali translations to ease upgrades. It may be safely removed.
+#Package: kde-i18n-bn
+#Architecture: all
+#Depends: ${misc:Depends}, kde-l10n-bnin
+#Description: Bengali (bn) internationalized files for KDE (transitional dummy package)
+# This is a "dummy" package that depends on KDE 3 version of
+# Bengali translations to ease upgrades. It may be safely removed.
 
 #Package: kde-i18n-br
 #Architecture: all
@@ -876,12 +876,12 @@ Description: British English (en_GB) internationalized files for KDE (transition
  This is a "dummy" package that depends on KDE 3 version of
  British English translations to ease upgrades. It may be safely removed.
 
-#Package: kde-i18n-eo
-#Architecture: all
-#Depends: kde-l10n-eo
-#Description: Esperanto (eo) internationalized files for KDE (transitional dummy package)
-# This is a "dummy" package that depends on KDE 3 version of
-# Esperanto translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-eo
+Architecture: all
+Depends: kde-l10n-eo
+Description: Esperanto (eo) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ Esperanto translations to ease upgrades. It may be safely removed.
  
 Package: kde-i18n-es
 Architecture: all
@@ -960,12 +960,12 @@ Description: Hindi (hi) internationalized files for KDE (transitional dummy pack
  This is a "dummy" package that depends on KDE 3 version of
  Hindi translations to ease upgrades. It may be safely removed.
 
-#Package: kde-i18n-hr
-#Architecture: all
-#Depends: kde-l10n-hr
-#Description: Croatian (hr) internationalized files for KDE (transitional dummy package)
-# This is a "dummy" package that depends on KDE 3 version of
-# Croatian translations to ease upgrades. It may be safely removed.
+Package: kde-i18n-hr
+Architecture: all
+Depends: kde-l10n-hr
+Description: Croatian (hr) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ Croatian translations to ease upgrades. It may be safely removed.
 
 Package: kde-i18n-hu
 Architecture: all

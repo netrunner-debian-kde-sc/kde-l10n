@@ -16,6 +16,7 @@ kde-l10n (4:4.4.1-0r1) UNRELEASED; urgency=low
     - Tweak debian/rules for new format.
   * Make debian/rules parallel safe.
   * Add README.source.
+  * Add verification for kde-i18n packages to the debian/rules check_control target.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 28 Feb 2010 23:00:19 +0200
 
