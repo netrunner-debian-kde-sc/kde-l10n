@@ -1,8 +1,21 @@
 kde-l10n (4:4.4.1-0r1) UNRELEASED; urgency=low
 
+  * New upstream release:
+    - add languagues: ca@valencia, eo, id, si;
+    - remove languages: bnin, hne, ku, mr, th.
+
   * Add myself to Uploaders.
   * Bump kdelibs5-dev build depend to 4:4.4.
   * Change L10N_DEPENDS to libkdecore5 (>= 4:4.4).
+  * Switch to 3.0 (quilt) source format.
+  * Use multiple tarball feature of the 3.0 (quilt) format:
+    - Add debian/upstream2orig script which hardlinks upstream tarballs as debian
+      original tarballs and extracts them into proper subdirectories. It also
+      creates an empty main original tarball as it is required by
+      3.0 (quilt) format.
+    - Tweak debian/rules for new format.
+  * Make debian/rules parallel safe.
+  * Add README.source.
 
  -- Modestas Vainius <modax@debian.org>  Sun, 28 Feb 2010 23:00:19 +0200
 

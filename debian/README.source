@@ -1,0 +1,30 @@
+Generating orig tarballs from the upstream tarballs
+---------------------------------------------------
+
+You may use the debian/upstream2orig script to get debian orig tarballs from
+the ones supplied by upstream. The script will take care of:
+
+* determining language and version from the tarball filenames;
+* stripping incompatible characters from the language IDs;
+* hard linking the upstream tarballs to appropriate debian original tarballs;
+* extracting the tarballs to appropriate subdirectories in the debian source
+  tree;
+* creating an empty  main original tarball (3.0 (quilt) format needs it).
+
+In order to use debian/upstream2orig script, just pass paths to the upstream
+tarballs as arguments and the script will do the rest. For example:
+
+  $ debian/upstream2orig ../tarballs/kde-l10n/kde-l10n-{ar,bg,ca}-4.4.1.tar.bz2
+
+produces:
+
+  $ ls -1 ../kde-l10n*
+  ../kde-l10n_4.4.1.orig-ar.tar.bz2
+  ../kde-l10n_4.4.1.orig-bg.tar.bz2
+  ../kde-l10n_4.4.1.orig-ca.tar.bz2
+  ../kde-l10n_4.4.1.orig.tar.bz2
+  $ ls -1 -d *
+  ar
+  bg
+  ca
+

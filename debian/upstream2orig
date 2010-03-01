@@ -1,0 +1,49 @@
+#!/bin/sh
+
+# Arguments - upstream kde-l10n tarballs
+
+PREFIX="kde-l10n"
+
+get_orig_name() {
+    local tarball upstream
+    local lang version
+
+    tarball="$1"
+    upstream=`basename "$tarball"`
+    lang=${upstream#${PREFIX}-}
+    lang="${lang%.tar.bz2}"
+
+    version=${lang#*-}
+    lang="${lang%%-*}"
+    lang="`echo $lang | tr -d _@ | tr A-Z a-z`"
+    echo "kde-l10n_${version}.orig-${lang}.tar.bz2 $lang"
+}
+
+create_empty_tarball() {
+    local dummy tarball
+    tarball="${1%.bz2}"
+    dummy=`mktemp dummy.XXXXXX`
+    tar cf "${tarball}" $dummy
+    tar --delete --file "${tarball}" $dummy
+    bzip2 "$tarball"
+    rm -f $dummy
+}
+
+orig=""
+while [ -n "$1" ]; do
+    echo "Renaming and extracting tarball $1 ..." >&1
+    orig="../`get_orig_name "$1"`"
+    lang=${orig#* }
+    orig=${orig% *}
+    rm -f "$orig"
+    ln -f "$1" "$orig"
+    rm -rf "$lang"
+    mkdir "$lang"
+    tar xjf "$orig" --strip=1 -C "$lang"
+    shift
+done
+
+orig="${orig%.orig-*.tar.bz2}.orig.tar.bz2"
+echo "Creating empty $orig ..." >&1
+rm -f "$orig"
+create_empty_tarball "$orig"
