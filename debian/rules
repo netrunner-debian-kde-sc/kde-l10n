@@ -50,7 +50,7 @@ prepare_build: check_control
 
 build: $(STAMP_BUILD)
 
-$(STAMP_BUILD): %: prepare_build
+$(STAMP_BUILD): | prepare_build
 	# Building the '$(cur_lang)' language ...
 	mkdir $(cur_lang_builddir); cd $(cur_lang_builddir) && \
 	    cmake .. -DCMAKE_INSTALL_PREFIX="/usr" -DCMAKE_VERBOSE_MAKEFILE=ON && \
@@ -65,7 +65,7 @@ prepare_install:
 install: $(L10N_INSTALL)
 	# Installed successfully
 
-$(L10N_INSTALL): %: prepare_install
+$(L10N_INSTALL): | prepare_install
 	# Installing '$(cur_lang)' to the '$(cur_pkg)' package
 	cd $(cur_lang_builddir) && $(MAKE) install DESTDIR=$(CURDIR)/debian/$(cur_pkg)
 
@@ -77,7 +77,7 @@ clean: $(L10N_CLEAN)
 	dh_clean
 
 # Delete build directories
-$(L10N_CLEAN): %: prepare_clean
+$(L10N_CLEAN): prepare_clean
 	rm -rf $(cur_lang_builddir)
 
 binary-arch:
