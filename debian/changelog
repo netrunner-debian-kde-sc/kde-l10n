@@ -3,6 +3,8 @@ kde-l10n (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * New upstream release:
     - add languagues: ca@valencia, eo, id, si;
     - remove languages: bnin, hne, ku, mr, th.
+    - removes Norwegian Nynorsk create_makefile man page which was not
+      translated at all. (Closes: #558436)
 
   [ Modestas Vainius ]
   * Add myself to Uploaders.
