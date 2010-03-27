@@ -22,7 +22,7 @@ kde-l10n (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Add README.source.
   * Add verification for kde-i18n packages to the debian/rules check_control target.
   * Add build dependency on cmake.
-  * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.2) to Build-Depends.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Mar 2010 01:04:56 +0100
 
