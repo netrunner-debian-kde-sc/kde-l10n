@@ -1,8 +1,9 @@
-kde-l10n (4:4.4.4-2) UNRELEASED; urgency=low
+kde-l10n (4:4.4.4-2) unstable; urgency=high
 
   * debian/control: replace kde-minimal with kde-standard.
+  * Urgency=high due to RC bug fix.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 05 Jun 2010 11:53:40 +0300
+ -- Modestas Vainius <modax@debian.org>  Sat, 12 Jun 2010 21:10:27 +0300
 
 kde-l10n (4:4.4.4-1) unstable; urgency=low
 
