@@ -1,6 +1,7 @@
 kde-l10n (4:4.4.4-2) unstable; urgency=high
 
   * debian/control: replace kde-minimal with kde-standard.
+  * Do not ship ktorrent translations in kde-l10n-sr (Closes: #584633).
   * Urgency=high due to RC bug fix.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 12 Jun 2010 21:10:27 +0300
