@@ -1,3 +1,10 @@
+kde-l10n (4:4.4.5-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency to 4:4.4.5.
+
+ -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:49 +0300
+
 kde-l10n (4:4.4.4-2) unstable; urgency=high
 
   * debian/control: replace kde-minimal with kde-standard.
