@@ -33,7 +33,7 @@ kde-l10n (4:4.4.3-1) unstable; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4.4.3.
 
   [ Ana Beatriz Guerrero Lopez ]
-  * Add patch fix_nl to fix nl language build. 
+  * Add patch fix_nl to fix nl language build.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 03 May 2010 01:40:07 +0200
 
@@ -79,7 +79,7 @@ kde-l10n (4:4.3.5-1) unstable; urgency=low
   * As debhelper is used, add ${misc:Depends} to the various binaries depends.
 
   [ Ana Beatriz Guerrero Lopez ]
-  * Update copyright years. 
+  * Update copyright years.
   * Update Standards-Version to 3.8.4, no changes required.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 05 Feb 2010 06:11:00 +0100
@@ -103,14 +103,14 @@ kde-l10n (4:4.3.2-1) unstable; urgency=low
 kde-l10n (4:4.3.1-1) unstable; urgency=low
 
   * New upstream release. New language: hr.
-  * Change Latvian to Serbian in Serbian's description.  (Closes: #544167) 
+  * Change Latvian to Serbian in Serbian's description.  (Closes: #544167)
   * Update Standards-Version to 3.8.3, no changes required.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 03 Sep 2009 01:03:44 +0200
 
 kde-l10n (4:4.3.0-2) unstable; urgency=low
 
-  * New language: Chhattisgarhi (hne). 
+  * New language: Chhattisgarhi (hne).
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Aug 2009 00:14:40 +0200
 
@@ -280,7 +280,7 @@ kde-l10n (4:4.0.0-1) experimental; urgency=low
 kde-l10n (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release.
-  * Update Standards-Version to 3.7.3. 
+  * Update Standards-Version to 3.7.3.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 07 Dec 2007 17:58:44 +0100
 
