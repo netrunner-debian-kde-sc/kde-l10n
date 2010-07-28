@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Modestas Vainius <modax@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
- cmake, debhelper (>= 6), bzip2, kdelibs5-dev (>= 4:4.4)
-Standards-Version: 3.8.4
+ cmake, debhelper (>= 7), bzip2, kdelibs5-dev (>= 4:4.4)
+Standards-Version: 3.9.1
 Homepage: http://i18n.kde.org/
 
 Package: kde-l10n-ar
@@ -144,7 +144,7 @@ Description: British English (en_GB) localization files for KDE
 Package: kde-l10n-eo
 Architecture: all
 Section: kde
-Depends: ${kde-l10n:Depends}
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
 Replaces: kde-i18n-eo (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-standard
 Conflicts: kde-i18n-eo (<< 4:3.95.0-1), gwenview-i18n
@@ -621,7 +621,7 @@ Description: Russian (ru) localization files for KDE
 Package: kde-l10n-si
 Architecture: all
 Section: kde
-Depends: ${kde-l10n:Depends}
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
 Replaces: kde-i18n-si (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-standard
 Conflicts: kde-i18n-si (<< 4:3.95.0-1), gwenview-i18n
@@ -879,7 +879,7 @@ Description: British English (en_GB) internationalized files for KDE (transition
 
 Package: kde-i18n-eo
 Architecture: all
-Depends: kde-l10n-eo
+Depends: ${misc:Depends}, kde-l10n-eo
 Description: Esperanto (eo) internationalized files for KDE (transitional dummy package)
  This is a "dummy" package that depends on KDE 3 version of
  Esperanto translations to ease upgrades. It may be safely removed.
@@ -963,7 +963,7 @@ Description: Hindi (hi) internationalized files for KDE (transitional dummy pack
 
 Package: kde-i18n-hr
 Architecture: all
-Depends: kde-l10n-hr
+Depends: ${misc:Depends}, kde-l10n-hr
 Description: Croatian (hr) internationalized files for KDE (transitional dummy package)
  This is a "dummy" package that depends on KDE 3 version of
  Croatian translations to ease upgrades. It may be safely removed.
