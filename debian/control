@@ -86,16 +86,16 @@ Description: Czech (cs) localization files for KDE
  This package contains the Czech translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-csb
-Architecture: all
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Replaces: kde-i18n-csb (<< 4:3.95.0-1), okular-l10n
-Suggests: kde-standard
-Conflicts: kde-i18n-csb (<< 4:3.95.0-1), gwenview-i18n
-Provides: kde-l10n
-Description: Kashubian (csb) localization files for KDE
- This package contains the Kashubian translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-csb
+#Architecture: all
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
+#Replaces: kde-i18n-csb (<< 4:3.95.0-1), okular-l10n
+#Suggests: kde-standard
+#Conflicts: kde-i18n-csb (<< 4:3.95.0-1), gwenview-i18n
+#Provides: kde-l10n
+#Description: Kashubian (csb) localization files for KDE
+# This package contains the Kashubian translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-da
 Architecture: all
@@ -319,6 +319,17 @@ Description: Hungarian (hu) localization files for KDE
  This package contains the Hungarian translations for applications from the
  official KDE 4 release.
 
+Package: kde-l10n-ia
+Architecture: all
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
+Replaces: kde-i18n-id (<< 4:3.95.0-1), okular-l10n
+Suggests: kde-standard
+Conflicts: kde-i18n-id (<< 4:3.95.0-1), gwenview-i18n
+Provides: kde-l10n
+Description: Interlingua (ia) localization files for KDE
+ This package contains the Interlingua translations for applications from the
+ official KDE 4 release.
+
 Package: kde-l10n-id
 Architecture: all
 Depends: ${misc:Depends}, ${kde-l10n:Depends}
@@ -440,27 +451,27 @@ Description: Lithuanian (lt) localization files for KDE
  This package contains the Lithuanian translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-mai
-Architecture: all
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Replaces: kde-i18n-mai (<< 4:3.95.0-1), okular-l10n
-Suggests: kde-standard
-Conflicts: kde-i18n-mai (<< 4:3.95.0-1), gwenview-i18n
-Provides: kde-l10n
-Description: Maithili (mai) localization files for KDE
- This package contains the Maithili translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-mai
+#Architecture: all
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
+#Replaces: kde-i18n-mai (<< 4:3.95.0-1), okular-l10n
+#Suggests: kde-standard
+#Conflicts: kde-i18n-mai (<< 4:3.95.0-1), gwenview-i18n
+#Provides: kde-l10n
+#Description: Maithili (mai) localization files for KDE
+# This package contains the Maithili translations for applications from the
+# official KDE 4 release.
 
-Package: kde-l10n-mk
-Architecture: all
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Replaces: kde-i18n-mk (<< 4:3.95.0-1), okular-l10n
-Suggests: kde-standard
-Conflicts: kde-i18n-mk (<< 4:3.95.0-1), gwenview-i18n
-Provides: kde-l10n
-Description: Macedonian (mk) localization files for KDE
- This package contains the Macedonian translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-mk
+#Architecture: all
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
+#Replaces: kde-i18n-mk (<< 4:3.95.0-1), okular-l10n
+#Suggests: kde-standard
+#Conflicts: kde-i18n-mk (<< 4:3.95.0-1), gwenview-i18n
+#Provides: kde-l10n
+#Description: Macedonian (mk) localization files for KDE
+# This package contains the Macedonian translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-ml
 Architecture: all
@@ -618,17 +629,17 @@ Description: Russian (ru) localization files for KDE
 # This package contains the Northern Sami translations for applications from the
 # official KDE 4 release.
 
-Package: kde-l10n-si
-Architecture: all
-Section: kde
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Replaces: kde-i18n-si (<< 4:3.95.0-1), okular-l10n
-Suggests: kde-standard
-Conflicts: kde-i18n-si (<< 4:3.95.0-1), gwenview-i18n
-Provides: kde-l10n
-Description: Sinhala (si) localization files for KDE
- This package contains the Sinhala translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-si
+#Architecture: all
+#Section: kde
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
+#Replaces: kde-i18n-si (<< 4:3.95.0-1), okular-l10n
+#Suggests: kde-standard
+#Conflicts: kde-i18n-si (<< 4:3.95.0-1), gwenview-i18n
+#Provides: kde-l10n
+#Description: Sinhala (si) localization files for KDE
+# This package contains the Sinhala translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-sk
 Architecture: all
@@ -686,27 +697,27 @@ Description: Swedish (sv) localization files for KDE
 # This package contains the Tamil translations for applications from the
 # official KDE 4 release.
 
-Package: kde-l10n-tg
-Architecture: all
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Replaces: kde-i18n-tg (<< 4:3.95.0-1), okular-l10n
-Suggests: kde-standard
-Conflicts: kde-i18n-tg (<< 4:3.95.0-1), gwenview-i18n
-Provides: kde-l10n
-Description: Tajik (tg) localization files for KDE
- This package contains the Tajik translations for applications from the
- official KDE 4 release.
-
-#Package: kde-l10n-th
+#Package: kde-l10n-tg
 #Architecture: all
 #Depends: ${misc:Depends}, ${kde-l10n:Depends}
-#Replaces: kde-i18n-th (<< 4:3.95.0-1), okular-l10n
+#Replaces: kde-i18n-tg (<< 4:3.95.0-1), okular-l10n
 #Suggests: kde-standard
-#Conflicts: kde-i18n-th (<< 4:3.95.0-1), gwenview-i18n
+#Conflicts: kde-i18n-tg (<< 4:3.95.0-1), gwenview-i18n
 #Provides: kde-l10n
-#Description: Thai (th) localization files for KDE
-# This package contains the Thai translations for applications from the
+#Description: Tajik (tg) localization files for KDE
+# This package contains the Tajik translations for applications from the
 # official KDE 4 release.
+
+Package: kde-l10n-th
+Architecture: all
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
+Replaces: kde-i18n-th (<< 4:3.95.0-1), okular-l10n
+Suggests: kde-standard
+Conflicts: kde-i18n-th (<< 4:3.95.0-1), gwenview-i18n
+Provides: kde-l10n
+Description: Thai (th) localization files for KDE
+ This package contains the Thai translations for applications from the
+ official KDE 4 release.
 
 Package: kde-l10n-tr
 Architecture: all
@@ -835,12 +846,12 @@ Description: Czech (cs) internationalized files for KDE (transitional dummy pack
  This is a "dummy" package that depends on KDE 3 version of
  Czech translations to ease upgrades. It may be safely removed.
 
-Package: kde-i18n-csb
-Architecture: all
-Depends: ${misc:Depends}, kde-l10n-csb
-Description: Kashubian (csb) internationalized files for KDE (transitional dummy package)
- This is a "dummy" package that depends on KDE 3 version of
- Kashubian translations to ease upgrades. It may be safely removed.
+#Package: kde-i18n-csb
+#Architecture: all
+#Depends: ${misc:Depends}, kde-l10n-csb
+#Description: Kashubian (csb) internationalized files for KDE (transitional dummy package)
+# This is a "dummy" package that depends on KDE 3 version of
+# Kashubian translations to ease upgrades. It may be safely removed.
 
 #Package: kde-i18n-cy
 #Architecture: all
@@ -1031,12 +1042,12 @@ Description: Latvian (lv) internationalized files for KDE (transitional dummy pa
  This is a "dummy" package that depends on KDE 3 version of
  Latvian translations to ease upgrades. It may be safely removed.
 
-Package: kde-i18n-mk
-Architecture: all
-Depends: ${misc:Depends}, kde-l10n-mk
-Description: Macedonian (mk) internationalized files for KDE (transitional dummy package)
- This is a "dummy" package that depends on KDE 3 version of
- Macedonian translations to ease upgrades. It may be safely removed.
+#Package: kde-i18n-mk
+#Architecture: all
+#Depends: ${misc:Depends}, kde-l10n-mk
+#Description: Macedonian (mk) internationalized files for KDE (transitional dummy package)
+# This is a "dummy" package that depends on KDE 3 version of
+# Macedonian translations to ease upgrades. It may be safely removed.
 
 #Package: kde-i18n-mn
 #Architecture: all
@@ -1192,19 +1203,19 @@ Description: Swedish (sv) internationalized files for KDE (transitional dummy pa
 # This is a "dummy" package that depends on KDE 3 version of
 # Telugu translations to ease upgrades. It may be safely removed.
 
-Package: kde-i18n-tg
-Architecture: all
-Depends: ${misc:Depends}, kde-l10n-tg
-Description: Tajik (tg) internationalized files for KDE (transitional dummy package)
- This is a "dummy" package that depends on KDE 3 version of
- Tajik translations to ease upgrades. It may be safely removed.
-
-#Package: kde-i18n-th
+#Package: kde-i18n-tg
 #Architecture: all
-#Depends: ${misc:Depends}, kde-l10n-th
-#Description: Thai (th) internationalized files for KDE (transitional dummy package)
+#Depends: ${misc:Depends}, kde-l10n-tg
+#Description: Tajik (tg) internationalized files for KDE (transitional dummy package)
 # This is a "dummy" package that depends on KDE 3 version of
-# Thai translations to ease upgrades. It may be safely removed.
+# Tajik translations to ease upgrades. It may be safely removed.
+
+Package: kde-i18n-th
+Architecture: all
+Depends: ${misc:Depends}, kde-l10n-th
+Description: Thai (th) internationalized files for KDE (transitional dummy package)
+ This is a "dummy" package that depends on KDE 3 version of
+ Thai translations to ease upgrades. It may be safely removed.
 
 Package: kde-i18n-tr
 Architecture: all
