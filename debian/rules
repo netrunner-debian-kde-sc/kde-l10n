@@ -14,7 +14,7 @@ L10N_DEPENDS := libkdecore5 (>= 4:4.4)
 L10N_PREFIX := kde-l10n
 I18N_PREFIX := kde-i18n
 #L10N_VERSION := $(shell cat debian/changelog | head -n1 | sed 's/.*(\([[:digit:]]\+:\)\?\(.\+\)-.\+).*/\2/')
-L10N_LANGS := $(filter-out debian,$(subst ./,,$(shell find . -mindepth 1 -maxdepth 1 -type d ! -name .pc)))
+L10N_LANGS := $(filter-out debian,$(subst ./,,$(shell find . -mindepth 1 -maxdepth 1 -type d ! -name .pc ! -name .git)))
 L10N_DIRS = $(L10N_LANGS)
 L10N_PACKAGES := $(patsubst %,$(L10N_PREFIX)-%,$(L10N_LANGS))
 
