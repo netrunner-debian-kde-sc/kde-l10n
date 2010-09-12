@@ -3,8 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Modestas Vainius <modax@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
- cmake, debhelper (>= 7), bzip2, kdelibs5-dev (>= 4:4.4)
+Build-Depends: kde-sc-dev-latest (>= 4:4.5.1),
+ cmake, debhelper (>= 7), bzip2, kdelibs5-dev (>= 4:4.5)
 Standards-Version: 3.9.1
 Homepage: http://i18n.kde.org/
 
