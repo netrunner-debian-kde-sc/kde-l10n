@@ -1,3 +1,12 @@
+kde-l10n (4:4.5.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  [ José Manuel Santamaría Lema ]
+  * Remove 01_sr_exclude_extragear_network.diff, problem fixed upstream.
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 12 Sep 2010 01:22:16 +0000
+
 kde-l10n (4:4.4.5-1) unstable; urgency=low
 
   * New upstream release.
