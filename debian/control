@@ -7,6 +7,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.5.1),
  cmake, debhelper (>= 7), bzip2, kdelibs5-dev (>= 4:4.5)
 Standards-Version: 3.9.1
 Homepage: http://i18n.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde-l10n.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde-l10n.git
 
 Package: kde-l10n-ar
 Architecture: all

@@ -8,6 +8,7 @@ kde-l10n (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Remove 01_sr_exclude_extragear_network.diff, problem fixed upstream.
   * debian/rules: exclude .git directory when finding out available languages.
   * Bump KDE build depends to version 4.5.
+  * Point debian/control Vcs fields to the new Git repository.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 12 Sep 2010 01:22:16 +0000
 
