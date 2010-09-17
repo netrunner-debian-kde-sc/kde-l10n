@@ -9,6 +9,11 @@ kde-l10n (4:4.5.1-0r1) UNRELEASED; urgency=low
   * debian/rules: exclude .git directory when finding out available languages.
   * Bump KDE build depends to version 4.5.
   * Point debian/control Vcs fields to the new Git repository.
+  * Updated Breaks/Replaces/Conflicts to follow policy 3.9.1; now each
+    kde-l10n-foo breaks and replaces:
+    - kde-i18n-foo (<< 4:3.95.0-1)
+    - okular-l10n
+    - gwenview-i18n 
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 12 Sep 2010 01:22:16 +0000
 
