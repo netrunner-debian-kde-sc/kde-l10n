@@ -14,6 +14,8 @@ kde-l10n (4:4.5.1-0r1) UNRELEASED; urgency=low
     - kde-i18n-foo (<< 4:3.95.0-1)
     - okular-l10n
     - gwenview-i18n 
+  * Fix typo in package descriptions of kde-i18n-* packages; they depend on the
+    KDE 4 version of translations, not on KDE 3.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 12 Sep 2010 01:22:16 +0000
 
