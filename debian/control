@@ -324,9 +324,9 @@ Description: Hungarian (hu) localization files for KDE
 Package: kde-l10n-ia
 Architecture: all
 Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Replaces: kde-i18n-id (<< 4:3.95.0-1), okular-l10n
+Replaces: kde-i18n-ia (<< 4:3.95.0-1), okular-l10n
 Suggests: kde-standard
-Conflicts: kde-i18n-id (<< 4:3.95.0-1), gwenview-i18n
+Conflicts: kde-i18n-ia (<< 4:3.95.0-1), gwenview-i18n
 Provides: kde-l10n
 Description: Interlingua (ia) localization files for KDE
  This package contains the Interlingua translations for applications from the
