@@ -9,7 +9,7 @@ endif
 
 # Value of the kde-l10n:Depends substvar. Common dependencies for each l10n
 # package. 
-L10N_DEPENDS := libkdecore5 (>= 4:4.5)
+L10N_DEPENDS := libkdecore5 (>= 4:4.6)
 
 L10N_PREFIX := kde-l10n
 I18N_PREFIX := kde-i18n
