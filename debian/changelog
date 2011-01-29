@@ -8,7 +8,8 @@ kde-l10n (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Remove 01_sr_exclude_extragear_network.diff, problem fixed upstream.
   * debian/rules: exclude .git directory when finding out available languages.
   * Change L10N_DEPENDS to libkdecore5 (>= 4:4.6).
-  * Bump KDE build depends to version 4.5.
+  * Bump KDE build depends to version 4.6.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
   * Point debian/control Vcs fields to the new Git repository.
   * Updated Breaks/Replaces/Conflicts to follow policy 3.9.1; now each
     kde-l10n-foo breaks and replaces:
