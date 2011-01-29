@@ -143,17 +143,17 @@ Description: British English (en_GB) localization files for KDE
  This package contains the British English translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-eo
-Architecture: all
-Section: kde
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Replaces: kde-i18n-eo (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
-Suggests: kde-standard
-Breaks: kde-i18n-eo (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
-Provides: kde-l10n
-Description: Esperanto (eo) localization files for KDE
- This package contains the Esperanto translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-eo
+#Architecture: all
+#Section: kde
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
+#Replaces: kde-i18n-eo (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
+#Suggests: kde-standard
+#Breaks: kde-i18n-eo (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
+#Provides: kde-l10n
+#Description: Esperanto (eo) localization files for KDE
+# This package contains the Esperanto translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-es
 Architecture: all
@@ -222,16 +222,16 @@ Description: French (fr) localization files for KDE
  This package contains the French translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-fy
-Architecture: all
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Replaces: kde-i18n-fy (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
-Suggests: kde-standard
-Breaks: kde-i18n-fy (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
-Provides: kde-l10n
-Description: Frisian (fy) localization files for KDE
- This package contains the Frisian translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-fy
+#Architecture: all
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
+#Replaces: kde-i18n-fy (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
+#Suggests: kde-standard
+#Breaks: kde-i18n-fy (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
+#Provides: kde-l10n
+#Description: Frisian (fy) localization files for KDE
+# This package contains the Frisian translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-ga
 Architecture: all
@@ -453,16 +453,16 @@ Description: Lithuanian (lt) localization files for KDE
  This package contains the Lithuanian translations for applications from the
  official KDE 4 release.
 
-#Package: kde-l10n-mai
-#Architecture: all
-#Depends: ${misc:Depends}, ${kde-l10n:Depends}
-#Replaces: kde-i18n-mai (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
-#Suggests: kde-standard
-#Breaks: kde-i18n-mai (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
-#Provides: kde-l10n
-#Description: Maithili (mai) localization files for KDE
-# This package contains the Maithili translations for applications from the
-# official KDE 4 release.
+Package: kde-l10n-mai
+Architecture: all
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
+Replaces: kde-i18n-mai (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
+Suggests: kde-standard
+Breaks: kde-i18n-mai (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
+Provides: kde-l10n
+Description: Maithili (mai) localization files for KDE
+ This package contains the Maithili translations for applications from the
+ official KDE 4 release.
 
 #Package: kde-l10n-mk
 #Architecture: all
@@ -475,16 +475,16 @@ Description: Lithuanian (lt) localization files for KDE
 # This package contains the Macedonian translations for applications from the
 # official KDE 4 release.
 
-Package: kde-l10n-ml
-Architecture: all
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Replaces: kde-i18n-ml (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
-Suggests: kde-standard
-Breaks: kde-i18n-ml (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
-Provides: kde-l10n
-Description: Malayalam (ml) localization files for KDE
- This package contains the Malayalam translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-ml
+#Architecture: all
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
+#Replaces: kde-i18n-ml (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
+#Suggests: kde-standard
+#Breaks: kde-i18n-ml (<< 4:3.95.0-1), okular-l10n, gwenview-i18n
+#Provides: kde-l10n
+#Description: Malayalam (ml) localization files for KDE
+# This package contains the Malayalam translations for applications from the
+# official KDE 4 release.
 
 #Package: kde-l10n-mr
 #Architecture: all
@@ -890,12 +890,12 @@ Description: British English (en_GB) internationalized files for KDE (transition
  This is a "dummy" package that depends on KDE 4 version of
  British English translations to ease upgrades. It may be safely removed.
 
-Package: kde-i18n-eo
-Architecture: all
-Depends: ${misc:Depends}, kde-l10n-eo
-Description: Esperanto (eo) internationalized files for KDE (transitional dummy package)
- This is a "dummy" package that depends on KDE 4 version of
- Esperanto translations to ease upgrades. It may be safely removed.
+#Package: kde-i18n-eo
+#Architecture: all
+#Depends: ${misc:Depends}, kde-l10n-eo
+#Description: Esperanto (eo) internationalized files for KDE (transitional dummy package)
+# This is a "dummy" package that depends on KDE 4 version of
+# Esperanto translations to ease upgrades. It may be safely removed.
  
 Package: kde-i18n-es
 Architecture: all
@@ -939,12 +939,12 @@ Description: French (fr) internationalized files for KDE (transitional dummy pac
  This is a "dummy" package that depends on KDE 4 version of
  French translations to ease upgrades. It may be safely removed.
 
-Package: kde-i18n-fy
-Architecture: all
-Depends: ${misc:Depends}, kde-l10n-fy
-Description: Frisian (fy) internationalized files for KDE (transitional dummy package)
- This is a "dummy" package that depends on KDE 4 version of
- Frisian translations to ease upgrades. It may be safely removed.
+#Package: kde-i18n-fy
+#Architecture: all
+#Depends: ${misc:Depends}, kde-l10n-fy
+#Description: Frisian (fy) internationalized files for KDE (transitional dummy package)
+# This is a "dummy" package that depends on KDE 4 version of
+# Frisian translations to ease upgrades. It may be safely removed.
 
 Package: kde-i18n-ga
 Architecture: all
