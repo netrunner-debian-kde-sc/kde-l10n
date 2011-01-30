@@ -11,11 +11,12 @@ kde-l10n (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Bump KDE build depends to version 4.6.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
   * Point debian/control Vcs fields to the new Git repository.
-  * Updated Breaks/Replaces/Conflicts to follow policy 3.9.1; now each
+  * Updated Breaks/Replaces/Conflicts following policy 3.9.1; now each
     kde-l10n-foo breaks and replaces:
     - kde-i18n-foo (<< 4:3.95.0-1)
     - okular-l10n
     - gwenview-i18n 
+    - filelight-l10n (because filelight was moved from extragear to kdeutils)
   * Fix typo in package descriptions of kde-i18n-* packages; they depend on the
     KDE 4 version of translations, not on KDE 3.
 
