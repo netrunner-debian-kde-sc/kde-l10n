@@ -12,14 +12,10 @@ endif
 L10N_DEPENDS := libkdecore5 (>= 4:4.6)
 
 L10N_PREFIX := kde-l10n
-I18N_PREFIX := kde-i18n
 #L10N_VERSION := $(shell cat debian/changelog | head -n1 | sed 's/.*(\([[:digit:]]\+:\)\?\(.\+\)-.\+).*/\2/')
 L10N_LANGS := $(filter-out debian,$(subst ./,,$(shell find . -mindepth 1 -maxdepth 1 -type d ! -name .pc ! -name .git)))
 L10N_DIRS = $(L10N_LANGS)
 L10N_PACKAGES := $(patsubst %,$(L10N_PREFIX)-%,$(L10N_LANGS))
-
-I18N_LANGS := $(patsubst %=,%,$(filter %=,$(subst =,= ,$(filter $(patsubst %,\%=%,$(L10N_LANGS)),$(shell grep -v '^\#' debian/languages-in-lenny)))))
-I18N_PACKAGES := $(patsubst %,$(I18N_PREFIX)-%,$(I18N_LANGS))
 
 # Support variables to be used in targets
 cur_lang = $(word 2,$(subst __, ,$@))
@@ -37,19 +33,11 @@ L10N_PACKAGES_IN_CONTROL := $(shell dh_listpackages | grep '$(L10N_PREFIX)')
 L10N_NOTEXIST_IN_CONTROL := $(filter-out $(L10N_PACKAGES_IN_CONTROL),$(L10N_PACKAGES))
 L10N_EXCESS_IN_CONTROL := $(filter-out $(L10N_PACKAGES),$(L10N_PACKAGES_IN_CONTROL))
 
-I18N_PACKAGES_IN_CONTROL := $(shell dh_listpackages | grep '$(I18N_PREFIX)')
-I18N_NOTEXIST_IN_CONTROL := $(filter-out $(I18N_PACKAGES_IN_CONTROL),$(I18N_PACKAGES))
-I18N_EXCESS_IN_CONTROL := $(filter-out $(I18N_PACKAGES),$(I18N_PACKAGES_IN_CONTROL))
-
 check_control:
 	@test -z "$(L10N_NOTEXIST_IN_CONTROL)" || \
 		(echo "-- ERROR: debian/control is missing language packages: $(L10N_NOTEXIST_IN_CONTROL)" && false)
 	@test -z "$(L10N_EXCESS_IN_CONTROL)" || \
 		(echo "-- ERROR: debian/control has excess language packages: $(L10N_EXCESS_IN_CONTROL)" && false)
-	@test -z "$(I18N_NOTEXIST_IN_CONTROL)" || \
-		(echo "-- ERROR: debian/control is missing $(I18N_PREFIX) language packages: $(I18N_NOTEXIST_IN_CONTROL)" && false)
-	@test -z "$(I18N_EXCESS_IN_CONTROL)" || \
-		(echo "-- ERROR: debian/control has excess $(I18N_PREFIX) language packages: $(I18N_EXCESS_IN_CONTROL)" && false)
 
 prepare_build: check_control
 	dh_testdir
