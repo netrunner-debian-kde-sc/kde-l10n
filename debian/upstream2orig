@@ -19,16 +19,6 @@ get_orig_name() {
     echo "kde-l10n_${version}.orig-${lang}.tar.bz2 $lang"
 }
 
-create_empty_tarball() {
-    local dummy tarball
-    tarball="${1%.bz2}"
-    dummy=`mktemp dummy.XXXXXX`
-    tar cf "${tarball}" $dummy
-    tar --delete --file "${tarball}" $dummy
-    bzip2 "$tarball"
-    rm -f $dummy
-}
-
 orig=""
 while [ -n "$1" ]; do
     echo "Renaming and extracting tarball $1 ..." >&1
@@ -42,8 +32,3 @@ while [ -n "$1" ]; do
     tar xjf "$orig" --strip=1 -C "$lang"
     shift
 done
-
-orig="${orig%.orig-*.tar.bz2}.orig.tar.bz2"
-echo "Creating empty $orig ..." >&1
-rm -f "$orig"
-create_empty_tarball "$orig"

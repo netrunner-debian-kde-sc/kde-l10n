@@ -9,7 +9,6 @@ the ones supplied by upstream. The script will take care of:
 * hard linking the upstream tarballs to appropriate debian original tarballs;
 * extracting the tarballs to appropriate subdirectories in the debian source
   tree;
-* creating an empty  main original tarball (3.0 (quilt) format needs it).
 
 In order to use debian/upstream2orig script, just pass paths to the upstream
 tarballs as arguments and the script will do the rest. For example:

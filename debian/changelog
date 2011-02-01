@@ -23,6 +23,9 @@ kde-l10n (4:4.6.0-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Drop all kde-i18n-* transitional packages and related code in debian/rules.
     These were squeeze-only.
+  * Delegate creation of the empty orig.tar.bz2 tarball to dpkg-source (since
+    it supports this). Remove relevant code from debian/upstream2orig and
+    update README.source.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 12 Sep 2010 01:22:16 +0000
 
