@@ -26,6 +26,10 @@ kde-l10n (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Delegate creation of the empty orig.tar.bz2 tarball to dpkg-source (since
     it supports this). Remove relevant code from debian/upstream2orig and
     update README.source.
+  * Next to kde-l10n:Depends, add respective kde-l10n:* substvars for other
+    package relationships: Recommends Suggests Replaces Breaks Provides. Move
+    common relationships to these substvars and use them in debian/control for
+    all kde-l10n-* packages.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 12 Sep 2010 01:22:16 +0000
 
