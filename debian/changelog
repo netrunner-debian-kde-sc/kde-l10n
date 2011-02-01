@@ -30,6 +30,7 @@ kde-l10n (4:4.6.0-0r1) UNRELEASED; urgency=low
     package relationships: Recommends Suggests Replaces Breaks Provides. Move
     common relationships to these substvars and use them in debian/control for
     all kde-l10n-* packages.
+  * Move Suggests fields above Replaces fields in debian/control.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 12 Sep 2010 01:22:16 +0000
 
