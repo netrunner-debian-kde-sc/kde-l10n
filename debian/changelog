@@ -3,6 +3,7 @@ kde-l10n (4:4.6.0-0r1) UNRELEASED; urgency=low
   * New upstream release.
     - add languages: ia, th
     - remove languages: csb, eo, fy, mk, ml, si, tg
+    - fixes typo in Czech translation of kopete. (Closes: #612654)
 
   [ José Manuel Santamaría Lema ]
   * Remove 01_sr_exclude_extragear_network.diff, problem fixed upstream.
