@@ -18,8 +18,6 @@ kde-l10n (4:4.6.1-0r0) UNRELEASED; urgency=low
     - okular-l10n
     - gwenview-i18n 
     - filelight-l10n (because filelight was moved from extragear to kdeutils)
-  * Fix typo in package descriptions of kde-i18n-* packages; they depend on the
-    KDE 4 version of translations, not on KDE 3.
 
   [ Modestas Vainius ]
   * Drop all kde-i18n-* transitional packages and related code in debian/rules.
