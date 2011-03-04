@@ -18,6 +18,7 @@ kde-l10n (4:4.6.1-0r0) UNRELEASED; urgency=low
     - okular-l10n
     - gwenview-i18n 
     - filelight-l10n (because filelight was moved from extragear to kdeutils)
+  * Add myself to uploaders.
 
   [ Modestas Vainius ]
   * Drop all kde-i18n-* transitional packages and related code in debian/rules.
