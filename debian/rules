@@ -12,8 +12,8 @@ endif
 L10N_Depends := libkdecore5 (>= 4:4.6)
 L10N_Recommends :=
 L10N_Suggests := kde-standard
-L10N_Replaces := okular-l10n, gwenview-i18n, filelight-l10n
-L10N_Breaks := okular-l10n, gwenview-i18n, filelight-l10n
+L10N_Replaces := okular-l10n, gwenview-i18n, filelight-l10n, konq-plugins-l10n
+L10N_Breaks := okular-l10n, gwenview-i18n, filelight-l10n, konq-plugins-l10n
 L10N_Provides := kde-l10n
 
 L10N_PREFIX := kde-l10n

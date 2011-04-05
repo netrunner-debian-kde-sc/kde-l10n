@@ -31,6 +31,7 @@ kde-l10n (4:4.6.1-0r1) UNRELEASED; urgency=low
     common relationships to these substvars and use them in debian/control for
     all kde-l10n-* packages.
   * Move Suggests fields above Replaces fields in debian/control.
+  * Add konq-plugins-l10n to kde-l10n-* Replaces/Breaks.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 12 Sep 2010 01:22:16 +0000
 
