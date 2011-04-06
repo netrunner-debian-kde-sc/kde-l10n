@@ -1,4 +1,4 @@
-kde-l10n (4:4.6.1-0r1) UNRELEASED; urgency=low
+kde-l10n (4:4.6.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
     - add languages: ia, th
@@ -10,7 +10,7 @@ kde-l10n (4:4.6.1-0r1) UNRELEASED; urgency=low
   * debian/rules: exclude .git directory when finding out available languages.
   * Change L10N_DEPENDS to libkdecore5 (>= 4:4.6).
   * Bump KDE build depends to version 4.6.
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Point debian/control Vcs fields to the new Git repository.
   * Updated Breaks/Replaces/Conflicts following policy 3.9.1; now each
     kde-l10n-foo breaks and replaces:
