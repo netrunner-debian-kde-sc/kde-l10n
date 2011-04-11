@@ -1,4 +1,4 @@
-kde-l10n (4:4.6.2+repack1-0r0) UNRELEASED; urgency=low
+kde-l10n (4:4.6.2+repack1-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
     - add languages: ia, th
@@ -34,7 +34,7 @@ kde-l10n (4:4.6.2+repack1-0r0) UNRELEASED; urgency=low
   * Move Suggests fields above Replaces fields in debian/control.
   * Add konq-plugins-l10n to kde-l10n-* Replaces/Breaks.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Apr 2011 21:17:06 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 11 Apr 2011 05:27:54 +0200
 
 kde-l10n (4:4.4.5-1) unstable; urgency=low
 
