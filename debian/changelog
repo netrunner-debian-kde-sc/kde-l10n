@@ -1,4 +1,4 @@
-kde-l10n (4:4.6.2-0r0) UNRELEASED; urgency=low
+kde-l10n (4:4.6.2+repack1-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
     - add languages: ia, th
@@ -19,6 +19,7 @@ kde-l10n (4:4.6.2-0r0) UNRELEASED; urgency=low
     - gwenview-i18n 
     - filelight-l10n (because filelight was moved from extragear to kdeutils)
   * Add myself to uploaders.
+  * Repackage upstream tarballs in order to provide kdepim 4.4 translations.
 
   [ Modestas Vainius ]
   * Drop all kde-i18n-* transitional packages and related code in debian/rules.
@@ -33,7 +34,7 @@ kde-l10n (4:4.6.2-0r0) UNRELEASED; urgency=low
   * Move Suggests fields above Replaces fields in debian/control.
   * Add konq-plugins-l10n to kde-l10n-* Replaces/Breaks.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 12 Sep 2010 01:22:16 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Apr 2011 21:17:06 +0200
 
 kde-l10n (4:4.4.5-1) unstable; urgency=low
 
