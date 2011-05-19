@@ -19,7 +19,9 @@ kde-l10n (4:4.6.3-0r0) UNRELEASED; urgency=low
     - gwenview-i18n 
     - filelight-l10n (because filelight was moved from extragear to kdeutils)
   * Add myself to uploaders.
-  * Repackage upstream tarballs in order to provide kdepim 4.4 translations.
+  * Each kde-l10n-* Provides kde-l10n-nopim, this is done because we are not
+    shipping kdepim translations with 4.6.x, they would be provided by the
+    binary packages produced by src:kdepim.
 
   [ Modestas Vainius ]
   * Drop all kde-i18n-* transitional packages and related code in debian/rules.
