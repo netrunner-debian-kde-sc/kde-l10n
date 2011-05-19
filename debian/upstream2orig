@@ -16,7 +16,7 @@ get_orig_name() {
     version=${lang#*-}
     lang="${lang%%-*}"
     lang="`echo $lang | tr -d _@ | tr A-Z a-z`"
-    echo "kde-l10n_${version}+repack1.orig-${lang}.tar.bz2 $lang"
+    echo "kde-l10n_${version}.orig-${lang}.tar.bz2 $lang"
 }
 
 orig=""
