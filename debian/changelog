@@ -35,6 +35,7 @@ kde-l10n (4:4.6.3-0r1) UNRELEASED; urgency=low
     all kde-l10n-* packages.
   * Move Suggests fields above Replaces fields in debian/control.
   * Add konq-plugins-l10n to kde-l10n-* Replaces/Breaks.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 11 Apr 2011 05:27:54 +0200
 
