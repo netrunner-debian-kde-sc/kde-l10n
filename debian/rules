@@ -62,6 +62,12 @@ prepare_install:
 	dh_prep
 
 install: $(L10N_INSTALL)
+	# Remove translations (if needed)
+ifneq (,$(wildcard debian/translations_to_remove))
+	for f in `grep -v -e '^#' -e '^[[:space:]]*$$' debian/translations_to_remove`; do \
+	    rm -f debian/*/usr/share/locale/*/LC_MESSAGES/$$f; \
+	done
+endif
 	# Installed successfully
 
 $(L10N_INSTALL): | prepare_install
