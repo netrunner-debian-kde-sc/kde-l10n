@@ -1,15 +1,15 @@
 # Remove kdepim-runtime translations
+accountwizard.mo
 accountwizard_ical.mo
 accountwizard_imap.mo
 accountwizard_kolab.mo
 accountwizard_mailbox.mo
 accountwizard_maildir.mo
-accountwizard.mo
 accountwizard_pop3.mo
+akonadi-filestore.mo
 akonadi_birthdays_resource.mo
 akonadi_contacts_resource.mo
 akonadi_davgroupware_resource.mo
-akonadi-filestore.mo
 akonadi_ical_resource.mo
 akonadi_imap_resource.mo
 akonadi_invitations_agent.mo
@@ -34,9 +34,9 @@ akonadi_pop3_resource.mo
 akonadi_serializer_plugins.mo
 akonadi_singlefile_resource.mo
 akonadi_strigi_feeder.mo
-akonaditray.mo
-akonadi_vcarddir_resource.mo
 akonadi_vcard_resource.mo
+akonadi_vcarddir_resource.mo
+akonaditray.mo
 kabc_akonadi.mo
 kaddressbookmigrator.mo
 kcal_akonadi.mo
