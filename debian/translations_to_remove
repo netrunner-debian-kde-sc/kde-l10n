@@ -22,6 +22,7 @@ akonadi_kresourceassistant.mo
 akonadi_localbookmarks_resource.mo
 akonadi_maildir_resource.mo
 akonadi_maildispatcher_agent.mo
+akonadi_mailtransport_resource.mo
 akonadi_mbox_resource.mo
 akonadi_microblog_resource.mo
 akonadi_mixedmaildir_resource.mo
