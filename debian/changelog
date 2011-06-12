@@ -4,7 +4,7 @@ kde-l10n (4:4.6.4-0r2) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Remove kdepim-runtime translations from kde-l10n packages.
-  * Change provides to kde-l10n-nopim+runtime.
+  * Change provides to kde-l10n-without-pim.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Jun 2011 16:16:43 +0300
 
