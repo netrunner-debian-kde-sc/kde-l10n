@@ -1,4 +1,4 @@
-kde-l10n (4:4.6.4-0r2) UNRELEASED; urgency=low
+kde-l10n (4:4.6.4-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -10,7 +10,7 @@ kde-l10n (4:4.6.4-0r2) UNRELEASED; urgency=low
   [ Ana Beatriz Guerrero Lopez ]
   * Remove myself from Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Jun 2011 16:16:43 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 Jun 2011 20:16:49 +0300
 
 kde-l10n (4:4.6.3-1) unstable; urgency=low
 
