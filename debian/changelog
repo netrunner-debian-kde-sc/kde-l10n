@@ -1,6 +1,8 @@
-kde-l10n (4:4.6.5-0r2) UNRELEASED; urgency=low
+kde-l10n (4:4.6.5-1) unstable; urgency=low
 
   * New upstream release.
+
+  [ Modestas Vainius ]
   * Bump kde-sc-dev-latest build-dependency to 4:4.6.5.
   * Use dh_auto_* tools in debian/rules wherever it makes sense.
   * Hijack FindKDE4 module in order to implement exclusion of subdirectories at
@@ -10,7 +12,7 @@ kde-l10n (4:4.6.5-0r2) UNRELEASED; urgency=low
   * Report progress ([current/total]) when starting to build each language.
   * debian/upstream2orig: support pure extraction if given orig tarballs.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 04 Jul 2011 11:54:22 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jul 2011 21:53:52 +0300
 
 kde-l10n (4:4.6.4-1) unstable; urgency=low
 
