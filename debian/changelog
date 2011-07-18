@@ -8,6 +8,7 @@ kde-l10n (4:4.6.5-0r2) UNRELEASED; urgency=low
     kdepim translations.
   * Use a bit safer method for removal of build stamps.
   * Report progress ([current/total]) when starting to build each language.
+  * debian/upstream2orig: support pure extraction if given orig tarballs.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 04 Jul 2011 11:54:22 +0300
 

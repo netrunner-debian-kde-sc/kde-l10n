@@ -16,19 +16,34 @@ get_orig_name() {
     version=${lang#*-}
     lang="${lang%%-*}"
     lang="`echo $lang | tr -d _@ | tr A-Z a-z`"
-    echo "kde-l10n_${version}.orig-${lang}.tar.bz2 $lang"
+    echo "${PREFIX}_${version}.orig-${lang}.tar.bz2 $lang"
+}
+
+extract_tarball() {
+    local lang="$1"
+    local orig="$2"
+
+    rm -rf "$lang"
+    mkdir "$lang"
+    tar xjf "$orig" --strip=1 -C "$lang"
 }
 
 orig=""
 while [ -n "$1" ]; do
-    echo "Renaming and extracting tarball $1 ..." >&1
-    orig="../`get_orig_name "$1"`"
-    lang=${orig#* }
-    orig=${orig% *}
-    rm -f "$orig"
-    ln -f "$1" "$orig"
-    rm -rf "$lang"
-    mkdir "$lang"
-    tar xjf "$orig" --strip=1 -C "$lang"
+    if [ "${1#*.orig*}" != "$1" ]; then
+        # Tarball already has orig in its name. Just extract
+        echo "Extracting tarball $1 ..." >&2
+        lang="${1##*.orig-}"
+        lang="${lang%%.tar.bz2}"
+        extract_tarball "$lang" "$1"
+    else
+        echo "Renaming and extracting tarball $1 ..." >&2
+        orig="../`get_orig_name "$1"`"
+        lang=${orig#* }
+        orig=${orig% *}
+        rm -f "$orig"
+        ln -f "$1" "$orig"
+        extract_tarball "$lang" "$orig"
+    fi
     shift
 done
