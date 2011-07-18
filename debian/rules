@@ -73,12 +73,11 @@ prepare_clean:
 	dh_testdir
 
 clean: $(L10N_CLEAN)
-	rm -f debian/stamp__*
 	dh_clean
 
 # Delete build directories
 $(L10N_CLEAN): prepare_clean
-	rm -rf $(cur_lang_builddir)
+	rm -rf $(cur_lang_builddir) debian/stamp__$(cur_lang)__*
 
 binary-arch:
 	# No architecture dependent files available

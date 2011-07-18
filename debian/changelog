@@ -6,6 +6,7 @@ kde-l10n (4:4.6.5-0r1) UNRELEASED; urgency=low
   * Hijack FindKDE4 module in order to implement exclusion of subdirectories at
     cmake level. Use this technique to fully exclude all kdepim-runtime and
     kdepim translations.
+  * Use a bit safer method for removal of build stamps.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 04 Jul 2011 11:54:22 +0300
 
