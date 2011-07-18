@@ -51,7 +51,9 @@ build: $(STAMP_BUILD)
 
 $(STAMP_BUILD): | prepare_build
 	# Building the '$(cur_lang)' language ...
-	dh_auto_configure -Scmake -D$(cur_lang) -B$(cur_lang_builddir) -- -DCMAKE_BUILD_TYPE=Debian
+	dh_auto_configure -Scmake -D$(cur_lang) -B$(cur_lang_builddir) -- -DCMAKE_BUILD_TYPE=Debian \
+	    -DCMAKE_MODULE_PATH='$(CURDIR)/debian/cmake' \
+	    -DDEBIAN_EXCLUDE_DIRS='kdepim-runtime;kdepim'
 	$(MAKE) -C $(cur_lang_builddir)
 	touch $@
 

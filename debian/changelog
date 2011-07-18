@@ -3,6 +3,9 @@ kde-l10n (4:4.6.5-0r1) UNRELEASED; urgency=low
   * New upstream release.
   * Bump kde-sc-dev-latest build-dependency to 4:4.6.5.
   * Use dh_auto_* tools in debian/rules wherever it makes sense.
+  * Hijack FindKDE4 module in order to implement exclusion of subdirectories at
+    cmake level. Use this technique to fully exclude all kdepim-runtime and
+    kdepim translations.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 04 Jul 2011 11:54:22 +0300
 
