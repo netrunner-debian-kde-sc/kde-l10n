@@ -51,9 +51,8 @@ build: $(STAMP_BUILD)
 
 $(STAMP_BUILD): | prepare_build
 	# Building the '$(cur_lang)' language ...
-	mkdir $(cur_lang_builddir); cd $(cur_lang_builddir) && \
-	    cmake .. -DCMAKE_INSTALL_PREFIX="/usr" -DCMAKE_VERBOSE_MAKEFILE=ON && \
-	    $(MAKE)
+	dh_auto_configure -Scmake -D$(cur_lang) -B$(cur_lang_builddir) -- -DCMAKE_BUILD_TYPE=Debian
+	$(MAKE) -C $(cur_lang_builddir)
 	touch $@
 
 prepare_install:
@@ -66,7 +65,7 @@ install: $(L10N_INSTALL)
 
 $(L10N_INSTALL): | prepare_install
 	# Installing '$(cur_lang)' to the '$(cur_pkg)' package
-	cd $(cur_lang_builddir) && $(MAKE) install DESTDIR=$(CURDIR)/debian/$(cur_pkg)
+	dh_auto_install -Scmake -D$(cur_lang) -B$(cur_lang_builddir) --destdir=$(CURDIR)/debian/$(cur_pkg)
 
 prepare_clean:
 	dh_testdir
