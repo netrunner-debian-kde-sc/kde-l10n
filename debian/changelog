@@ -2,8 +2,6 @@ kde-l10n (4:4.6.5-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Bump kde-sc-dev-latest build-dependency to 4:4.6.5.
-  * Add kdepim 4.4 and kdepim 4.6 translations to the translation_to_remove
-    list.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 04 Jul 2011 11:54:22 +0300
 
