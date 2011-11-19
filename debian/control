@@ -47,6 +47,18 @@ Description: Bulgarian (bg) localization files for KDE
  This package contains the Bulgarian translations for applications from the
  official KDE 4 release.
 
+Package: kde-l10n-bs
+Architecture: all
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
+Recommends: ${kde-l10n:Recommends}
+Suggests: ${kde-l10n:Suggests}
+Replaces: kde-i18n-bs (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+Breaks: kde-i18n-bs (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+Provides: ${kde-l10n:Provides}
+Description: Bosnian (bs) localization files for KDE
+ This package contains the Bosnian translations for applications from the
+ official KDE 4 release.
+
 #Package: kde-l10n-bnin
 #Architecture: all
 #Depends: ${misc:Depends}, ${kde-l10n:Depends}
@@ -795,6 +807,18 @@ Breaks: kde-i18n-tr (<< 4:3.95.0-1), ${kde-l10n:Breaks}
 Provides: ${kde-l10n:Provides}
 Description: Turkish (tr) localization files for KDE
  This package contains the Turkish translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-ug
+Architecture: all
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
+Recommends: ${kde-l10n:Recommends}
+Suggests: ${kde-l10n:Suggests}
+Replaces: kde-i18n-ug (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+Breaks: kde-i18n-ug (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+Provides: ${kde-l10n:Provides}
+Description: Uygur (ug) localization files for KDE
+ This package contains the Uygur translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-uk
