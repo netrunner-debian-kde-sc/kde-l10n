@@ -289,17 +289,17 @@ Description: Galician (gl) localization files for KDE
  This package contains the Galician translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-gu
-Architecture: all
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Recommends: ${kde-l10n:Recommends}
-Suggests: ${kde-l10n:Suggests}
-Replaces: kde-i18n-gu (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-Breaks: kde-i18n-gu (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-Provides: ${kde-l10n:Provides}
-Description: Gujarati (gu) localization files for KDE
- This package contains the Gujarati translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-gu
+#Architecture: all
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
+#Recommends: ${kde-l10n:Recommends}
+#Suggests: ${kde-l10n:Suggests}
+#Replaces: kde-i18n-gu (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+#Breaks: kde-i18n-gu (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+#Provides: ${kde-l10n:Provides}
+#Description: Gujarati (gu) localization files for KDE
+# This package contains the Gujarati translations for applications from the
+# official KDE 4 release.
 
 Package: kde-l10n-he
 Architecture: all
@@ -313,17 +313,17 @@ Description: Hebrew (he) localization files for KDE
  This package contains the Hebrew translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-hi
-Architecture: all
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Recommends: ${kde-l10n:Recommends}
-Suggests: ${kde-l10n:Suggests}
-Replaces: kde-i18n-hi (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-Breaks: kde-i18n-hi (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-Provides: ${kde-l10n:Provides}
-Description: Hindi (hi) localization files for KDE
- This package contains the Hindi translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-hi
+#Architecture: all
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
+#Recommends: ${kde-l10n:Recommends}
+#Suggests: ${kde-l10n:Suggests}
+#Replaces: kde-i18n-hi (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+#Breaks: kde-i18n-hi (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+#Provides: ${kde-l10n:Provides}
+#Description: Hindi (hi) localization files for KDE
+# This package contains the Hindi translations for applications from the
+# official KDE 4 release.
 
 #Package: kde-l10n-hne
 #Architecture: all
@@ -505,17 +505,17 @@ Description: Lithuanian (lt) localization files for KDE
  This package contains the Lithuanian translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-mai
-Architecture: all
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Recommends: ${kde-l10n:Recommends}
-Suggests: ${kde-l10n:Suggests}
-Replaces: kde-i18n-mai (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-Breaks: kde-i18n-mai (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-Provides: ${kde-l10n:Provides}
-Description: Maithili (mai) localization files for KDE
- This package contains the Maithili translations for applications from the
- official KDE 4 release.
+#Package: kde-l10n-mai
+#Architecture: all
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
+#Recommends: ${kde-l10n:Recommends}
+#Suggests: ${kde-l10n:Suggests}
+#Replaces: kde-i18n-mai (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+#Breaks: kde-i18n-mai (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+#Provides: ${kde-l10n:Provides}
+#Description: Maithili (mai) localization files for KDE
+# This package contains the Maithili translations for applications from the
+# official KDE 4 release.
 
 #Package: kde-l10n-mk
 #Architecture: all
