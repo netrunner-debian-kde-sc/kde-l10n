@@ -1,4 +1,4 @@
-kde-l10n (4:4.7.2-0r1) UNRELEASED; urgency=low
+kde-l10n (4:4.7.2-0r1) experimental; urgency=low
 
   * New upstream release.
     - add languages: bs, ug
@@ -7,7 +7,7 @@ kde-l10n (4:4.7.2-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.2.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 19 Nov 2011 17:55:49 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:43:20 -0300
 
 kde-l10n (4:4.6.5-1) unstable; urgency=low
 
