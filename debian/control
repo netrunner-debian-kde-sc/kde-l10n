@@ -699,18 +699,18 @@ Description: Russian (ru) localization files for KDE
 # This package contains the Northern Sami translations for applications from the
 # official KDE 4 release.
 
-#Package: kde-l10n-si
-#Architecture: all
-#Section: kde
-#Depends: ${misc:Depends}, ${kde-l10n:Depends}
-#Recommends: ${kde-l10n:Recommends}
-#Suggests: ${kde-l10n:Suggests}
-#Replaces: kde-i18n-si (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-#Breaks: kde-i18n-si (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-#Provides: ${kde-l10n:Provides}
-#Description: Sinhala (si) localization files for KDE
-# This package contains the Sinhala translations for applications from the
-# official KDE 4 release.
+Package: kde-l10n-si
+Architecture: all
+Section: kde
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
+Recommends: ${kde-l10n:Recommends}
+Suggests: ${kde-l10n:Suggests}
+Replaces: kde-i18n-si (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+Breaks: kde-i18n-si (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+Provides: ${kde-l10n:Provides}
+Description: Sinhala (si) localization files for KDE
+ This package contains the Sinhala translations for applications from the
+ official KDE 4 release.
 
 Package: kde-l10n-sk
 Architecture: all
