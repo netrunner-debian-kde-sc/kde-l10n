@@ -1,3 +1,14 @@
+kde-l10n (4:4.7.4-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  [ Eshat Cakar]
+  * Add myself to uploaders.
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
+  * Add official Sinhala language again.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Dec 2011 21:44:54 +0100
+
 kde-l10n (4:4.7.2-1) experimental; urgency=low
 
   * New upstream release.
