@@ -1,6 +1,11 @@
 #!/bin/sh
 
 # Arguments - upstream kde-l10n tarballs
+#
+# Script needs to be called from kde-l10n/ folder, i.e.:
+# ./debian/upstream2orig ../path/to/upstream/src/folder/kde-l10n/*
+#
+#
 
 PREFIX="kde-l10n"
 
