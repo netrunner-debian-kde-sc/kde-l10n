@@ -2,8 +2,8 @@ kde-l10n (4:4.7.4-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
-  [ Eshat Cakar]
-  * Add myself to uploaders.
+  [ Eshat Cakar ]
+  * Add myself to Uploaders.
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
   * Add official Sinhala language again.
 
