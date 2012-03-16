@@ -2,6 +2,7 @@ kde-l10n (4:4.7.4-3) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Bump the libkdecore5 dependency to 4:4.7.
+  * Bump Standards-Version to 3.9.3, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Mar 2012 01:15:21 +0100
 
