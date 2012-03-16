@@ -98,7 +98,7 @@ binary-indep: build install
 	dh_shlibdeps
 	dh_gencontrol -- $(foreach rel,Depends Recommends Suggests Replaces Breaks Provides,-V'kde-l10n:$(rel)=$(L10N_$(rel))')
 	dh_md5sums
-	dh_builddeb
+	dh_builddeb -- -Zxz
 
 # Below here is fairly generic really
 binary: binary-indep binary-arch
