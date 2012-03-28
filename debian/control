@@ -165,8 +165,8 @@ Replaces: kde-i18n-engb (<< 4:3.95.0-1), ${kde-l10n:Replaces}
 Breaks: kde-i18n-engb (<< 4:3.95.0-1), ${kde-l10n:Breaks}
 Provides: ${kde-l10n:Provides}
 Description: British English (en_GB) localization files for KDE
- This package contains the British English translations for applications from the
- official KDE 4 release.
+ This package contains the British English translations for applications
+ from the official KDE 4 release.
 
 #Package: kde-l10n-eo
 #Architecture: all
@@ -563,8 +563,8 @@ Replaces: kde-i18n-nb (<< 4:3.95.0-1), ${kde-l10n:Replaces}
 Breaks: kde-i18n-nb (<< 4:3.95.0-1), ${kde-l10n:Breaks}
 Provides: ${kde-l10n:Provides}
 Description: Norwegian Bookmal (nb) localization files for KDE
- This package contains the Norwegian Bookma translations for applications from the
- official KDE 4 release.
+ This package contains the Norwegian Bookma translations for applications
+ from the official KDE 4 release.
 
 Package: kde-l10n-nds
 Architecture: all
@@ -612,8 +612,8 @@ Replaces: kde-i18n-nn (<< 4:3.95.0-1), ${kde-l10n:Replaces}
 Breaks: kde-i18n-nn (<< 4:3.95.0-1), ${kde-l10n:Breaks}
 Provides: ${kde-l10n:Provides}
 Description: Norwegian Nynorsk (nn) localization files for KDE
- This package contains the Norwegian Nynorsk translations for applications from the
- official KDE 4 release.
+ This package contains the Norwegian Nynorsk translations for applications
+ from the official KDE 4 release.
 
 Package: kde-l10n-pa
 Architecture: all
@@ -660,8 +660,8 @@ Replaces: kde-i18n-ptbr (<< 4:3.95.0-1), ${kde-l10n:Replaces}
 Breaks: kde-i18n-ptbr (<< 4:3.95.0-1), ${kde-l10n:Breaks}
 Provides: ${kde-l10n:Provides}
 Description: Brazilian Portuguese (pt_BR) localization files for KDE
- This package contains the Brazilian Portuguese translations for applications from the
- official KDE 4 release.
+ This package contains the Brazilian Portuguese translations for applications
+ from the official KDE 4 release.
 
 Package: kde-l10n-ro
 Architecture: all
@@ -855,8 +855,8 @@ Replaces: kde-i18n-zhcn (<< 4:3.95.0-1), ${kde-l10n:Replaces}
 Breaks: kde-i18n-zhcn (<< 4:3.95.0-1), ${kde-l10n:Breaks}
 Provides: ${kde-l10n:Provides}
 Description: Chinese Simplified (zh_CN) localization files for KDE
- This package contains the Chinese Simplified translations for applications from the
- official KDE 4 release.
+ This package contains the Chinese Simplified translations for applications
+ from the official KDE 4 release.
 
 Package: kde-l10n-zhtw
 Architecture: all
@@ -867,6 +867,6 @@ Replaces: kde-i18n-zhtw (<< 4:3.95.0-1), ${kde-l10n:Replaces}
 Breaks: kde-i18n-zhtw (<< 4:3.95.0-1), ${kde-l10n:Breaks}
 Provides: ${kde-l10n:Provides}
 Description: Chinese Traditional (zh_TW) localization files for KDE
- This package contains the Chinese Traditional translations for applications from the
- official KDE 4 release.
+ This package contains the Chinese Traditional translations for applications
+ from the official KDE 4 release.
 
