@@ -5,6 +5,8 @@ kde-l10n (4:4.7.4-3) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3, no changes required.
   * Switch the compression of debs to xz.
   * Wrap some too long description lines.
+  * Directly refer to the GPL v3 license file using GPL-3 instead of the GPL
+    symlink.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Mar 2012 01:15:21 +0100
 
