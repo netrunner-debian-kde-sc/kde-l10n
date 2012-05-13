@@ -16,12 +16,12 @@ get_orig_name() {
     tarball="$1"
     upstream=`basename "$tarball"`
     lang=${upstream#${PREFIX}-}
-    lang="${lang%.tar.bz2}"
+    lang="${lang%.tar.xz}"
 
     version=${lang#*-}
     lang="${lang%%-*}"
     lang="`echo $lang | tr -d _@ | tr A-Z a-z`"
-    echo "${PREFIX}_${version}.orig-${lang}.tar.bz2 $lang"
+    echo "${PREFIX}_${version}.orig-${lang}.tar.xz $lang"
 }
 
 extract_tarball() {
@@ -30,7 +30,7 @@ extract_tarball() {
 
     rm -rf "$lang"
     mkdir "$lang"
-    tar xjf "$orig" --strip=1 -C "$lang"
+    tar xJf "$orig" --strip=1 -C "$lang"
 }
 
 orig=""
@@ -39,7 +39,7 @@ while [ -n "$1" ]; do
         # Tarball already has orig in its name. Just extract
         echo "Extracting tarball $1 ..." >&2
         lang="${1##*.orig-}"
-        lang="${lang%%.tar.bz2}"
+        lang="${lang%%.tar.xz}"
         extract_tarball "$lang" "$1"
     else
         echo "Renaming and extracting tarball $1 ..." >&2
