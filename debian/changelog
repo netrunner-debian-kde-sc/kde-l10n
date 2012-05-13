@@ -1,6 +1,8 @@
 kde-l10n (4:4.8.3-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
+    - Add languages: vi,fa,tg
+    - Remove language: kn
 
   [ Eshat Cakar ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.3.

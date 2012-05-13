@@ -215,17 +215,17 @@ Description: Basque (eu) localization files for KDE
  This package contains the Basque translations for applications from the
  official KDE 4 release.
 
-#Package: kde-l10n-fa
-#Architecture: all
-#Depends: ${kde-l10n:Depends}
-#Recommends: ${kde-l10n:Recommends}
-#Suggests: ${kde-l10n:Suggests}
-#Replaces: kde-i18n-fa (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-#Breaks: kde-i18n-fa (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-#Provides: ${kde-l10n:Provides}
-#Description: Farsi (fa) localization files for KDE
-# This package contains the Farsi translations for applications from the
-# official KDE 4 release.
+Package: kde-l10n-fa
+Architecture: all
+Depends: ${kde-l10n:Depends}
+Recommends: ${kde-l10n:Recommends}
+Suggests: ${kde-l10n:Suggests}
+Replaces: kde-i18n-fa (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+Breaks: kde-i18n-fa (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+Provides: ${kde-l10n:Provides}
+Description: Farsi (fa) localization files for KDE
+ This package contains the Farsi translations for applications from the
+ official KDE 4 release.
 
 Package: kde-l10n-fi
 Architecture: all
@@ -443,17 +443,17 @@ Description: Khmer (km) localization files for KDE
  This package contains the Khmer translations for applications from the
  official KDE 4 release.
 
-Package: kde-l10n-kn
-Architecture: all
-Depends: ${misc:Depends}, ${kde-l10n:Depends}
-Recommends: ${kde-l10n:Recommends}
-Suggests: ${kde-l10n:Suggests}
-Replaces: kde-i18n-kn (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-Breaks: kde-i18n-kn (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-Provides: ${kde-l10n:Provides}
-Description: Kannada (kn) localization files for KDE
- This package contains the Kannada translations for applications from the
- official KDE 4 release.
+# Package: kde-l10n-kn
+# Architecture: all
+# Depends: ${misc:Depends}, ${kde-l10n:Depends}
+# Recommends: ${kde-l10n:Recommends}
+# Suggests: ${kde-l10n:Suggests}
+# Replaces: kde-i18n-kn (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+# Breaks: kde-i18n-kn (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+# Provides: ${kde-l10n:Provides}
+# Description: Kannada (kn) localization files for KDE
+#  This package contains the Kannada translations for applications from the
+#  official KDE 4 release.
 
 Package: kde-l10n-ko
 Architecture: all
@@ -767,17 +767,17 @@ Description: Swedish (sv) localization files for KDE
 # This package contains the Tamil translations for applications from the
 # official KDE 4 release.
 
-#Package: kde-l10n-tg
-#Architecture: all
-#Depends: ${misc:Depends}, ${kde-l10n:Depends}
-#Recommends: ${kde-l10n:Recommends}
-#Suggests: ${kde-l10n:Suggests}
-#Replaces: kde-i18n-tg (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-#Breaks: kde-i18n-tg (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-#Provides: ${kde-l10n:Provides}
-#Description: Tajik (tg) localization files for KDE
-# This package contains the Tajik translations for applications from the
-# official KDE 4 release.
+Package: kde-l10n-tg
+Architecture: all
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
+Recommends: ${kde-l10n:Recommends}
+Suggests: ${kde-l10n:Suggests}
+Replaces: kde-i18n-tg (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+Breaks: kde-i18n-tg (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+Provides: ${kde-l10n:Provides}
+Description: Tajik (tg) localization files for KDE
+ This package contains the Tajik translations for applications from the
+ official KDE 4 release.
 
 Package: kde-l10n-th
 Architecture: all
@@ -825,6 +825,18 @@ Breaks: kde-i18n-uk (<< 4:3.95.0-1), ${kde-l10n:Breaks}
 Provides: ${kde-l10n:Provides}
 Description: Ukrainian (uk) localization files for KDE
  This package contains the Ukrainian translations for applications from the
+ official KDE 4 release.
+
+Package: kde-l10n-vi
+Architecture: all
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
+Recommends: ${kde-l10n:Recommends}
+Suggests: ${kde-l10n:Suggests}
+Replaces: kde-i18n-vi (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+Breaks: kde-i18n-vi (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+Provides: ${kde-l10n:Provides}
+Description: Vietnamese (vi) localization files for KDE
+ This package contains the Vietnamese translations for applications from the
  official KDE 4 release.
 
 Package: kde-l10n-wa
