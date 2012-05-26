@@ -9,6 +9,7 @@ kde-l10n (4:4.8.3-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Require kdelibs5-dev / libkdecore5 4:4.8.
+  * Compress empty orig tarball with xz.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:39:11 +0100
 
