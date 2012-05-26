@@ -1,8 +1,9 @@
-kde-l10n (4:4.8.3-0r1) UNRELEASED; urgency=low
+kde-l10n (4:4.8.3-1) experimental; urgency=low
 
   * New upstream release.
     - Add languages: vi,fa,tg
     - Remove language: kn
+  * Team upload.
 
   [ Eshat Cakar ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.3.
@@ -11,7 +12,7 @@ kde-l10n (4:4.8.3-0r1) UNRELEASED; urgency=low
   * Require kdelibs5-dev / libkdecore5 4:4.8.
   * Compress empty orig tarball with xz.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:39:11 +0100
+ -- Modestas Vainius <modax@debian.org>  Sun, 27 May 2012 02:45:09 +0300
 
 kde-l10n (4:4.7.4-3) UNRELEASED; urgency=low
 
