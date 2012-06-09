@@ -2,6 +2,9 @@ kde-l10n (4:4.8.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  * Merge 4:4.7.4-3 changes into 4:4.8.3-1 changelog entry. 4:4.7.4-3 has never
+    been released.
+
  -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 22:07:28 +0300
 
 kde-l10n (4:4.8.3-1) experimental; urgency=low
@@ -18,12 +21,7 @@ kde-l10n (4:4.8.3-1) experimental; urgency=low
   * Require kdelibs5-dev / libkdecore5 4:4.8.
   * Compress empty orig tarball with xz.
 
- -- Modestas Vainius <modax@debian.org>  Sun, 27 May 2012 02:45:09 +0300
-
-kde-l10n (4:4.7.4-3) UNRELEASED; urgency=low
-
   [ Pino Toscano ]
-  * Bump the libkdecore5 dependency to 4:4.7.
   * Bump Standards-Version to 3.9.3, no changes required.
   * Switch the compression of debs to xz.
   * Wrap some too long description lines.
@@ -31,7 +29,7 @@ kde-l10n (4:4.7.4-3) UNRELEASED; urgency=low
     symlink.
   * Remove duplicated Section's in control.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Mar 2012 01:15:21 +0100
+ -- Modestas Vainius <modax@debian.org>  Sun, 27 May 2012 02:45:09 +0300
 
 kde-l10n (4:4.7.4-2) unstable; urgency=low
 
