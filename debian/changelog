@@ -1,11 +1,11 @@
-kde-l10n (4:4.8.4-1) UNRELEASED; urgency=low
+kde-l10n (4:4.8.4-1) unstable; urgency=low
 
   * New upstream release.
 
   * Merge 4:4.7.4-3 changes into 4:4.8.3-1 changelog entry. 4:4.7.4-3 has never
     been released.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 22:07:28 +0300
+ -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 22:11:39 +0300
 
 kde-l10n (4:4.8.3-1) experimental; urgency=low
 
