@@ -25,7 +25,7 @@ Description: Arabic (ar) localization files for KDE
 
 #Package: kde-l10n-be
 #Architecture: all
-#Depends: ${kde-l10n:Depends}
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
 #Recommends: ${kde-l10n:Recommends}
 #Suggests: ${kde-l10n:Suggests}
 #Replaces: kde-i18n-be (<< 4:3.95.0-1), ${kde-l10n:Replaces}
@@ -217,7 +217,7 @@ Description: Basque (eu) localization files for KDE
 
 Package: kde-l10n-fa
 Architecture: all
-Depends: ${kde-l10n:Depends}
+Depends: ${misc:Depends}, ${kde-l10n:Depends}
 Recommends: ${kde-l10n:Recommends}
 Suggests: ${kde-l10n:Suggests}
 Replaces: kde-i18n-fa (<< 4:3.95.0-1), ${kde-l10n:Replaces}
@@ -577,7 +577,7 @@ Description: Low Saxon (nds) localization files for KDE
 
 #Package: kde-l10n-ne
 #Architecture: all
-#Depends: ${kde-l10n:Depends}
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
 #Recommends: ${kde-l10n:Recommends}
 #Suggests: ${kde-l10n:Suggests}
 #Replaces: kde-i18n-ne (<< 4:3.95.0-1), ${kde-l10n:Replaces}
@@ -685,7 +685,7 @@ Description: Russian (ru) localization files for KDE
 
 #Package: kde-l10n-se
 #Architecture: all
-#Depends: ${kde-l10n:Depends}
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
 #Recommends: ${kde-l10n:Recommends}
 #Suggests: ${kde-l10n:Suggests}
 #Replaces: kde-i18n-se (<< 4:3.95.0-1), ${kde-l10n:Replaces}
@@ -757,7 +757,7 @@ Description: Swedish (sv) localization files for KDE
 
 #Package: kde-l10n-ta
 #Architecture: all
-#Depends: ${kde-l10n:Depends}
+#Depends: ${misc:Depends}, ${kde-l10n:Depends}
 #Recommends: ${kde-l10n:Recommends}
 #Suggests: ${kde-l10n:Suggests}
 #Replaces: kde-i18n-ta (<< 4:3.95.0-1), ${kde-l10n:Replaces}
