@@ -1,3 +1,8 @@
+kde-l10n (4:4.8.4-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Jun 2012 11:43:33 +0200
+
 kde-l10n (4:4.8.4-1) unstable; urgency=low
 
   * New upstream release.
