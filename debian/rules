@@ -14,7 +14,7 @@ L10N_Recommends :=
 L10N_Suggests := kde-standard
 L10N_Replaces := okular-l10n, gwenview-i18n, filelight-l10n, konq-plugins-l10n
 L10N_Breaks := okular-l10n, gwenview-i18n, filelight-l10n, konq-plugins-l10n
-L10N_Provides := kde-l10n-without-pim
+L10N_Provides := kde-l10n
 
 L10N_PREFIX := kde-l10n
 #L10N_VERSION := $(shell cat debian/changelog | head -n1 | sed 's/.*(\([[:digit:]]\+:\)\?\(.\+\)-.\+).*/\2/')
@@ -52,9 +52,7 @@ build: $(STAMP_BUILD)
 build_progress = [$(shell ls -1 -d debian/stamp__*__build debian | wc -l)/$(words $(STAMP_BUILD))]
 $(STAMP_BUILD): | prepare_build
 	# $(build_progress) Building '$(cur_lang)' language ...
-	dh_auto_configure -Scmake -D$(cur_lang) -B$(cur_lang_builddir) -- -DCMAKE_BUILD_TYPE=Debian \
-	    -DCMAKE_MODULE_PATH='$(CURDIR)/debian/cmake' \
-	    -DDEBIAN_EXCLUDE_DIRS='kdepim-runtime;kdepim'
+	dh_auto_configure -Scmake -D$(cur_lang) -B$(cur_lang_builddir) -- -DCMAKE_BUILD_TYPE=Debian
 	$(MAKE) -C $(cur_lang_builddir)
 	# $(build_progress) Built '$(cur_lang)' language.
 	touch $@
