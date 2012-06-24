@@ -1,9 +1,11 @@
-kde-l10n (4:4.8.4-2) UNRELEASED; urgency=low
+kde-l10n (4:4.8.4-2) unstable; urgency=low
+
+  * Team upload.
 
   [ Pino Toscano ]
   * Add ${misc:Depends} where missing.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Jun 2012 11:43:33 +0200
+ -- Modestas Vainius <modax@debian.org>  Sun, 24 Jun 2012 11:19:01 +0300
 
 kde-l10n (4:4.8.4-1) unstable; urgency=low
 
