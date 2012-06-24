@@ -1,8 +1,8 @@
-kde-l10n (4:4.8.4-2++pim1) UNRELEASED; urgency=low
+kde-l10n (4:4.8.4-2++pim1) experimental; urgency=low
 
   * Release with KDE PIM 4.8.4 translations.
 
- -- Modestas Vainius <modax@debian.org>  Sun, 24 Jun 2012 11:23:26 +0300
+ -- Modestas Vainius <modax@debian.org>  Sun, 24 Jun 2012 12:29:59 +0300
 
 kde-l10n (4:4.8.4-2) unstable; urgency=low
 
