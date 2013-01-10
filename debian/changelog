@@ -1,6 +1,7 @@
 kde-l10n (4:4.9.5-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
+    - add languages: hi
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.9.5.
