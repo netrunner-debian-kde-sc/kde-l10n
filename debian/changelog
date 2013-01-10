@@ -7,6 +7,8 @@ kde-l10n (4:4.9.5-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.9.5.
   * Bump kdelibs5-dev build dependency to 4.9.
+  * Use the official branding in descriptions (i.e. use "KDE Software
+    Compilation" instead of "KDE 4").
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Jan 2013 14:47:00 +0100
 
