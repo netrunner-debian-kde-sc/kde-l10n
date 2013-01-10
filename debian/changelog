@@ -2,6 +2,10 @@ kde-l10n (4:4.9.5-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.9.5.
+  * Bump kdelibs5-dev build dependency to 4.9.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Jan 2013 14:47:00 +0100
 
 kde-l10n (4:4.8.4-2) unstable; urgency=low
