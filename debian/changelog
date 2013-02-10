@@ -1,7 +1,7 @@
 kde-l10n (4:4.10.0-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
-    - add languages: hi
+    - add languages: hi, mr
     - remove languages: id
 
   [ José Manuel Santamaría Lema ]
