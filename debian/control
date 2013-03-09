@@ -1,5 +1,5 @@
 Source: kde-l10n
-Section: kde
+Section: localization
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>,
