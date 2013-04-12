@@ -1,5 +1,6 @@
-kde-l10n (4:4.10.2-0r0) UNRELEASED; urgency=low
+kde-l10n (4:4.10.2-1) unstable; urgency=low
 
+  * Team upload.
   * New upstream release.
     - add languages: hi, mr
     - remove languages: id
@@ -14,7 +15,7 @@ kde-l10n (4:4.10.2-0r0) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Bump kde-sc-dev-latest dependence to >= 4:4.10.2.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Jan 2013 14:47:00 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 12 Apr 2013 11:14:14 -0300
 
 kde-l10n (4:4.8.4-2) unstable; urgency=low
 
