@@ -11,6 +11,9 @@ kde-l10n (4:4.10.2-0r0) UNRELEASED; urgency=low
     Compilation" instead of "KDE 4").
   * Change section from kde to localization.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Bump kde-sc-dev-latest dependence to >= 4:4.10.2.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Jan 2013 14:47:00 +0100
 
 kde-l10n (4:4.8.4-2) unstable; urgency=low
