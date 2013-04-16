@@ -9,7 +9,7 @@ endif
 
 # Value of the kde-l10n:{Depends,Recommends,Suggests,Replaces,Breaks,Provides}
 # substvars. Common relationships for each l10n package. 
-L10N_Depends := libkdecore5 (>= 4:4.8)
+L10N_Depends := libkdecore5 (>= 4:4.10)
 L10N_Recommends :=
 L10N_Suggests := kde-standard
 L10N_Replaces := okular-l10n, gwenview-i18n, filelight-l10n, konq-plugins-l10n
