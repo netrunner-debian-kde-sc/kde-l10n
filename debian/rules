@@ -16,6 +16,11 @@ L10N_Replaces := okular-l10n, gwenview-i18n, filelight-l10n, konq-plugins-l10n
 L10N_Breaks := okular-l10n, gwenview-i18n, filelight-l10n, konq-plugins-l10n
 L10N_Provides := kde-l10n
 
+# Handling of conflicts against kdepim 4.4 (which provides translations)
+OLD_KDEPIM_WITH_L10N := akregator (<< 4:4.10.2), blogilo (<< 4:4.10.2), kaddressbook (<< 4:4.10.2), kalarm (<< 4:4.10.2), kdepim-groupware (<< 4:4.10.2), kdepim-kresources (<< 4:4.10.2), kdepim-wizards (<< 4:4.10.2), kjots (<< 4:4.10.2), kleopatra (<< 4:4.10.2), kmail (<< 4:4.10.2), knode (<< 4:4.10.2), knotes (<< 4:4.10.2), konsolekalendar (<< 4:4.10.2), kontact (<< 4:4.10.2), korganizer (<< 4:4.10.2), ktimetracker (<< 4:4.10.2), libkdepim4 (<< 4:4.10.2), libkleo4 (<< 4:4.10.2), libkpgp4 (<< 4:4.10.2), libksieve4 (<< 4:4.10.2), libmessagecore4 (<< 4:4.10.2), libmessagelist4 (<< 4:4.10.2), libmessageviewer0 (<< 4:4.10.2)
+L10N_Replaces := $(L10N_Replaces), $(OLD_KDEPIM_WITH_L10N)
+L10N_Breaks := $(L10N_Breaks), $(OLD_KDEPIM_WITH_L10N)
+
 L10N_PREFIX := kde-l10n
 #L10N_VERSION := $(shell cat debian/changelog | head -n1 | sed 's/.*(\([[:digit:]]\+:\)\?\(.\+\)-.\+).*/\2/')
 L10N_LANGS := $(filter-out debian,$(subst ./,,$(shell find . -mindepth 1 -maxdepth 1 -type d ! -name .pc ! -name .git)))
