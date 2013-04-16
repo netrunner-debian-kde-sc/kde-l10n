@@ -21,6 +21,7 @@ L10N_PREFIX := kde-l10n
 L10N_LANGS := $(filter-out debian,$(subst ./,,$(shell find . -mindepth 1 -maxdepth 1 -type d ! -name .pc ! -name .git)))
 L10N_DIRS = $(L10N_LANGS)
 L10N_PACKAGES := $(patsubst %,$(L10N_PREFIX)-%,$(L10N_LANGS))
+L10N_EXCLUDED_SUBDIRS := kdepim-runtime;kdepim
 
 # Support variables to be used in targets
 cur_lang = $(word 2,$(subst __, ,$@))
@@ -54,7 +55,7 @@ $(STAMP_BUILD): | prepare_build
 	# $(build_progress) Building '$(cur_lang)' language ...
 	dh_auto_configure -Scmake -D$(cur_lang) -B$(cur_lang_builddir) -- -DCMAKE_BUILD_TYPE=Debian \
 	    -DCMAKE_MODULE_PATH='$(CURDIR)/debian/cmake' \
-	    -DDEBIAN_EXCLUDE_DIRS='kdepim-runtime;kdepim'
+	    -DDEBIAN_EXCLUDE_DIRS='$(L10N_EXCLUDED_SUBDIRS)'
 	$(MAKE) -C $(cur_lang_builddir)
 	# $(build_progress) Built '$(cur_lang)' language.
 	touch $@
