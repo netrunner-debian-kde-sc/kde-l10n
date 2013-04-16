@@ -26,7 +26,7 @@ L10N_PREFIX := kde-l10n
 L10N_LANGS := $(filter-out debian,$(subst ./,,$(shell find . -mindepth 1 -maxdepth 1 -type d ! -name .pc ! -name .git)))
 L10N_DIRS = $(L10N_LANGS)
 L10N_PACKAGES := $(patsubst %,$(L10N_PREFIX)-%,$(L10N_LANGS))
-L10N_EXCLUDED_SUBDIRS := kdepim-runtime;kdepim
+L10N_EXCLUDED_SUBDIRS :=
 
 # Support variables to be used in targets
 cur_lang = $(word 2,$(subst __, ,$@))

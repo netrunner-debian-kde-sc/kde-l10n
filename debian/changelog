@@ -5,6 +5,7 @@ kde-l10n (4:4.10.2-2) UNRELEASED; urgency=low
   * Change provides back to kde-l10n.
   * Update breaks/replaces with all the packages of kdepim 4.4.x that have
     translations.
+  * Do not exclude kdepim-runtime and kdepim anymore.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Apr 2013 15:01:21 +0200
 
