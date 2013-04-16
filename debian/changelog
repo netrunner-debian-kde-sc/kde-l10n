@@ -2,6 +2,7 @@ kde-l10n (4:4.10.2-2) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Bump the required libkdecore5 version to 4:4.10.
+  * Change provides back to kde-l10n.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Apr 2013 15:01:21 +0200
 
