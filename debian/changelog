@@ -1,4 +1,4 @@
-kde-l10n (4:4.10.2-2) UNRELEASED; urgency=low
+kde-l10n (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Bump the required libkdecore5 version to 4:4.10.
@@ -8,7 +8,7 @@ kde-l10n (4:4.10.2-2) UNRELEASED; urgency=low
   * Do not exclude kdepim-runtime and kdepim anymore.
   * Update Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Apr 2013 15:01:21 +0200
+ -- Sune Vuorela <sune@debian.org>  Wed, 17 Apr 2013 23:20:38 +0200
 
 kde-l10n (4:4.10.2-1) experimental; urgency=low
 
