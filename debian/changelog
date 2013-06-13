@@ -1,3 +1,9 @@
+kde-l10n (4:4.10.2-3) UNRELEASED; urgency=low
+
+  * Add a watch file and download script.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 13 Jun 2013 10:22:53 +0200
+
 kde-l10n (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
