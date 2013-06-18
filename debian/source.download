@@ -13,6 +13,7 @@ if [ -z "$DESTDIR" ]; then
 fi
 
 USCAN_ARGS="$USCAN_ARGS --destdir $DESTDIR"
+USCAN_ARGS="$USCAN_ARGS --watchfile debian/multiwatch"
 
 result=$(uscan --dehs --no-symlink $USCAN_ARGS | sed -n -r '
     /<upstream-version>/ {

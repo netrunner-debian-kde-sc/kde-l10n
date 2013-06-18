@@ -1,9 +1,13 @@
-kde-l10n (4:4.10.4-1) UNRELEASED; urgency=low
+kde-l10n (4:4.10.4-1) experimental; urgency=low
 
   * New upstream release.
   * Add a watch file and download script.
+  * Add myself to uploaders.
+  * Bump debhelper build-dep and compat to 9.
+  * Bump Standards-Version to 3.9.4.
+  * Update vcs fields.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 13 Jun 2013 18:00:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Jun 2013 23:17:37 +0200
 
 kde-l10n (4:4.10.2-2) experimental; urgency=low
 

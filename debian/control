@@ -3,13 +3,14 @@ Section: localization
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Modestas Vainius <modax@debian.org>,
- Eshat Cakar <info@eshat.de>
+           Eshat Cakar <info@eshat.de>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
- cmake, debhelper (>= 7.3.16), bzip2, kdelibs5-dev (>= 4:4.10)
-Standards-Version: 3.9.3
+ cmake, debhelper (>= 9), bzip2, kdelibs5-dev (>= 4:4.10)
+Standards-Version: 3.9.4
 Homepage: http://i18n.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde-l10n.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde-l10n.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde-l10n.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-l10n.git
 
 Package: kde-l10n-ar
 Architecture: all
