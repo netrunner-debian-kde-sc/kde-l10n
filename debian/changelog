@@ -1,5 +1,8 @@
 kde-l10n (4:4.10.5-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * All packages: add breaks/replaces against ktouchpadenabler < 4.10.4,
+    since starting from that it is standalone in kde-workspace.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jul 2013 15:24:54 +0200
 
