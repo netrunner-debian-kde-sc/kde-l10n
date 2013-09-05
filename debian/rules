@@ -53,7 +53,12 @@ check_control:
 prepare_build: check_control
 	dh_testdir
 
-build: $(STAMP_BUILD)
+build: build-arch build-indep
+
+build-arch:
+	# No architecture dependent build
+
+build-indep: $(STAMP_BUILD)
 
 build_progress = [$(shell ls -1 -d debian/stamp__*__build debian | wc -l)/$(words $(STAMP_BUILD))]
 $(STAMP_BUILD): | prepare_build
@@ -109,5 +114,6 @@ binary-indep: build install
 # Below here is fairly generic really
 binary: binary-indep binary-arch
 
-.PHONY: binary binary-arch binary-indep clean patch build install
+.PHONY: binary binary-arch binary-indep build build-arch build-indep
+.PHONY: clean install patch
 .PHONY: check_control prepare_build prepare_install $(L10N_INSTALL) $(L10N_CLEAN)
