@@ -8,7 +8,7 @@ ifneq (,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
 endif
 
 # Value of the kde-l10n:{Depends,Recommends,Suggests,Replaces,Breaks,Provides}
-# substvars. Common relationships for each l10n package. 
+# substvars. Common relationships for each l10n package.
 L10N_Depends := libkdecore5 (>= 4:4.10)
 L10N_Recommends :=
 L10N_Suggests := kde-standard
