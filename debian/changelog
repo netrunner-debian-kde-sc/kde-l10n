@@ -1,10 +1,10 @@
-kde-l10n (4:4.11.2-1) UNRELEASED; urgency=low
+kde-l10n (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.
   * Comment non-released languages.
   * Update multiwatch file.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 17:27:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 17:39:02 +0200
 
 kde-l10n (4:4.10.5-2) unstable; urgency=low
 
