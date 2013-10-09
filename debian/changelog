@@ -1,6 +1,7 @@
 kde-l10n (4:4.11.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Comment non-released languages.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 17:27:13 +0200
 
