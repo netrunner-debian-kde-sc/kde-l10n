@@ -1,9 +1,9 @@
-kde-l10n (4:4.11.3-1) UNRELEASED; urgency=low
+kde-l10n (4:4.11.3-1) unstable; urgency=low
 
   * New upstream release.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Nov 2013 12:25:14 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Nov 2013 12:57:22 +0100
 
 kde-l10n (4:4.11.2-1) experimental; urgency=low
 
