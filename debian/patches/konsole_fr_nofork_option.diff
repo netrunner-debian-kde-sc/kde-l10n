@@ -1,0 +1,13 @@
+Index: kde-l10n/fr/messages/applications/konsole.po
+===================================================================
+--- kde-l10n.orig/fr/messages/applications/konsole.po	2013-12-06 15:19:17.231310714 +0100
++++ kde-l10n/fr/messages/applications/konsole.po	2013-12-06 15:19:17.227310631 +0100
+@@ -1339,7 +1339,7 @@
+ msgctxt "@info:shell"
+ msgid "Use --nofork to run in the foreground (helpful with the -e option)."
+ msgstr ""
+-"Utiliser « --no-fork » pour un lancement au premier plan (utile avec "
++"Utiliser « --nofork » pour un lancement au premier plan (utile avec "
+ "l'option « -e »). "
+ 
+ #: main.cpp:200

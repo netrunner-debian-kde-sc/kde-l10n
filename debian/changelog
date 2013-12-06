@@ -1,6 +1,8 @@
 kde-l10n (4:4.11.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * New patch: konsole_fr_nofork_option.diff, thanks to Francois Gouget.
+    (Closes: #731533)
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Dec 2013 14:40:17 +0100
 
