@@ -2,6 +2,7 @@ kde-l10n (4:4.12.2-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Remove fa and tg packages, no longer distributed upstream.
+  * Remove patch: konsole_fr_nofork_option.diff, applied upstream.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Feb 2014 14:56:37 +0100
 
