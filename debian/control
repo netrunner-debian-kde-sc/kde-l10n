@@ -172,18 +172,6 @@ Description: Basque (eu) localization files for KDE
  This package contains the Basque translations for applications from the
  official KDE Software Compilation release.
 
-Package: kde-l10n-fa
-Architecture: all
-Depends: ${kde-l10n:Depends}, ${misc:Depends}
-Recommends: ${kde-l10n:Recommends}
-Suggests: ${kde-l10n:Suggests}
-Replaces: kde-i18n-fa (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-Breaks: kde-i18n-fa (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-Provides: ${kde-l10n:Provides}
-Description: Farsi (fa) localization files for KDE
- This package contains the Farsi translations for applications from the
- official KDE Software Compilation release.
-
 Package: kde-l10n-fi
 Architecture: all
 Depends: ${kde-l10n:Depends}, ${misc:Depends}
@@ -566,18 +554,6 @@ Breaks: kde-i18n-sv (<< 4:3.95.0-1), ${kde-l10n:Breaks}
 Provides: ${kde-l10n:Provides}
 Description: Swedish (sv) localization files for KDE
  This package contains the Swedish translations for applications from the
- official KDE Software Compilation release.
-
-Package: kde-l10n-tg
-Architecture: all
-Depends: ${kde-l10n:Depends}, ${misc:Depends}
-Recommends: ${kde-l10n:Recommends}
-Suggests: ${kde-l10n:Suggests}
-Replaces: kde-i18n-tg (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-Breaks: kde-i18n-tg (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-Provides: ${kde-l10n:Provides}
-Description: Tajik (tg) localization files for KDE
- This package contains the Tajik translations for applications from the
  official KDE Software Compilation release.
 
 Package: kde-l10n-tr

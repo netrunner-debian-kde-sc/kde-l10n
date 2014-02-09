@@ -39,9 +39,6 @@ opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_
     ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-eu-([\d\.]*).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-fa-([\d\.]*).tar.xz
-
-opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
     ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-fi-([\d\.]*).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
@@ -136,9 +133,6 @@ opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
     ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-sv-([\d\.]*).tar.xz
-
-opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-tg-([\d\.]*).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
     ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-tr-([\d\.]*).tar.xz
