@@ -280,6 +280,16 @@ Description: Interlingua (ia) localization files for KDE
  This package contains the Interlingua translations for applications from the
  official KDE Software Compilation release.
 
+Package: kde-l10n-id
+Architecture: all
+Depends: ${kde-l10n:Depends}, ${misc:Depends}
+Recommends: ${kde-l10n:Recommends}
+Suggests: ${kde-l10n:Suggests}
+Provides: ${kde-l10n:Provides}
+Description: Indonesian (id) localization files for KDE
+ This package contains the Indonesian translations for applications from the
+ official KDE Software Compilation release.
+
 Package: kde-l10n-is
 Architecture: all
 Depends: ${kde-l10n:Depends}, ${misc:Depends}
@@ -352,18 +362,6 @@ Description: Korean (ko) localization files for KDE
  This package contains the Korean translations for applications from the
  official KDE Software Compilation release.
 
-Package: kde-l10n-lv
-Architecture: all
-Depends: ${kde-l10n:Depends}, ${misc:Depends}
-Recommends: ${kde-l10n:Recommends}
-Suggests: ${kde-l10n:Suggests}
-Replaces: kde-i18n-lv (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-Breaks: kde-i18n-lv (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-Provides: ${kde-l10n:Provides}
-Description: Latvian (lv) localization files for KDE
- This package contains the Latvian translations for applications from the
- official KDE Software Compilation release.
-
 Package: kde-l10n-lt
 Architecture: all
 Depends: ${kde-l10n:Depends}, ${misc:Depends}
@@ -374,6 +372,18 @@ Breaks: kde-i18n-lt (<< 4:3.95.0-1), ${kde-l10n:Breaks}
 Provides: ${kde-l10n:Provides}
 Description: Lithuanian (lt) localization files for KDE
  This package contains the Lithuanian translations for applications from the
+ official KDE Software Compilation release.
+
+Package: kde-l10n-lv
+Architecture: all
+Depends: ${kde-l10n:Depends}, ${misc:Depends}
+Recommends: ${kde-l10n:Recommends}
+Suggests: ${kde-l10n:Suggests}
+Replaces: kde-i18n-lv (<< 4:3.95.0-1), ${kde-l10n:Replaces}
+Breaks: kde-i18n-lv (<< 4:3.95.0-1), ${kde-l10n:Breaks}
+Provides: ${kde-l10n:Provides}
+Description: Latvian (lv) localization files for KDE
+ This package contains the Latvian translations for applications from the
  official KDE Software Compilation release.
 
 Package: kde-l10n-mr

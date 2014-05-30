@@ -66,6 +66,9 @@ opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_
     ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ia-([\d\.]*).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
+    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-id-([\d\.]*).tar.xz
+
+opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
     ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-is-([\d\.]*).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
