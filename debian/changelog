@@ -1,9 +1,9 @@
-kde-l10n (4:4.13.3-1) UNRELEASED; urgency=medium
+kde-l10n (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release.
   * Add localization: fa, package kde-l10n-fa.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Aug 2014 10:20:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Aug 2014 12:09:52 +0200
 
 kde-l10n (4:4.13.1-1) unstable; urgency=medium
 
