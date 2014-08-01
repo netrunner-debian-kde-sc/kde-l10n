@@ -1,159 +1,162 @@
 version=3
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ar-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-ar-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-bg-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-bg-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-bs-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-bs-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ca-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-ca-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ca@valencia-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-ca@valencia-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-cs-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-cs-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-da-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-da-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-de-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-de-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-el-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-el-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-en_GB-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-en_GB-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-es-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-es-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-et-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-et-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-eu-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-eu-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-fi-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-fa-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-fr-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-fi-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ga-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-fr-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-gl-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-ga-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-he-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-gl-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-hi-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-he-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-hr-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-hi-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-hu-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-hr-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ia-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-hu-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-id-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-ia-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-is-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-id-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-it-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-is-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ja-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-it-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-kk-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-ja-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-km-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-kk-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ko-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-km-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-lt-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-ko-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-lv-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-lt-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-mr-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-lv-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-nb-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-mr-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-nds-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-nb-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-nl-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-nds-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-nn-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-nl-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-pa-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-nn-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-pl-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-pa-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-pt-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-pl-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-pt_BR-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-pt-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ro-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-pt_BR-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ru-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-ro-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-sk-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-ru-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-sl-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-sk-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-sr-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-sl-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-sv-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-sr-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-tr-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-sv-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-ug-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-tr-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-uk-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-ug-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-vi-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-uk-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-wa-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-vi-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-zh_CN-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-wa-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    ftp://ftp.kde.org/pub/kde/stable/([\d\.]*)/src/kde-l10n/kde-l10n-zh_TW-([\d\.]*).tar.xz
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-zh_CN-([\d.]+).tar.xz
+
+opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
+    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-zh_TW-([\d.]+).tar.xz
