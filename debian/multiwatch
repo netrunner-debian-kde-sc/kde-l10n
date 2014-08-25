@@ -150,9 +150,6 @@ opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_
     http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-uk-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
-    http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-vi-([\d.]+).tar.xz
-
-opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \
     http://download.kde.org/stable/([\d.]+)/src/kde-l10n/kde-l10n-wa-([\d.]+).tar.xz
 
 opts="filenamemangle=s/kde-l10n-([a-z]+)[_@]?(\w*)-([\d.]+)\.tar\.xz/\Lkde-l10n_$3.orig-$1$2.tar.xz\E/" \

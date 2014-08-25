@@ -1,3 +1,10 @@
+kde-l10n (4:4.14.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Remove vi, no longer distributed upstream.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 25 Aug 2014 05:20:33 +0200
+
 kde-l10n (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release.

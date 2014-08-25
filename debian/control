@@ -614,18 +614,6 @@ Description: Ukrainian (uk) localization files for KDE
  This package contains the Ukrainian translations for applications from the
  official KDE Software Compilation release.
 
-Package: kde-l10n-vi
-Architecture: all
-Depends: ${kde-l10n:Depends}, ${misc:Depends}
-Recommends: ${kde-l10n:Recommends}
-Suggests: ${kde-l10n:Suggests}
-Replaces: kde-i18n-vi (<< 4:3.95.0-1), ${kde-l10n:Replaces}
-Breaks: kde-i18n-vi (<< 4:3.95.0-1), ${kde-l10n:Breaks}
-Provides: ${kde-l10n:Provides}
-Description: Vietnamese (vi) localization files for KDE
- This package contains the Vietnamese translations for applications from the
- official KDE Software Compilation release.
-
 Package: kde-l10n-wa
 Architecture: all
 Depends: ${kde-l10n:Depends}, ${misc:Depends}
