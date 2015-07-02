@@ -81,6 +81,10 @@ install: $(L10N_INSTALL)
 $(L10N_INSTALL): | prepare_install
 	# Installing '$(cur_lang)' to the '$(cur_pkg)' package
 	dh_auto_install -Scmake -D$(cur_lang) -B$(cur_lang_builddir) --destdir=$(CURDIR)/debian/$(cur_pkg)
+	# The new KF5 package have their own translations now, remove files listed in excluded_files.list
+	sed -e '/^$$/d;/^#/d' $(CURDIR)/debian/excluded_files.list | while read excluded_file; do \
+	    find $(CURDIR)/debian/$(cur_pkg) -name $${excluded_file} -delete ; \
+	done
 
 prepare_clean:
 	dh_testdir
